@@ -95,7 +95,8 @@ The count tells you the number of times each term appears in the corpus.
 * If we are almost out of time, skip down to Step 8 to bookmark your corpus and do Steps 8-11.  You can finish Steps 7 & 12 at home on your own.
 
 ### Step 7: Play around with the other tools (listed below)
-* Search for terms in "Trends".  What terms trend together? 
+* Search for terms in "Trends".  Where in the corpus do certain words trend? Are there words that appear all the way across a corpus? What does this tell you, if anything? 
+
 *Reader*
 
 Text Reader- displays text for reading.
@@ -122,7 +123,6 @@ Correlations tool shows the extent to which two terms are freqent together or no
 A line graph that depicts the distribution of a word or words (occurrence across a corpus or document).
 
 Additional tools can be added using the Choose Another Tool button described above.
-
 
 ### Step 8: Bookmark a corpus or a view within a tool to return to it later
 [https://github.com/ctschroeder/tutorials/blob/master/images/voyant-export-tool.png](export function)
