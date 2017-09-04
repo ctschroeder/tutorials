@@ -33,7 +33,6 @@ This tutorial uses process #1 & #3.  (So we will use TWO different corpora.)  Tr
 * Do ONE of the following:
   1. EITHER copy and paste the following URL into the window: http://disc.library.emory.edu/lincoln/download/lincoln_sermons.zip
   2. OR Click on "Upload"
-  
       - Navigate to the place in your computer with the test corpus download.
       - Double-click on the file (it should end in a .zip) to upload it to Voyant
 * Click Reveal
@@ -93,7 +92,7 @@ The count tells you the number of times each term appears in the corpus.
 * Click on Links. Now you'll see a network of terms that appear near each other.  [More information here](http://voyant-tools.org/docs/#!/guide/collocatesgraph)
 
 ### Step 6: Check the time.
-* If we are almost out of time, skip down to Step 8 to bookmark your corpus and do steps X & Y.  You can finish the other steps at home on your own.
+* If we are almost out of time, skip down to Step 8 to bookmark your corpus and do Steps 8-11.  You can finish Steps 7 & 12 at home on your own.
 
 ### Step 7: Play around with the other tools (listed below)
 * Search for terms in "Trends".  What terms trend together? 
@@ -173,5 +172,12 @@ Sometimes you might want a LIVE version of your visualization, so people can cli
     * You can also copy the whole URL. It's not a big deal either way; copy the whole thing if you are confused.
   * Put this link in your webpage/blog post/notes as documentation
   
+### Step 12: Try it with another corpus
+* Go back up to Step 2.  If you used the Lincoln sermons for this tutorial, then do the tutorial again using our test corpus. If you used the test corpus, try it with the Lincoln sermons.
+* Is there a corpus of literature you are interested in? 
+  * How could you use Voyant to study your corpus?
+  * What would you need to do to make it ready to import into Voyant?
+  
+
 ## Credits
 This tutorial has been adapted from prior work by me, the Voyant Tools documentation, ["Doing Digital History"](http://history2016.doingdh.org/voyant-tutorial/), and [Kate Farley](http://katefarley.org/voyant/)
