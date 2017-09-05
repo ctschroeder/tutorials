@@ -1,5 +1,9 @@
 # Voyant Tools for Text Analysis: Tutorial
 
+Created for Intro to DH, Fall 2017, RELI/ENGL 39.
+
+A live version (with images, live links) lives at https://github.com/ctschroeder/tutorials/blob/master/Voyant.md
+
 ## Description of the tool
 Voyant is ["a web-based reading and analysis environment for digital texts."](http://voyant-tools.org/)
 You can use Voyant:
