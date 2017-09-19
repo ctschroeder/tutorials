@@ -1,7 +1,5 @@
 NOTE:  This is a modification of the original [Programming Historian Corpus Analysis with AntConc Tutorial](https://programminghistorian.org/lessons/corpus-analysis-with-antconc).  It contains no images; it does provide an explainer of Target and Reference Corpora, with tips for using them in the Keyword Tool
 
-date: 2016-09-18
-
 ## Dr. S in class instructions streamlined ##
 1. Load the movie review corpus (All Reviews)
 
@@ -37,13 +35,13 @@ date: 2016-09-18
 
 5. Study another corpus
 
-     - [Dr. S's class corpus](https://github.com/ctschroeder/tutorials/tree/master/teaching-corpora/apocryphal-acts/texts); [download zip file](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/ctschroeder/tutorials/tree/master/teaching-corpora/apocryphal-acts/texts) (for Keywords, use Acts of Paul as your TARGET)
+- [Dr. S's class corpus](https://github.com/ctschroeder/tutorials/tree/master/teaching-corpora/apocryphal-acts/texts); [download zip file](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/ctschroeder/tutorials/tree/master/teaching-corpora/apocryphal-acts/texts) (for Keywords, use Acts of Paul as your TARGET)
 
-     - [Sermons about Lincoln's death](http://disc.library.emory.edu/lincoln/download/lincoln_sermons.zip)
+- [Sermons about Lincoln's death](http://disc.library.emory.edu/lincoln/download/lincoln_sermons.zip)
 
-     - [Shakespeare](http://t.co/IXiYiCdkVk)
+- [Shakespeare](http://t.co/IXiYiCdkVk)
 
-     - A corpus of your own (for Keywords: what's your Target, what's your Reference? why?)
+- A corpus of your own (for Keywords: what's your Target, what's your Reference? why?)
 
 **PRO TIPS from Dr. S**
 
