@@ -7,43 +7,49 @@ date: 2016-09-18
 
 2. Search for a term
 
--use the Concordance tool to find more information about the use of the term
+- use the Concordance tool to find more information about the use of the term
 
--sort
+- sort
 
--change the parameters of "KWIC sort" at the bottom & sort
+- change the parameters of "KWIC sort" at the bottom & sort
 
--Use wild card characters such as * and ? in your search
+- Use wild card characters such as * and ? in your search
 
--Save output as text file(s) with meaningful title
+- Save output as text file(s) with meaningful title
 
--discuss what you learned from your searches with your neighbor
+- discuss what you learned from your searches with your neighbor
 
 3. Use the Collocate tool to search for words most associated with your search term.
 
--Adjust the Window Span and Minimum Collocate Frequency options; how does that change the results?  What do those changes mean? (REREAD what Dr. Froehlic says about MEANING at the end of the [Collocates and Word Lists](https://programminghistorian.org/lessons/corpus-analysis-with-antconc#collocates-and-word-lists).)
+- Adjust the Window Span and Minimum Collocate Frequency options; how does that change the results?  What do those changes mean? (REREAD what Dr. Froehlich says about MEANING at the end of the [Collocates and Word Lists](https://programminghistorian.org/lessons/corpus-analysis-with-antconc#collocates-and-word-lists).)
 
--Use wild cards like m?n and wom?n to find collocations
+- Use wild cards like m?n and wom?n to find collocations
 
--Find collocations for your own terms
+- Find collocations for your own terms
 
--Save output as text file(s) with meaningful title
+- Save output as text file(s) with meaningful title
 
 4. Use the Keywords tool to compare corpora
 
--Read the instructions to find words that are more associated with Spielberg reviews than other reviews
+- Read the instructions to find words that are more associated with Spielberg reviews than other reviews
 
--Remember:  TARGET is the corpus you're analyzing; REFERENCE is the comparaison corpus
+- Remember:  TARGET is the corpus you're analyzing; REFERENCE is the comparison corpus
 
 5. Study another corpus
 
 -[Dr. S's class corpus](https://github.com/ctschroeder/tutorials/tree/master/teaching-corpora/apocryphal-acts/texts); [download zip file](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/ctschroeder/tutorials/tree/master/teaching-corpora/apocryphal-acts/texts) (for Keywords, use Acts of Paul as your TARGET)
 
+-[Sermons about Lincoln's death](http://disc.library.emory.edu/lincoln/download/lincoln_sermons.zip)
+
+-[Shakespeare](http://t.co/IXiYiCdkVk)
+
 -A corpus of your own (for Keywords: what's your Target, what's your Reference? why?)
 
-**PRO TIP from Dr. S**
+**PRO TIPS from Dr. S**
 
-**If you get confused, or you load your files incorrectly:  You can always reset by going to the File menu and selecting "Clear Tool", "Clear All Tools" or "Clear All Tools and Files."  "Clear All Tools and Files" will wipe everything clean.**
+**1. If you get confused, or you load your files incorrectly:  You can always reset by going to the File menu and selecting "Clear Tool", "Clear All Tools" or "Clear All Tools and Files."  "Clear All Tools and Files" will wipe everything clean.**
+
+**2. You can click the CLONE RESULTS button in a tool to have your results appear in a separate window.**
 
 ---
 title: Corpus Analysis with Antconc
