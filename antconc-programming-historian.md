@@ -37,13 +37,13 @@ date: 2016-09-18
 
 5. Study another corpus
 
-- [Dr. S's class corpus](https://github.com/ctschroeder/tutorials/tree/master/teaching-corpora/apocryphal-acts/texts); [download zip file](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/ctschroeder/tutorials/tree/master/teaching-corpora/apocryphal-acts/texts) (for Keywords, use Acts of Paul as your TARGET)
+     - [Dr. S's class corpus](https://github.com/ctschroeder/tutorials/tree/master/teaching-corpora/apocryphal-acts/texts); [download zip file](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/ctschroeder/tutorials/tree/master/teaching-corpora/apocryphal-acts/texts) (for Keywords, use Acts of Paul as your TARGET)
 
-- [Sermons about Lincoln's death](http://disc.library.emory.edu/lincoln/download/lincoln_sermons.zip)
+     - [Sermons about Lincoln's death](http://disc.library.emory.edu/lincoln/download/lincoln_sermons.zip)
 
-- [Shakespeare](http://t.co/IXiYiCdkVk)
+     - [Shakespeare](http://t.co/IXiYiCdkVk)
 
-- A corpus of your own (for Keywords: what's your Target, what's your Reference? why?)
+     - A corpus of your own (for Keywords: what's your Target, what's your Reference? why?)
 
 **PRO TIPS from Dr. S**
 
