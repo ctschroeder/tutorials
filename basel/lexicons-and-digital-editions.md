@@ -1,5 +1,5 @@
 # Optional Reading before the Workshop
-[Amy Earhart, "The Digital Edition and the Digital Humanities," Textual Cultures 7.1 (2012)](link)
+[Amy Earhart, "The Digital Edition and the Digital Humanities," Textual Cultures 7.1 (2012)](https://github.com/ctschroeder/tutorials/blob/master/basel/files/earhart.pdf)
 
 # What are Digital Editions and Digitized Corpora?
 
@@ -7,7 +7,7 @@ What are digital editions and digitized text corpora?  This tutorial will genera
 
 ## Explore two digital corpora commonly used by scholars of antiquity and late antiquity
 
-Spend 5 minutes exploring one of the following two digital corpora:
+Spend some time exploring one or more of the following digital corpora:
   * [Perseus Digital Library Greek and Roman Collection](http://www.perseus.tufts.edu/hopper/collection?collection=Perseus:collection:Greco-Roman) 
     * Scroll down to Basil for some early Christian texts and click on his Epistles
     * Run a search in the box on the right
@@ -16,7 +16,14 @@ Spend 5 minutes exploring one of the following two digital corpora:
     * Try filtering using the metadata fields
     * Try changing your font to Coptic and typing in a Coptic word in the search box
     * Try changing your font back to American English and searching for a word in the translation.
-
+  * [Corpus Corporum](http://www.mlat.uzh.ch/MLS/)
+    * Click on one of the corpora on the left and explore
+    * If you want more guidance, try clicking on the [Patrologia Latina](http://mlat.uzh.ch/MLS/xanfang.php?corpus=2&lang=0)
+      * What kind of information does the site tell you about the corpus?
+      * Try searching for a Latin word in the lower left. (Let's say "ascesis".) 
+        * Search "Verses only"
+        * Try a "lemmatized search" -- are the results different?
+        * Try "Dictionary display" (note: on my Mac, hold "command" (not "control") and hit enter
 As you are exploring, ask yourself:
   * What texts are here, what texts aren’t here -- what is the corpus?
   * What else besides “text” is in this corpus?  What other information can I find?
