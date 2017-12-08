@@ -1,3 +1,5 @@
+# DRAFT IN PROGRESS
+
 # Optional Reading before the Workshop
 [Amy Earhart, "The Digital Edition and the Digital Humanities," Textual Cultures 7.1 (2012)](https://github.com/ctschroeder/tutorials/blob/master/basel/files/earhart.pdf)
 
