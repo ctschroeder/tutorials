@@ -13,7 +13,7 @@ You need both the font (to visualize the characters) and keyboard
 
 What are digital editions and digitized text corpora?  This tutorial will generate a discussion about the research purposes of digitized corpora and the how those research methods guide the structure and formation of different corpora.  
 
-### Explore two digital corpora commonly used by scholars of antiquity and late antiquity
+### Explore three digital corpora commonly used by scholars of antiquity and late antiquity
 
 Spend some time exploring one or more of the following digital corpora:
   * [Perseus Digital Library Greek and Roman Collection](http://www.perseus.tufts.edu/hopper/collection?collection=Perseus:collection:Greco-Roman) 
