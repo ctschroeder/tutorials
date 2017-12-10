@@ -211,6 +211,8 @@ For more detailed documentation on Coptic Scriptorium's transcription practices,
 
 If you ever want to digitize a specific text for inclusion in the Coptic Scriptorium corpora and database, we would like to collaborate with you. Please contact us!
 
+Workshop reseource (*open in a new window, or better yet, have someone in your group open this document as a reference while another person is transcribing*): [cheat sheet for transcribing & manuscript annotations](https://github.com/ctschroeder/tutorials/raw/master/basel/files/Transcription-cheat-sheet-for-DH-workshop.pdf)
+
 (Workshop resources, which will be deleted right after: https://www.dropbox.com/s/1jk15i02hh3oc4t/Chaine%2CApophthegmata.pdf?dl=0, https://www.dropbox.com/s/an0hdu5aazgiqw6/AUT_4985-for-Basel.jpg?dl=0)
 
 
