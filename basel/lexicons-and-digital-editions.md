@@ -211,6 +211,9 @@ For more detailed documentation on Coptic Scriptorium's transcription practices,
 
 If you ever want to digitize a specific text for inclusion in the Coptic Scriptorium corpora and database, we would like to collaborate with you. Please contact us!
 
+(Workshop resources, which will be deleted right after: https://www.dropbox.com/s/1jk15i02hh3oc4t/Chaine%2CApophthegmata.pdf?dl=0, https://www.dropbox.com/s/an0hdu5aazgiqw6/AUT_4985-for-Basel.jpg?dl=0)
+
+
 ##### Login and Orientation to GitDox
 
 GitDox is an online XML and spreadsheet editor which uses [GitHub](github.com/CopticScriptorium/) for data storage and versioning. Coptic Scriptorium currently uses GitDox to transcribe texts and edit them in a spreadsheet.  Although you don't need to have a GitHub account to use GitDox, it's helpful.  For the purposes of the this workshop, you don't need an account.  If you want to collaborate with us or use GitDox in the future, you can get an account later.
@@ -233,7 +236,7 @@ Use the button at the bottom of the page to add metadata. We've added minimal me
 
 ##### Transcribing and encoding
 
-Now begin typing in your text.  Use a utf-8 (Unicode) characterset, such as the Antinoou font and keyboard.  Transcribe as you would any manuscript.  You may use regular returns to create line breaks
+Now begin typing in your text.  Use a utf-8 (Unicode) characterset, such as the Antinoou font and keyboard.  Transcribe as you would any manuscript.  You may use regular returns to create line breaks.
 
 You'll notice two "tags" already in your otherwise empty document.  These are XML tags for annotating text.  If you want to annotate something in your text, you'll wrap the relevant text in "tags".  The first tag (the open tag) is in brackets, such as `<TEI>`; the close tage has brackets and a slash, such as `</TEI>` (If you want, you can read more about [TEI XML](http://www.tei-c.org/index.xml) and the [Epidoc](https://sourceforge.net/p/epidoc/wiki/Home/) subset of XML.)
 
