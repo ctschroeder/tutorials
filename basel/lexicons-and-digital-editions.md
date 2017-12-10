@@ -7,8 +7,7 @@
 Best practices are to use Unicode characters for languages with non-Latin charactersets.  Computational work in particular is difficult with legacy fonts that use the Latin alphabet characters visualized as foreign language characters.  Sharing of data is also easier using the Unicode characterset.
 
 Most systems have Greek installed. For Coptic, [download the Antinoou font + keyboard](https://www.evertype.com/fonts/coptic/). 
-You need both the font (to visualize the characters) and 
-(add embedded webfont discussion later)
+You need both the font (to visualize the characters) and keyboard
 
 ## What are Digital Editions and Digitized Corpora?
 
@@ -298,10 +297,9 @@ Visit the following links to see how XML is visualized in a Papyri.info, Perseus
   
 I will demonstrate creating an HTML file using the XML editor software [Oxygen](https://www.oxygenxml.com/download.html). 
 
-Papyri.info also uses the TEI as the backbone of its searchable database.
+Papyri.info also uses the TEI as the backbone of its searchable database. TEI is not required for creating plain text corpora for text analysis using a lot of software. Consider it if you need variable visualizations and/or vocabularies for basic annotations.
 
-Tools:
+Tools for creating your editions:
   * Create your own SUBSET of the TEI XML tagset and a schema to validate your documents at http://www.tei-c.org/Roma/
   * Learn more about stylesheets that work in Oxygen at http://www.tei-c.org/Tools/ and http://www.tei-c.org/release/doc/tei-xsl/
-
-TEI is not required for creating plain text corpora for text analysis using a lot of software. Consider it if you need variable visualizations and/or vocabularies for basic annotations.
+  * EMBED your font into your website: [Fontsquirrel](https://www.fontsquirrel.com/tools/webfont-generator) allows you to create a "webfont" that you put on your server with your website. Follow the instructions on the website to upload a font file and create your webfont. You will need to [use CSS](https://css-tricks.com/snippets/css/using-font-face/) to add instructions to your webpages to use the font.
