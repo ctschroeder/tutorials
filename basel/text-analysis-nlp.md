@@ -1,5 +1,3 @@
-*DRAFT in progress*
-
 # DAY 2: Text Analysis and Natural Language Processing
 
 This tutorial will introduce participants to simple digital text analysis using out-of-the-box tools.  For more complex stylometry methods, see:
