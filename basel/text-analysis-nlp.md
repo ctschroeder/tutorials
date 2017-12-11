@@ -38,8 +38,13 @@ Content words vs "function" words ("stop words")
 
 ## Authorship identification
 Slate article: ["Can You Identify an Author By How Often They Use the Word “The”?"](http://www.slate.com/blogs/browbeat/2017/08/17/identifying_an_author_s_prose_can_be_as_simple_as_counting_how_much_they.html)
+
 José Nilo G. Binongo, [Who Wrote the 15th Book of Oz?](http://dh.obdurodon.org/Binongo-Chance.pdf)
+
 Patrick Juola, ["How a Computer Program Helped Show J.K. Rowling write A Cuckoo’s Calling"](https://www.scientificamerican.com/article/how-a-computer-program-helped-show-jk-rowling-write-a-cuckoos-calling/)
+
+If time: Watch a clip of [Juolo talking about A Cuckoo's Calling](https://youtu.be/X6Xvh4SONzA?t=2m51s)
+
 10 Nov 2017 authorship identification lecture by Patrick Juola at University of Pittsburgh
 *  Part 1: https://youtu.be/u_x0Zs6_14M
 *  Part 2: https://youtu.be/X6Xvh4SONzA
@@ -102,7 +107,7 @@ The third icon allows you to define options for the tool. (circled)
 
 ### Let's try this in Latin!!!!
 
-_STEP 1_ Upload a text from Corpus Corporum in Latin using a LINK:
+#### STEP 1 Upload a text from Corpus Corporum in Latin using a LINK:
 *  In a new tab or window, go to http://mlat.uzh.ch/MLS/
 *  Click on Patrologia Latina
 *  Scroll down and click on Augustus Hipponensis
@@ -114,11 +119,14 @@ _STEP 1_ Upload a text from Corpus Corporum in Latin using a LINK:
 Let's see if we can break the server if we all do this at once:
 *  Go to the Voyant homepage http://voyant-tools.org/
 *  Enter the URLs for the Confessions, City of God, and De Trinitate
+
 http://mlat.uzh.ch/download_pl/?lang=0&dir=/var/www/Corpus2_PL/&file=031_Augustinus-Hipponensis_Confessiones.xml
+
 http://mlat.uzh.ch/download_pl/?lang=0&dir=/var/www/Corpus2_PL/&file=041_Augustinus-Hipponensis_De-civitate-Dei.xml
+
 http://mlat.uzh.ch/download_pl?lang=0&dir=/var/www/Corpus2_PL/&file=042_Augustinus-Hipponensis_De-Trinitate.xml
 
-_STEP 2_ Explore the visible tools
+#### STEP 2 Explore the visible tools
 *  Play with the _Terms_ feature
    * Use the Options to apply the embedded Latin "Stop word" list
    * Check out the terms list -- add RELATIVE frequencies to your list
@@ -130,15 +138,93 @@ _STEP 2_ Explore the visible tools
    * What correlates with anima? (type "anima" into the box)
    * What happens when you change the "minimum coverage" slider?
 
-_STEP 3_ Check out all the other tools in Voyant.  
+#### STEP 3 Check out all the other tools in Voyant.  
 The _middle (NOT circled) option_ gives sends you to all the other tools
-![tool menu](https://github.com/ctschroeder/tutorials/blob/master/images/Voyant-extra-tools-menu.png)
+[tool menu](https://github.com/ctschroeder/tutorials/blob/master/images/Voyant-extra-tools-menu.png)
  
-_STEP 4_ Bookmark a corpus or a view within a tool to return to it later
-[https://github.com/ctschroeder/tutorials/blob/master/images/voyant-export-tool.png](export function)
+#### STEP 4 Bookmark a corpus or a view within a tool to return to it later
 * Click Export at the top right of the page
 * Select & copy or bookmark the URL for this view to return to your corpus later. (Note, the team at Voyant indicates that the corpus will “accessible as long as it accessed at least once a month.”
 * Note, you can also create a URL for JUST that tool (a URL just for the word cloud, for example) by clicking the Export function at the top of the tool; you should see the export icon appear when you hover over the "?" for the tool; it will appear near the options icon for the tool. 
 
 ## Distant reading and text analysis with AntConc
+NOTE:  This is a modification of the original [Programming Historian Corpus Analysis with AntConc Tutorial](https://programminghistorian.org/lessons/corpus-analysis-with-antconc).  It contains no images; it does provide an explainer of Target and Reference Corpora, with tips for using them in the Keyword Tool
 
+### For later reference: watch the videos on YouTube
+https://www.youtube.com/playlist?list=PLB85249F302B2372C
+
+### Step 1: Download and Install AntConc
+[AntConc](http://www.laurenceanthony.net/software/antconc/) 
+
+### Step 2: Load a corpus
+Download this zip file of our three files of Augustine & unzip it
+
+English: download a file of [movie reviews](https://programminghistorian.org/assets/corpus-analysis-with-antconc/antconc_corpus_files.zip) and unzip it
+
+File > Open Dir > open the Augustine FOLDER (not the individual files) or the reviews folder
+
+### Step 3: Search for a term
+* Enter a term in the box under the Concordance tool to find more information about the use of the term
+* Sort
+* change the parameters of "KWIC sort" at the bottom & sort
+* Use wild card characters such as the asterix and ? in your search 
+  - for Latin, try h(asterix)c and h?c
+  - for English try wom(asterix)n and wom?n
+* Save output as text file(s) with meaningful title
+  - File > Save output to text file
+* Discuss what you learned from your searches with your neighbor
+
+### Step 4: Use the Collocate tool to search for words most associated with your search term
+* Click on Collocate (it's ok if it needs to generate a word list)
+* Type a word into the box and hit Start
+* Adjust the Window Span and Minimum Collocate Frequency options; how does that change the results?  What do those changes mean? (Review what Dr. Froehlich says about MEANING at the end of the [Collocates and Word Lists](https://programminghistorian.org/lessons/corpus-analysis-with-antconc#collocates-and-word-lists).)
+* You can use wild cards like h?c to find collocations
+* Find collocations for your own terms
+  - Save output as text file(s) with meaningful title
+
+### Step 5: Use the Keywords tool to compare corpora
+
+Notes: 
+* TARGET is the corpus you're analyzing; REFERENCE is the comparison corpus
+* Think about representativeness and sampling when creating your corpora -- what is a representative sample of Latin?
+* You can upload a whole reference corpus or a wordlist (the wordlist will be a smaller file, obviously)
+* Keyness: this is the frequency of a word in the text when compared with its frequency in a reference corpus, "such that the statistical probability as computed by an appropriate procedure is smaller than or equal to a p value specified by the user." – taken from [here][41].) For those interested in the statistical details, see the section on keyness on p7 of Laurence Anthony's [readme file](http://www.laurenceanthony.net/software/antconc/releases/AntConc335/help.pdf). 
+
+Clear your tools and texts (in the File menu)
+
+Load your TARGET corpus "de Trinitate"
+* File > Open Files
+* Make a Word list using the "Word List" tool
+* Click on the Key Word tool
+* Load your REFERENCE corpus
+  - Settings > Tool Preferences
+  - Click on Keyword list
+  - Log-Likelihood method is recommended
+  - Make sure Use raw files is selected
+  - Add Files
+  - Select letters file
+  - Click Load (DON'T FORGET TO LOAD!)
+  - Click Apply
+* In the Keyword List tool click "Start"
+
+> Understanding the numbers from http://ucrel.lancs.ac.uk/llwizard.html and the AntConc help document:
+> The higher the value, the more significant is the difference between the frequency scores in the target and reference corpus. A keyness of 3.8 or higher is significant at the level of p < 0.05 and a score of 6.6 or higher is significant at p < 0.01.
+> 95th percentile; 5% level; p < 0.05; critical value = 3.84
+> 99th percentile; 1% level; p < 0.01; critical value = 6.63
+> 99.9th percentile; 0.1% level; p < 0.001; critical value = 10.83
+> 99.99th percentile; 0.01% level; p < 0.0001; critical value = 15.13
+
+What are key words in De Trinitate compared to the Letters?
+
+### Discussion
+What kind of research might this be useful for?
+
+### PRO TIPS**
+
+1. If you get confused, or you load your files incorrectly:  You can always reset by going to the File menu and selecting "Clear Tool", "Clear All Tools" or "Clear All Tools and Files."  "Clear All Tools and Files" will wipe everything clean.**
+
+2. You can click the CLONE RESULTS button in a tool to have your results appear in a separate window.**
+
+
+## Credits
+This tutorial has been adapted from prior work by me, the Voyant Tools documentation, ["Doing Digital History"](http://history2016.doingdh.org/voyant-tutorial/), [Kate Farley](http://katefarley.org/voyant/), and [Heather Froehlich](https://programminghistorian.org/lessons/corpus-analysis-with-antconc)
