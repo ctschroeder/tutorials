@@ -229,6 +229,84 @@ What kind of research might this be useful for?
 
 2. You can click the CLONE RESULTS button in a tool to have your results appear in a separate window.**
 
+## Text Reuse
+
+Computational research is being used to detect text reuse (quotations, citations, allusions, paraphrases, etc.).  If you have ever used a plagiarism detection software for student papers, you may have a sense of the power and the limits of this kind of tool.
+
+A good, accessible discussion:
+
+Franzini, G., Franzini, E., Büchler, M. (2016) Historical Text Reuse: What Is It?. <http://www.etrap.eu/historical-text-re-use/>
+
+Two projects on text reuse involving ancient/premodern research:
+
+1. [Tesserae](http://tesserae.caset.buffalo.edu/):  online, web interface for detecting text reuse in specific classical texts.  See Project Blog plus recent article
+"Comparing the intertextuality of multiple authors using Tesserae: A new technique for normalization," James O Gawley, A Caitlin Diddams
+*Digital Scholarship in the Humanities*, Volume 32, Issue suppl_2, 1 December 2017, Pages ii53–ii59, https://doi.org/10.1093/llc/fqx038
+
+2. [E-Trap Tracer project](http://www.etrap.eu/research/tracer/):  can download their program; program uses 700 algorithms to detect text reuse.
+
+Play around with the Tesserae interface.  
+*  What do you think of the results?
+*  Check out the description of the [simple search method](http://tesserae.caset.buffalo.edu/help.php) and [advanced search](http://tesserae.caset.buffalo.edu/help_advanced.php)
+*  How do they make the search as expansive as possible?
+*  What might contribute to false positives?
+
+## Topic Modeling
+Running Topic Modeling is beyond the scope of a one-day workshop in text analysis, but I'll mention it.
+
+Topic modeling is really "big data" -- processing very, very large amounts of textual data and looking for themes.  The algorithm does not know the meaning of words; it finds co-occurences or clusters of words that appear across a very large corpus.
+* https://tedunderwood.com/2012/04/07/topic-modeling-made-just-simple-enough/
+* http://journalofdigitalhumanities.org/2-1/topic-modeling-a-basic-introduction-by-megan-r-brett/
+* https://eight2late.wordpress.com/2015/09/29/a-gentle-introduction-to-topic-modeling-using-r/
+* Example: topic modeling sermons after Abraham Lincoln's death http://disc.library.emory.edu/lincoln/mallet/
+* Example: I did a really basic and not-precise topic-model of an English translation of the Bible: https://earlymonasticism.org/2015/06/19/first-foray-into-topic-modeling/
+* Tutorial: https://programminghistorian.org/lessons/topic-modeling-and-mallet
+
+## Natural Language Processing
+
+Natural language processing is machine-processing of language, typically based on models. 
+
+### What kind of research can NLP enable?
+
+** [Corpus Corporum](http://www.mlat.uzh.ch/MLS/)**
+* Search "amo" (or your favorite verb) from years 200 to 300 -- how many hits? what are the results?
+* Search the lemmatized form of "amo" from years 200 to 300 -- how many hits? what are the results?
+* Search for the infinitive form "amo!inf" from years 200 to 300 -- how many hits? what are the results?
+* Search "amo!inf-p" from years 200 to 300 -- how many hits? what are the results?
+* Now, what happens if you enter "amo!inf~2" -- what are the results?
+* Is there an easy way to download your results?
+
+** [Coptic Scriptorium](https://corpling.uis.georgetown.edu/annis/scriptorium) **
+* [Search for Greek nouns in everything except the biblical corpora](https://corpling.uis.georgetown.edu/annis/?id=63edba36-1ece-4f0b-b0a6-f7a0a1c9755d) -- how many hits?
+* [Search for all nouns that are loan words from any language](https://corpling.uis.georgetown.edu/annis/?id=f862cee5-6214-4f89-9df4-0b072ab3b516)
+* [Search for first person subjects and their verbs](https://corpling.uis.georgetown.edu/annis/?id=285cb8ef-dfb4-4088-bee7-217520f5fbe3) in our pilot corpus with syntax annotation
+  - for linguistic research or research into literary direct speech, how an author talks about her/himself, etc.
+* lemmatization allows linking to lexicon via an automatic query (search for lemma X on Y site -> bam, automatically linked data)
+
+### NLP processes
+* Tokenization (simpler for non-agglutinative languages)
+* Normalization/regularization
+* lemmas
+* Part of speech
+* Language of origin
+* Entities (people, places, various kinds of things, etc.)
+* Syntactic dependencies
+
+Typically involves *training corpora*.  We are not going to train and apply in our workshop today. This part of the tutorial gives you an overview of available tools, that you could train/customize/develop further.
+
+NLP Projects of interest
+* [Classical Language Toolkit](http://cltk.org/) with a [quick breakdown of resources here](http://docs.cltk.org/en/latest/)
+* Coptic Scriptorium [web-based NLP pipeline](https://corpling.uis.georgetown.edu/coptic-nlp/); integrated into our [Gitdox transcription and annotation tool](https://corpling.uis.georgetown.edu/gitdox/scriptorium/)
+* [Stanford NLP](https://nlp.stanford.edu/software/)
+* [Humboldt University Corpus Linguistics Tools](http://corpus-tools.org/home/) 
+
+** Note: many existing tools (such as the Tree-tagger part-of-speech tagger) are statistically based; the NLP field is moving toward neural network AI modeling. If you're interested in this, talk to a linguist and/or computer scientist about "deep learning".**
+
+For Simone: searchable [German corpora](https://www.linguistik.hu-berlin.de/en/institut-en/professuren-en/korpuslinguistik/korpora) including [RIDGES historical corpus](https://www.linguistik.hu-berlin.de/en/institut-en/professuren-en/korpuslinguistik/research/ridges-projekt?set_language=en)
+
+## Bonus Round!! ##
+
+Doctoral student So Miyagawa [has presented a paper](http://www.etrap.eu/wp-content/uploads/2016/08/claremont27Aug2016.pdf) using Ocropus OCR, Coptic Scriptorium's NLP tools, and Tracer to research text re-use in Coptic.
 
 ## Credits
 This tutorial has been adapted from prior work by me, the Voyant Tools documentation, ["Doing Digital History"](http://history2016.doingdh.org/voyant-tutorial/), [Kate Farley](http://katefarley.org/voyant/), and [Heather Froehlich](https://programminghistorian.org/lessons/corpus-analysis-with-antconc)
