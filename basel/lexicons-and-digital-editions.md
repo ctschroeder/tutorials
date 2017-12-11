@@ -204,11 +204,13 @@ Some projects outsource OCR + annotation for text structure (page, chapter, vers
 
 Many of you may be familiar with [Papyri.info](http://papyri.info/)'s Papyrological Editor, their transcription + annotation interface
 
-Today in groups, we will transcribe a short Coptic text.  Ideally, one person in your group knows Coptic.  If not, knowledge of Greek should be fine.  Please select someone who has a Coptic keyboard to be your group's primary "scribe." Each group will transcribe a text and provide basic paleographic/manuscript encoding. *Please identify the primary "scribe" to me and I will make that person an account in our transcription program.*
+Today in groups, we will transcribe a short Coptic text.  Ideally, one person in your group knows Coptic.  If not, knowledge of Greek should be fine.  Please select someone who has a Coptic keyboard to be your group's primary "scribe." Each group will transcribe a text and provide basic paleographic/manuscript encoding. *I will provide login information.*
 
 For more detailed documentation on Coptic Scriptorium's transcription practices, visit our [wiki](http://wiki.copticscriptorium.org/doku.php?id=gitdox_workflow); some of this tutorial is taken from that documentation.
 
 If you ever want to digitize a specific text for inclusion in the Coptic Scriptorium corpora and database, we would like to collaborate with you. Please contact us!
+
+Our transcription tool, Gitdox, is open-source and configurable for other languages and XML schemas.  See https://corpling.uis.georgetown.edu/gitdox/
 
 Workshop reseource (*open in a new window, or better yet, have someone in your group open this document as a reference while another person is transcribing*): [cheat sheet for transcribing & manuscript annotations](https://github.com/ctschroeder/tutorials/raw/master/basel/files/Transcription-cheat-sheet-for-DH-workshop.pdf)
 
@@ -219,7 +221,7 @@ Workshop reseource (*open in a new window, or better yet, have someone in your g
 
 GitDox is an online XML and spreadsheet editor which uses [GitHub](github.com/CopticScriptorium/) for data storage and versioning. Coptic Scriptorium currently uses GitDox to transcribe texts and edit them in a spreadsheet.  Although you don't need to have a GitHub account to use GitDox, it's helpful.  For the purposes of the this workshop, you don't need an account.  If you want to collaborate with us or use GitDox in the future, you can get an account later.
 
-GitDox is located at https://corpling.uis.georgetown.edu/gitdox/ .  Navigate there on your computer, and login using the username and password I will provide you.
+GitDox is located at https://corpling.uis.georgetown.edu/gitdox/scriptorium .  Navigate there on your computer, and login using the username and password I will provide you.
 
 When you log in to GitDox, you see a list of current documents. Use the dropdown menu above the list to display only documents from a certain corpus. You can also use the arrows to the right of each column name to sort by that column.
 
