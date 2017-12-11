@@ -107,7 +107,7 @@ The third icon allows you to define options for the tool. (circled)
 
 ### Let's try this in Latin!!!!
 
-#### STEP 1 Upload a text from Corpus Corporum in Latin using a LINK:
+### STEP 1 Upload a text from Corpus Corporum in Latin using a LINK:
 *  In a new tab or window, go to http://mlat.uzh.ch/MLS/
 *  Click on Patrologia Latina
 *  Scroll down and click on Augustus Hipponensis
@@ -126,7 +126,7 @@ http://mlat.uzh.ch/download_pl/?lang=0&dir=/var/www/Corpus2_PL/&file=041_Augusti
 
 http://mlat.uzh.ch/download_pl?lang=0&dir=/var/www/Corpus2_PL/&file=042_Augustinus-Hipponensis_De-Trinitate.xml
 
-#### STEP 2 Explore the visible tools
+### STEP 2 Explore the visible tools
 *  Play with the _Terms_ feature
    * Use the Options to apply the embedded Latin "Stop word" list
    * Check out the terms list -- add RELATIVE frequencies to your list
@@ -138,11 +138,11 @@ http://mlat.uzh.ch/download_pl?lang=0&dir=/var/www/Corpus2_PL/&file=042_Augustin
    * What correlates with anima? (type "anima" into the box)
    * What happens when you change the "minimum coverage" slider?
 
-#### STEP 3 Check out all the other tools in Voyant.  
+### STEP 3 Check out all the other tools in Voyant.  
 The _middle (NOT circled) option_ gives sends you to all the other tools
 [tool menu](https://github.com/ctschroeder/tutorials/blob/master/images/Voyant-extra-tools-menu.png)
  
-#### STEP 4 Bookmark a corpus or a view within a tool to return to it later
+### STEP 4 Bookmark a corpus or a view within a tool to return to it later
 * Click Export at the top right of the page
 * Select & copy or bookmark the URL for this view to return to your corpus later. (Note, the team at Voyant indicates that the corpus will “accessible as long as it accessed at least once a month.”
 * Note, you can also create a URL for JUST that tool (a URL just for the word cloud, for example) by clicking the Export function at the top of the tool; you should see the export icon appear when you hover over the "?" for the tool; it will appear near the options icon for the tool. 
@@ -157,7 +157,7 @@ https://www.youtube.com/playlist?list=PLB85249F302B2372C
 [AntConc](http://www.laurenceanthony.net/software/antconc/) 
 
 ### Step 2: Load a corpus
-Download this zip file of our three files of Augustine & unzip it
+Download this [zip file of of Augustine](https://github.com/ctschroeder/tutorials/blob/master/basel/files/augustine.zip) files & unzip it
 
 English: download a file of [movie reviews](https://programminghistorian.org/assets/corpus-analysis-with-antconc/antconc_corpus_files.zip) and unzip it
 
@@ -207,11 +207,15 @@ Load your TARGET corpus "de Trinitate"
   - Click Apply
 * In the Keyword List tool click "Start"
 
-> Understanding the numbers from http://ucrel.lancs.ac.uk/llwizard.html and the AntConc help document:
+> **Understanding the numbers from http://ucrel.lancs.ac.uk/llwizard.html and the AntConc help document:**
 > The higher the value, the more significant is the difference between the frequency scores in the target and reference corpus. A keyness of 3.8 or higher is significant at the level of p < 0.05 and a score of 6.6 or higher is significant at p < 0.01.
+>
 > 95th percentile; 5% level; p < 0.05; critical value = 3.84
+>
 > 99th percentile; 1% level; p < 0.01; critical value = 6.63
+>
 > 99.9th percentile; 0.1% level; p < 0.001; critical value = 10.83
+>
 > 99.99th percentile; 0.01% level; p < 0.0001; critical value = 15.13
 
 What are key words in De Trinitate compared to the Letters?
@@ -219,7 +223,7 @@ What are key words in De Trinitate compared to the Letters?
 ### Discussion
 What kind of research might this be useful for?
 
-### PRO TIPS**
+### PRO TIPS
 
 1. If you get confused, or you load your files incorrectly:  You can always reset by going to the File menu and selecting "Clear Tool", "Clear All Tools" or "Clear All Tools and Files."  "Clear All Tools and Files" will wipe everything clean.**
 
