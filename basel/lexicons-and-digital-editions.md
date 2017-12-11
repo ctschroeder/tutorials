@@ -241,6 +241,8 @@ Use the button at the bottom of the page to add metadata. We've added minimal me
 
 Now begin typing in your text.  Use a utf-8 (Unicode) characterset, such as the Antinoou font and keyboard.  Transcribe as you would any manuscript.  You may use regular returns to create line breaks.
 
+*For the Basel workshop, cut and paste the text I provided into the Gitdox window.*
+
 You'll notice two "tags" already in your otherwise empty document.  These are XML tags for annotating text.  If you want to annotate something in your text, you'll wrap the relevant text in "tags".  The first tag (the open tag) is in brackets, such as `<TEI>`; the close tage has brackets and a slash, such as `</TEI>` (If you want, you can read more about [TEI XML](http://www.tei-c.org/index.xml) and the [Epidoc](https://sourceforge.net/p/epidoc/wiki/Home/) subset of XML.)
 
 Start your transcription _inside_ the TEI tags.
