@@ -243,7 +243,9 @@ Two projects on text reuse involving ancient/premodern research:
 
 2. [E-Trap Tracer project](http://www.etrap.eu/research/tracer/):  can download their program; program uses 700 algorithms to detect text reuse.
 
-Play around with the Tesserae interface.  
+3. [QCRIT](https://qcrit.com/): online, uses sequence alignment methodologies from biology, applied to text.
+
+Play around with QCRIT &/or the Tesserae interface.  
 *  What do you think of the results?
 *  Check out the description of the [simple search method](http://tesserae.caset.buffalo.edu/help.php) and [advanced search](http://tesserae.caset.buffalo.edu/help_advanced.php)
 *  How do they make the search as expansive as possible?
