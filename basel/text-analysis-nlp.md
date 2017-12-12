@@ -4,7 +4,7 @@ This tutorial will introduce participants to simple digital text analysis using 
 * Arnold and Tilton [Humanities Data in R](https://humanitiesdata.org/)
 * Jockers, [Text Analysis with R for Students of Literature](https://books.google.de/books?id=K4_IAwAAQBAJ&dq=text+analysis+in+r&source=gbs_navlinks_s)
 * The many tutorials online for working in R, such as the ones linked on this [Washington University guide](http://libguides.wustl.edu/R)
-* Humanities programming with Python, such as this [Data Carpentry workshop}(https://www.software.ac.uk/blog/2017-10-12-data-carpentry-humanities)
+* Humanities programming with Python, such as this [Data Carpentry workshop](https://www.software.ac.uk/blog/2017-10-12-data-carpentry-humanities)
 
 ## PLEASE DOWNLOAD and INSTALL before the workshop
 
