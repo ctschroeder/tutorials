@@ -15,7 +15,7 @@ Today we will
 * [Pelagios](http://commons.pelagios.org/) - linked data hub for ancient mapping/geographical study (aggregates data from other sites)
 * [Recogito](http://recogito.pelagios.org/) - tool for annotating text and images with geographic data
 * [Pleiades](https://pleiades.stoa.org/) - ancient world gazetteer (aggregates data from other sites, mostly through Pelagios)
-* [Antiquity a la carte map creator]()
+* [Antiquity a la carte map creator](http://awmc.unc.edu/awmc/applications/alacarte/)
 * [Syriaca gazetteer for places mentioned in Syriac literature](http://syriaca.org/geo/index.html)
 * [QGIS]() - open source mapping software; powerful; not specifically for antiquity
 * [Harvard World Maps]() - open source mapping software; powerful; not specifically for antiquity
@@ -56,4 +56,34 @@ What is Pelagios?  Anything you could use it for?
 *  How might you use a linked data hub for a project?
 
 If you're interested in a background map tile, you can check out the [Roman Empire map tiles](http://commons.pelagios.org/2012/09/a-digital-map-of-the-roman-empire/)
+
+### Step 4:  Visit [Syriaca.org Gazetteer](http://syriaca.org/geo/index.html)
+What is this?
+
+Search for a site -- what information is there, where is it from?
+
+How did they build the gazetter?
+
+Could this be a model for other projects?
+
+### Step 5:  Make a map using [Antiquity a la carte map creator](http://awmc.unc.edu/awmc/applications/alacarte/)
+This map like many map services uses *layers*: you have base terrain or road layers, and then you layer on top more information -- each kind getting its own layer.
+
+First play around:
+*  Map layers:  Check and uncheck boxes especially in Cultural data > physical culture and political areas and physical data
+*  Search for features
+  * Before you click on the button, be sure Features is selected in the Physical Culture layer, otherwise you can't add it to a map
+  * Search for a TYPE of place -- I tried "monastery" ... which had an interesting result
+  * Search for major named place, such as Antioch -- what do you notice about the results?
+    * Add one of your results to the map
+    * For Antioch, can you add all the results to the map or not?  Why?
+
+Make the map the way you want it to look, with the layers you want and features you want.
+
+Under File, export it or save the URL to your map so you can use it later
+
+### Step 6:  Geotag a text using Recogito
+
+
+
 
