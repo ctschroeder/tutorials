@@ -1,4 +1,3 @@
-*draft in progress*
 # Day 3: Mapping
 ## Overview of today
 Today we will 
@@ -23,6 +22,11 @@ Today we will
 * [Google tables](https://support.google.com/fusiontables/answer/2571232?hl=en) - create maps using spreadsheet data & Google fusion tables
 * [Carto](https://carto.com/) - commercial mapping tool with free scaled down option; not specifically for antiquity
 * [Tableau](https://www.tableau.com/) - commercial mapping and data visualization tool; not specifically for antiquity
+
+One interesting non-ancient project is Palladio and the Republic of Letters
+*  http://republicofletters.stanford.edu/publications/voltaire/
+*  http://republicofletters.stanford.edu/publications/franklin/
+*  Free tool at:  http://hdlab.stanford.edu/palladio/ (they have a sample data set you can use)
 
 ### Step 1: [Orbis](http://orbis.stanford.edu/)
 Spend some time playing with Orbis to calculate routes in the ancient world.  The About page will tell you more about the data sources.
@@ -92,13 +96,17 @@ Pick a text from Perseus in English translation and geotag it!
 * Follow the steps to upload your text file -- note you can provide some metadata about the edition you are using, etc.
 * Follow the steps to tag your texts for entities and then proofread (this is a pretty userfriendly interface)
 * After you've corrected your text, click on icon for the Map View to see the map
-* Click on the Download icon to download your data in various forms.  *Choose csv form for at least one of your downloads -- we may try to upload it into Google maps or another tool and see what happens*
+* Click on the Download icon to download your data in various forms. 
+  * Choose csv form for one of your downloads -- we may try to upload it into Google maps or another tool and see what happens
+  * Choose JSON for another download -- we may try to upload to antiquity a la carte 
 
 Are there "spaces" and "places" that don't get mapped in my Gallic War example?
 
 ### Step 7:  Let's make a map!
 
 You can use a data source you created in one of the previous steps, or we can community-source a map using data in a Google Spreadsheet.  I'll email you a link via Adam.
+
+If you use a csv file or spreadsheet, you may find that different tools want your geo data in slightly different forms (i.e., one field for lattitude/longitude combined or separate fields for lattitude & longitude)
 
 You can also find your own data, say your favorite papyri in Papyri.info, your geotagged text from Recogito, etc.
 
@@ -114,5 +122,5 @@ We will try to make maps in:
 * [Carto](https://carto.com/) - commercial mapping tool with free scaled down option; not specifically for antiquity
 * [Tableau](https://www.tableau.com/) - commercial mapping and data visualization tool; not specifically for antiquity
 
-
+### If we have time, play around with Palladio's sample data set http://hdlab.stanford.edu/palladio/
 
