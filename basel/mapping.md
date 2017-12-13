@@ -124,3 +124,12 @@ We will try to make maps in:
 
 ### If we have time, play around with Palladio's sample data set http://hdlab.stanford.edu/palladio/
 
+### Discussion
+
+What works and doesn't work with these tools?  
+
+What was your experience with collecting, organizing, and cleaning your data?
+
+What is getting mapped?  At what level of granularity (city, building, exact find spot)?
+
+What isn't getting mapped?  How else might you capture that information?
