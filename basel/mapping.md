@@ -123,13 +123,26 @@ If you want a quick dataset good for mapping but has nothing do to with antiquit
 
 We will try to make maps in:
 * [Antiquity a la carte map creator](http://awmc.unc.edu/awmc/applications/alacarte/)
-* [ArcGIS](http://www.arcgis.com/) 
+* [ArcGIS](http://www.arcgis.com/) -- requires a registration; free trial period. You can upload your csv files
 * [Harvard World Maps](http://worldmap.harvard.edu/)
 * [Google tables](https://support.google.com/fusiontables/answer/2571232?hl=en) -- CLICK THIS link to link your Google account to the Fusion Tables app
 * [Carto](https://carto.com/) - commercial mapping tool with free scaled down option; not specifically for antiquity -- contact them for info about a free version as an educator, for a class, etc.
 * [Tableau](https://www.tableau.com/) - commercial mapping and data visualization tool; not specifically for antiquity
 
-### If we have time, play around with Palladio's sample data set http://hdlab.stanford.edu/palladio/
+#### If we have time, play around with Palladio's sample data set http://hdlab.stanford.edu/palladio/
+
+### Some things we learned
+Different programs prefer differently formatted data: some required longitude and lattitude in the same field, some placed long/lat in different orders in that field, and others required them in separate fields.
+*  Use Excel/Sheets formulas to join data into one field (i.e., =A2&","B2 should merge data from A2 & B2 columns)
+*  Use Excel/Sheets to split lat/long data that's joined. Protip: copy it into a new column first, so you have one column with the joined data for some apps, and columns with the split data for other apps.  https://support.google.com/docs/answer/6325535?co=GENIE.Platform%3DDesktop&hl=en
+
+Opening a csv file in Excel can corrupt the data
+
+Clean our data:  use the power of Google Sheets or Excel to get rid of extraneous junk in our long/lat fields
+
+mymaps.google.com is easier than Google Fusion maps, but it doesn't visualize thumbnail images for image URLs
+
+
 
 ### Discussion
 
