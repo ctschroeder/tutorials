@@ -17,11 +17,12 @@ Today we will
 * [Pleiades](https://pleiades.stoa.org/) - ancient world gazetteer (aggregates data from other sites, mostly through Pelagios)
 * [Antiquity a la carte map creator](http://awmc.unc.edu/awmc/applications/alacarte/)
 * [Syriaca gazetteer for places mentioned in Syriac literature](http://syriaca.org/geo/index.html)
-* [QGIS]() - open source mapping software; powerful; not specifically for antiquity
-* [Harvard World Maps]() - open source mapping software; powerful; not specifically for antiquity
-* [Google tables]() - create maps using spreadsheet data & Google fusion tables
-* [Carto DB]() - commercial mapping tool with free scaled down option; not specifically for antiquity
-* [Tableau]() - commercial mapping and data visualization tool; not specifically for antiquity
+* [QGIS](https://www.qgis.org/en/site/) - open source mapping software; powerful; not specifically for antiquity, download+install
+* [ArcGIS](http://www.arcgis.com/) - commercial software with stripped down public web service; does not do well searching for ancient sites, but you could upload data from another site (Recogito, antiquity-a-la-carte, Pleiades, etc.)
+* [Harvard World Maps](http://worldmap.harvard.edu/) - open source mapping software; powerful; not specifically for antiquity
+* [Google tables](https://support.google.com/fusiontables/answer/2571232?hl=en) - create maps using spreadsheet data & Google fusion tables
+* [Carto](https://carto.com/) - commercial mapping tool with free scaled down option; not specifically for antiquity
+* [Tableau](https://www.tableau.com/) - commercial mapping and data visualization tool; not specifically for antiquity
 
 ### Step 1: [Orbis](http://orbis.stanford.edu/)
 Spend some time playing with Orbis to calculate routes in the ancient world.  The About page will tell you more about the data sources.
@@ -55,7 +56,9 @@ What is Pelagios?  Anything you could use it for?
 *  Linked Data > Search Peripleo:  Search Peripleo for one of the places you searched Pleiades.  What's similar and different about the results?
 *  How might you use a linked data hub for a project?
 
-If you're interested in a background map tile, you can check out the [Roman Empire map tiles](http://commons.pelagios.org/2012/09/a-digital-map-of-the-roman-empire/)
+**_If you're interested in a background map tile, you can check out the [Roman Empire map tiles](http://commons.pelagios.org/2012/09/a-digital-map-of-the-roman-empire/)_**
+
+**_If your project has place names or geographic information, you can LINK TO Pelagios & Pleiades with their stable URLs, and you can arrange for them to LINK TO YOUR PROJECT if you have stable URLs_**
 
 ### Step 4:  Visit [Syriaca.org Gazetteer](http://syriaca.org/geo/index.html)
 What is this?
@@ -82,8 +85,34 @@ Make the map the way you want it to look, with the layers you want and features 
 
 Under File, export it or save the URL to your map so you can use it later
 
-### Step 6:  Geotag a text using Recogito
+### Step 6:  Geotag a text using [Recogito](http://recogito.pelagios.org/)
+Pick a text from Perseus in English translation and geotag it!
+* Find a text at Perseus -- I picked [Caesar's Gallic War 1.1](http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0001), since it was right there on the homepage and I knew it contained geo data.  **Copy only the text** and save it as a text file (.txt) on your computer
+* Go to http://recogito.pelagios.org/ and create a new account
+* Follow the steps to upload your text file -- note you can provide some metadata about the edition you are using, etc.
+* Follow the steps to tag your texts for entities and then proofread (this is a pretty userfriendly interface)
+* After you've corrected your text, click on icon for the Map View to see the map
+* Click on the Download icon to download your data in various forms.  *Choose csv form for at least one of your downloads -- we may try to upload it into Google maps or another tool and see what happens*
 
+Are there "spaces" and "places" that don't get mapped in my Gallic War example?
+
+### Step 7:  Let's make a map!
+
+You can use a data source you created in one of the previous steps, or we can community-source a map using data in a Google Spreadsheet.  I'll email you a link via Adam.
+
+You can also find your own data, say your favorite papyri in Papyri.info, your geotagged text from Recogito, etc.
+
+If you want a quick dataset good for mapping but has nothing do to with antiquity, here is a set of photographs that are geotagged:
+*  [Cushman collection of photos at Indiana](http://bit.ly/cushmancollection)
+*  [Cushman collection with latitude/longitude in separate fields](https://github.com/ctschroeder/tutorials/blob/master/basel/files/cushman-collection-lat-long-disagg.csv)
+
+We will try to make maps in:
+* [Antiquity a la carte map creator](http://awmc.unc.edu/awmc/applications/alacarte/)
+* [ArcGIS](http://www.arcgis.com/) 
+* [Harvard World Maps](http://worldmap.harvard.edu/)
+* [Google tables](https://support.google.com/fusiontables/answer/2571232?hl=en) -- CLICK THIS link to link your Google account to the Fusion Tables app
+* [Carto](https://carto.com/) - commercial mapping tool with free scaled down option; not specifically for antiquity
+* [Tableau](https://www.tableau.com/) - commercial mapping and data visualization tool; not specifically for antiquity
 
 
 
