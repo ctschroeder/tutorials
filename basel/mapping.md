@@ -20,6 +20,7 @@ Today we will
 * [ArcGIS](http://www.arcgis.com/) - commercial software with stripped down public web service; does not do well searching for ancient sites, but you could upload data from another site (Recogito, antiquity-a-la-carte, Pleiades, etc.)
 * [Harvard World Maps](http://worldmap.harvard.edu/) - open source mapping software; powerful; not specifically for antiquity
 * [Google tables](https://support.google.com/fusiontables/answer/2571232?hl=en) - create maps using spreadsheet data & Google fusion tables
+* [Google "my maps"](https://mymaps.google.com) You can create and save maps in Google
 * [Carto](https://carto.com/) - commercial mapping tool with free scaled down option; not specifically for antiquity
 * [Tableau](https://www.tableau.com/) - commercial mapping and data visualization tool; not specifically for antiquity
 
@@ -91,7 +92,9 @@ Under File, export it or save the URL to your map so you can use it later
 
 If you download a .kml file you can upload it into Google Maps:  https://support.google.com/mymaps/answer/3024836?co=GENIE.Platform%3DDesktop&hl=en
 
-Access your maps in Google maps at https://www.google.com/maps/d/
+Access your maps in Google maps at https://mymaps.google.com/
+
+*_Go to mymaps.google.com and make a map by SEARCHING for the same places you searched for in Antiquity-a-la-carte -- what happens?  Which is easier? Which gives you better data? Which gives you more data?_*
 
 ### Step 6:  Geotag a text using [Recogito](http://recogito.pelagios.org/)
 Pick a text from Perseus in English translation and geotag it!
