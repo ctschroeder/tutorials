@@ -127,7 +127,7 @@ We will try to make maps in:
 * [Harvard World Maps](http://worldmap.harvard.edu/)
 * [Google tables](https://support.google.com/fusiontables/answer/2571232?hl=en) -- CLICK THIS link to link your Google account to the Fusion Tables app
 * [Carto](https://carto.com/) - commercial mapping tool with free scaled down option; not specifically for antiquity -- contact them for info about a free version as an educator, for a class, etc.
-* [Tableau](https://www.tableau.com/) - commercial mapping and data visualization tool; not specifically for antiquity
+* [Tableau](https://www.tableau.com/) - commercial mapping and data visualization tool; not specifically for antiquity.  Scroll down for the free trial.
 
 #### If we have time, play around with Palladio's sample data set http://hdlab.stanford.edu/palladio/
 
