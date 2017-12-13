@@ -89,6 +89,10 @@ Make the map the way you want it to look, with the layers you want and features 
 
 Under File, export it or save the URL to your map so you can use it later
 
+If you download a .kml file you can upload it into Google Maps:  https://support.google.com/mymaps/answer/3024836?co=GENIE.Platform%3DDesktop&hl=en
+
+Access your maps in Google maps at https://www.google.com/maps/d/
+
 ### Step 6:  Geotag a text using [Recogito](http://recogito.pelagios.org/)
 Pick a text from Perseus in English translation and geotag it!
 * Find a text at Perseus -- I picked [Caesar's Gallic War 1.1](http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.02.0001), since it was right there on the homepage and I knew it contained geo data.  **Copy only the text** and save it as a text file (.txt) on your computer
