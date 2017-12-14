@@ -44,6 +44,8 @@ Omeka
 
 We will spend some time in in the workshop making our own Omeka exhibit on my server. (I am more more familiar with Omeka but I'm willing to try a group-scalar site if that's what you all want to try.)
 
+Our sandbox is at http://omekatest.carrieschroeder.org.  Admin interface is  http://omekatest.carrieschroeder.org/admin
+
 Find/make/download images from our workshops this week
   * your maps and wordclouds
   * images Irene posted to FB
@@ -54,7 +56,7 @@ Consider
 * What kinds of metadata should you give each object?
 * What kind of license should we give our site?
 
-Go to the URL I will create; I'll add you as users
+Go to the URL; I'll add you as users
 
 Omeka and Scalar allow you to use their servers to publish your work.  If you want "one-click" installation of Omeka or Scalar, [Reclaim Hosting](https://reclaimhosting.com/) has fairly inexpensive webhosting.
 
@@ -63,16 +65,38 @@ Use [THIS TUTORIAL](https://github.com/ctschroeder/tutorials/blob/master/add-ome
 ### Metadata
 Stanford Libraries has an extensive [metadata resource](http://library.stanford.edu/research/data-management-services/data-best-practices/creating-metadata)
 
+You will notice that our metadata is INCONSISTENT.  You can install a [plugin to Omeka](https://omeka.org/classic/plugins/) to use controlled vocabularies.
+
 ### Images
 
-If you are working with images, check out the new [IIIF standards](http://iiif.io/) for image interoperability.
+If you are working with images, check out the new [IIIF standards](http://iiif.io/) for image interoperability.  Omeka has a [plugin for IIIF](https://omeka.org/classic/plugins/) for IIIF also.
 
 If you are installing Omeka on your own server, you need to follow [these easy instructions to make your images visible](https://community.reclaimhosting.com/t/imagemagick-in-omeka-classic/230)
 
-## 3D Modeling of cultural heritage objects
+## 3D Modeling (cultural heritage objects and virtual environments)
 
 ### Tools
 * Agisoft Photoscan (free version + paid pro version with free trial)
 * Capturing Reality https://www.capturingreality.com/ (PC Only)
+* Blender https://www.blender.org/
+* Unity https://unity3d.com/ (3d game software; gamify your environment)
 
-### Resources & Examples
+### Ancient Resources & Examples
+Conferences and work related to antiquity
+* Tweets from a 3d heritage conference at the [British Museum](https://storify.com/ctschroeder/ipbm3d)
+* Conference video (RTI, 3d, etc.) from [Met Museum conference](https://www.metmuseum.org/about-the-met/conservation-and-scientific-research/projects/rti-symposium/day-2-pm)
+
+3d Projects/feeds
+* [Rita Lucarelli 3d Coffins, Berkeley](http://3dcoffins.berkeley.edu/)
+* [British Museum sketchfab channel](https://sketchfab.com/britishmuseum)
+* [Rome 320AD](http://www.rome320ad.com/) gamified reconstruction of Rome in 320 AD with characters, interactivity
+
+Other non-ancient sites
+* [Soweto 1976](http://www.soweto76archive.org/): created using historical photos and historical archives
+* [Little Manila, Stockton](http://littlemanila.digitaldeltas.org/exhibits/show/main/3d-simulation): gamified 3d reconstruction based on historical archival photographs and personal interviews
+
+Discussion of 3d site reconstruction and gamification;
+* How to address historical uncertainty?
+* How to model "characters" from a different culture speaking in a different language?
+* How to create diverse characters?  How many do you need?
+* Modeling historical uncertainty -> create MULTIPLE models of an environment, site, pathway
