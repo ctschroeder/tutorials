@@ -67,6 +67,8 @@ Stanford Libraries has an extensive [metadata resource](http://library.stanford.
 
 If you are working with images, check out the new [IIIF standards](http://iiif.io/) for image interoperability.
 
+If you are installing Omeka on your own server, you need to follow [these easy instructions to make your images visible](https://community.reclaimhosting.com/t/imagemagick-in-omeka-classic/230)
+
 ## 3D Modeling of cultural heritage objects
 
 ### Tools
