@@ -54,9 +54,14 @@ Consider
 * What kinds of metadata should you give each object?
 * What kind of license should we give our site?
 
+Go to the URL I will create; I'll add you as users
+
+Use [THIS TUTORIAL](https://github.com/ctschroeder/tutorials/blob/master/add-omeka-items.md) from one of my classes to add objects to our Omeka site.  (MODIFY as necessary)
+
 
 
 ## 3D Modeling of cultural heritage objects
 
 Tools
 * Agisoft Photoscan
+* Capturing Reality https://www.capturingreality.com/
