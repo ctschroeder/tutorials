@@ -56,12 +56,21 @@ Consider
 
 Go to the URL I will create; I'll add you as users
 
+Omeka and Scalar allow you to use their servers to publish your work.  If you want "one-click" installation of Omeka or Scalar, [Reclaim Hosting](https://reclaimhosting.com/) has fairly inexpensive webhosting.
+
 Use [THIS TUTORIAL](https://github.com/ctschroeder/tutorials/blob/master/add-omeka-items.md) from one of my classes to add objects to our Omeka site.  (MODIFY as necessary)
 
+### Metadata
+Stanford Libraries has an extensive [metadata resource](http://library.stanford.edu/research/data-management-services/data-best-practices/creating-metadata)
 
+### Images
+
+If you are working with images, check out the new [IIIF standards](http://iiif.io/) for image interoperability.
 
 ## 3D Modeling of cultural heritage objects
 
-Tools
-* Agisoft Photoscan
-* Capturing Reality https://www.capturingreality.com/
+### Tools
+* Agisoft Photoscan (free version + paid pro version with free trial)
+* Capturing Reality https://www.capturingreality.com/ (PC Only)
+
+### Resources & Examples
