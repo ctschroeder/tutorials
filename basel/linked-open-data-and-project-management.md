@@ -19,8 +19,16 @@ Linked-data resources/hubs for ancient studies
   * Papyri.info
   * Pelagios
   * PATHS
-  * IIIF standards for images
+  * [IIIF standards for images](http://iiif.io/)
   * Others?
+
+Issues of collaboration:  who gets credit?  What kind of credit?  Partnerships!
+* [Collaborators' bill of rights](http://mcpress.media-commons.org/offthetracks/part-one-models-for-collaboration-career-paths-acquiring-institutional-support-and-transformation-in-the-field/a-collaboration/collaborators%E2%80%99-bill-of-rights/)
+* [Students' bill of rights](http://cdh.ucla.edu/news/a-student-collaborators-bill-of-rights/)
+
+Licensing (key to open data -- give your text/code/images/etc licenses that allow people to reuse the material):
+* Creative Commons (primarily text)
+* Apache, Gnu, MIT licenses for code
 
 Do these projects follow linked-open-data practices?  Should they?  Could they?
 * http://csla.history.ox.ac.uk/
@@ -30,6 +38,7 @@ Do these projects follow linked-open-data practices?  Should they?  Could they?
 Why would you want your data to be link-able? How could your project benefit?
 
 How difficult would it be?
+* Images often a challenge, belong to other institutions
 
 ### Project Management
 
