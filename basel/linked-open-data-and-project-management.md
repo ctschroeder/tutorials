@@ -22,6 +22,11 @@ Linked-data resources/hubs for ancient studies
   * IIIF standards for images
   * Others?
 
+Do these projects follow linked-open-data practices?  Should they?  Could they?
+* http://csla.history.ox.ac.uk/
+* http://monastica.ht.lu.se/
+* https://www.dhi.ac.uk/clericalexile/search
+
 Why would you want your data to be link-able? How could your project benefit?
 
 How difficult would it be?
