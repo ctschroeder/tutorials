@@ -43,16 +43,23 @@ How difficult would it be?
 ### Project Management
 
 We will start by prototyping possible projects
+
+Brainstorm:
 * What is your "dataset"?
   * What state is it in currently?
 * What are your research goals and questions?
   * Anything you need to do re formatting/encoding/etc your data?
   * What methods might you need to use, apply to your data set/primary sources to acheive those goals?
   * Are there other projects with similar research questions or sources?  What can you learn from them?
+  
+On a big piece of paper:  
 * Given the above:
   * Map out your project process
   * Map out your project goals
   * Map out your project infrastructure
+  * Draw out **work flow**, process to create site, resources, how you or others might use it 
+  * Or draw out what your **website** might look like
+* Tape your prototype to the wall before you leave for lunch
   
-We'll present our prototyping to each other.
+We'll present our prototyping to each other after lunch.
 
