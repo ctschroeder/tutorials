@@ -1,6 +1,6 @@
 # Voyant Tools for Text Analysis: Tutorial
 
-Last modifie January 2020 for Intro to DH, Spring 2020, the University of Oklahoma.
+Last modified January 2020 for Intro to DH, Spring 2020, the University of Oklahoma.
 Originally Created for Intro to DH, Fall 2017, RELI/ENGL 39 at the University of the Pacific.
 
 A live version (with images, live links) lives at https://github.com/ctschroeder/tutorials/blob/master/Voyant.md
