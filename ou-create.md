@@ -41,4 +41,4 @@ This should look like http://whateveryoupickedforyourdomainname.com and http://w
 
 Click on the admin address (with wp-admin) and Customize your site!!
 
-This work is licensed under a [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/)
+This work is licensed by Caroline T. Schroeder under a [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/)
