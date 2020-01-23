@@ -1,7 +1,7 @@
 **Registering your domain name.**
 
 1. BEFORE you do, read about:
-   - [privacy[(https://create.ou.edu/docs/web-security/privacy-and-create-ou/)
+   - [privacy](https://create.ou.edu/docs/web-security/privacy-and-create-ou/)
    - [selecting a domain name](https://create.ou.edu/docs/getting-started/choosing-a-domain-name/)
 
 2. Go to https://create.ou.edu
@@ -37,3 +37,5 @@ You will get to a page that tells you the web address of your website and the we
 This should look like http://whateveryoupickedforyourdomainname.com and http://whateveryoupickedforyourdomainname.com/wp-admin 
 
 Click on the admin address (with wp-admin) and Customize your site!!
+
+This work is licensed under a [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/)
