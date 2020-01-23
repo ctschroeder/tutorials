@@ -1,6 +1,7 @@
 # Voyant Tools for Text Analysis: Tutorial
 
-Created for Intro to DH, Fall 2017, RELI/ENGL 39.
+Last modifie January 2020 for Intro to DH, Spring 2020, the University of Oklahoma.
+Originally Created for Intro to DH, Fall 2017, RELI/ENGL 39 at the University of the Pacific.
 
 A live version (with images, live links) lives at https://github.com/ctschroeder/tutorials/blob/master/Voyant.md
 
@@ -10,7 +11,7 @@ You can use Voyant:
 1. [online on the website](http://voyant-tools.org/)
 2. on your own computer by [downloading and installing the application](http://docs.voyant-tools.org/resources/run-your-own/voyant-server/)
 
-This tutorial assumes you will be using the online version.  Downloading and installing is not difficult.  The advantages: your files stay confidential (not on the web, on someone else's server), and you don't need to have internet access to use the tool. **If you don't have highspeed internet access at home, you may wish to download and install while on campus.**
+This tutorial assumes you will be using the online version.  Downloading and installing is not difficult.  The advantages: your files stay confidential (not on the web or on someone else's server), and you don't need to have internet access to use the tool. **If you don't have highspeed internet access at home, you may wish to download and install while on campus.**
 
 There is A TON of documentation on the Voyant Page. [GO CHECK OUT THEIR DOCUMENTATION](http://voyant-tools.org/docs/#!/guide) when you are done with this tutorial to see other cool stuff.
 
@@ -19,31 +20,31 @@ Full functionality requires a laptop or desktop.
 
 You should be able to upload a corpus using methods 1 or 2 described below.  I do not know how well the tols (and especially selecting the options for the tools) work with a tablet. (If you have only a phone, your screen will be too small.)  I do not know if you can save or download image files on a tablet.
 
-## Uploading a Corpus
+## Uploading or Selecting a Corpus
 A "corpus" is a collection of texts. Usually the corpus has been created using some guiding principle (same author, same genre, same time period, etc.)
 There are three main ways of selecting a corpus in Voyant Tools:
 1. type or paste into the main text area, either normal text or a set URLs, one per line; then hit the "Reveal" button
 2. open an existing model corpus the Voyant folks have already included online (such as Austen or Shakespeare) 
 3. upload one or more files from your computer
 
-This tutorial uses process #1 & #3.  (So we will use TWO different corpora.)  Try out #2 on your own another time!
+This tutorial uses process #1 & #3.  (So we will use TWO different corpora.)  Try out #2 on your own!
 
 ### Step 1:
-* Download [a test corpus on to your computer](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/ctschroeder/tutorials/tree/master/teaching-corpora/apocryphal-acts/texts)
+* Download [a test corpus on to your computer](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/ctschroeder/tutorials/tree/master/teaching-corpora/martyrdoms/texts)
 * Remember where you put it or the file name so you can find it again.
 
 ### Step 2: Upload your corpus to Voyant via one of the following methods
 * Navigate to http://voyant-tools.org/
 * Do ONE of the following:
-  1. EITHER copy and paste the following URL into the window: http://disc.library.emory.edu/lincoln/download/lincoln_sermons.zip
-  2. OR Click on "Upload"
+  1. EITHER Click on "Upload"
       - Navigate to the place in your computer with the test corpus download.
-      - Double-click on the file (it should end in a .zip) to upload it to Voyant
+      - Double-click on the file (it should end in a .zip) to upload it to Voyant 
+  2. OR copy and paste the following URL into the window: http://disc.library.emory.edu/lincoln/download/lincoln_sermons.zip
 * Click Reveal
 
 ## Understanding the page
 
-Once opened, in what they call the “default skin”- you will see five panels. Each of these is a tool, Cirrus, Reader, Trends, Summary, and Contexts. These tools interact with one another – if you modify one pane, you’ll see another update.
+Once opened, in what they call the “default skin”- you will see five panels. Each of these is a tool: Cirrus, Reader, Trends, Summary, and Contexts. These tools interact with one another – if you modify one pane, you’ll see another update.
 The appearance of each of these windows can be modified. Place the cursor on the ? symbol over any given tool, and a menu of options will appear. (Note: hover over the titles of these navigation buttons for descriptions.)
 ![Voyant Overview](https://github.com/ctschroeder/tutorials/blob/master/images/Voyant-overview-hover.png)
 
@@ -136,7 +137,7 @@ A line graph that depicts the distribution of a word or words (occurrence across
 * Select & copy or bookmark the URL for this view to return to your corpus later. (Note, the team at Voyant indicates that the corpus will “accessible as long as it accessed at least once a month.”
 * Note, you can also create a URL for JUST that tool (a URL just for the word cloud, for example) by clicking the Export function at the top of the tool; you should see the export icon appear when you hover over the "?" for the tool; it will appear near the options icon for the tool. 
 
-### Step 9:  Download an file of your visualization from a tool
+### Step 9:  Download a file of your visualization from a tool
 
 * Hover over the "?" for the tool/visualization you want to download.
 * Click on the export button (the square with an arrow)
@@ -178,7 +179,7 @@ Sometimes you might want a LIVE version of your visualization, so people can cli
   * Put this link in your webpage/blog post/notes as documentation
   
 ### Step 12: Try it with another corpus
-* Go back up to Step 2.  If you used the Lincoln sermons for this tutorial, then do the tutorial again using our test corpus. If you used the test corpus, try it with the Lincoln sermons.
+* Go back up to Step 2.  If you used the Lincoln sermons or one of Voyant's corpora for this tutorial, then do the tutorial again using our test corpus. If you used the test corpus, try it with the Lincoln sermons or one of Voyant's.
 * Is there a corpus of literature you are interested in? 
   * How could you use Voyant to study your corpus?
   * What would you need to do to make it ready to import into Voyant?
