@@ -1,3 +1,6 @@
+## Registering a domain/subdomain at OU Create ##
+This tutorial lives online (with live links) at https://github.com/ctschroeder/tutorials/blob/master/ou-create.md.
+
 **Registering your domain name.**
 
 1. BEFORE you do, read about:
