@@ -1,8 +1,10 @@
-Last modified 3 February 2020
+# Corpus Analysis with AntConc
+
+Last modified 4 February 2020
 
 This tutorial lives online at https://github.com/ctschroeder/tutorials/edit/master/antconc-programming-historian.md.
 
-NOTE:  This is a modification of the original [Programming Historian Corpus Analysis with AntConc Tutorial](https://programminghistorian.org/lessons/corpus-analysis-with-antconc).  It contains no images; it does provide an explainer of Target and Reference Corpora, with tips for using them in the Keyword Tool
+This is a modification of the original [Programming Historian Corpus Analysis with AntConc Tutorial](https://programminghistorian.org/lessons/corpus-analysis-with-antconc).  It contains no images; it does provide an explainer of Target and Reference Corpora, with tips for using them in the Keyword Tool
 
 ## Dr. S in class instructions streamlined ##
 1. Load the movie review corpus (All Reviews)
@@ -39,7 +41,7 @@ NOTE:  This is a modification of the original [Programming Historian Corpus Anal
 
 5. Study another corpus
 
-- [Dr. S's class corpus](https://github.com/ctschroeder/tutorials/tree/master/teaching-corpora/apocryphal-acts/texts); [download zip file](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/ctschroeder/tutorials/tree/master/teaching-corpora/apocryphal-acts/texts) (for Keywords, use Acts of Paul as your TARGET)
+- [Dr. S's class corpus](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/ctschroeder/tutorials/tree/master/teaching-corpora/martyrdoms/texts) (for Keywords activity, use Perpetua and Felicitas as your TARGET)
 
 - [Sermons about Lincoln's death](http://disc.library.emory.edu/lincoln/download/lincoln_sermons.zip)
 
