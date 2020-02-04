@@ -1,3 +1,5 @@
+Last modified 3 February 2020
+
 NOTE:  This is a modification of the original [Programming Historian Corpus Analysis with AntConc Tutorial](https://programminghistorian.org/lessons/corpus-analysis-with-antconc).  It contains no images; it does provide an explainer of Target and Reference Corpora, with tips for using them in the Keyword Tool
 
 ## Dr. S in class instructions streamlined ##
@@ -66,9 +68,6 @@ topics: [distant-reading]
 abstract: "Corpus analysis is a form of text analysis which allows you to make comparisons between textual objects at a large scale (so-called 'distant reading')."
 ---
 
-{% include toc.html %}
-
-
 ## Introduction
 Corpus analysis is a form of text analysis which allows you to make comparisons between textual objects at a large scale (so-called 'distant reading'). It allows us to see things that we don't necessarily see when reading as humans.  If you’ve got a collection of documents, you may want to find patterns of grammatical use, or frequently recurring phrases in your corpus. You also may want to find statistically likely and/or unlikely phrases for a particular author or kind of text, particular kinds of grammatical structures or a lot of examples of a particular concept across a large number of documents in context. Corpus analysis is especially useful for testing intuitions about texts and/or triangulating results from other digital methods.
 
@@ -134,8 +133,7 @@ and [_Developing Linguistic Corpora: a Guide to Good Practice_](http://www.amazo
 
 ### Getting Started with AntConc: The AntConc user interface, loading corpora
 
-When AntConc launches, it will look like this.
-{% include figure.html filename="antconc1.png" caption="AntConc opening screen." %}
+When AntConc launches, you will see a **window** with a few sections and a **menu bar** at the top of the screen.
 
 On the left-hand side, there is a window to see all corpus files loaded (which we'll use momentarily).
 
@@ -152,23 +150,15 @@ As an introduction, this tutortial barely scratches the surface of what you can 
 
 
 ### Loading Corpora
-Like opening a file elsewhere, we're going to start with File&nbsp; &gt; Open, but instead of opening just ONE file we want to open the directory of all our files.  AntConc allows you to open entire directories, so if you're comfortable with this concept, you can just open the folder 'all reviews' and jump to Basic Analysis, below    
-
-{% include figure.html filename="open-file-21.png" caption="Opening a directory of files." %}
+Like opening a file elsewhere, we're going to start with the menu bar's File&nbsp; &gt; Open, but instead of opening just ONE file we want to open the directory of all our files.  AntConc allows you to open entire directories, so if you're comfortable with this concept, you can just open the folder 'all reviews' and jump to Basic Analysis, below    
 
 Remember we've put our files on the desktop, so navigate there in the dropdown menu.  
-{% include figure.html filename="files-on-desktop-open.png" caption="Opening a directory of files from your Desktop." %}
 
 From the Desktop you want to navigate to our folder "movie reviews from nltk":  
-{% include figure.html filename="browse-for-directory-inside-folder.png" caption="Finding movie reviews." %}
 
 First you will select "Negative Reviews" and hit OK. 200 texts should load in the lefthand column Corpus Files – watch the Total No. box!  
-{% include figure.html filename="open-negative-reviews.png" caption="Loading negative reviews." %}
 
 Then you're going to repeat the process to load the folder "Positive Reviews". You should now have 400 texts in the Corpus Files column.  
-{% include figure.html filename="positive-reviews.png" caption="Loading positive reviews." %}
-
-{% include figure.html filename="all-reviews-loaded.png" caption="All reviews loaded." %}
 
 
 ## Searching Keywords in Context 
@@ -177,9 +167,6 @@ Then you're going to repeat the process to load the folder "Positive Reviews". Y
 One of the things corpus tools like Antconc are very good at are finding patterns in language which we have a hard time identifying as readers. Small boring words like *the, I, he, she, a, an, is, have, will* are especially difficult to keep track of as readers, because they're so common, but computers happen to be very good at them. These words are called function words, though they commonly known as 'stopwords' in digital humanities; they are often very distinct measures of authorial and generic style. As a result, they can be quite powerful search terms on their own or when combined with more content-driven terms, helping the researcher identify patterns they may not have been aware of previously. 
 
 In the search box at the bottom, type the and click "start". The Concordance view will show you every time the word the appears in our corpus of movie reviews, and some context for it. This is called a "Key Words in Context" viewer. 
-
-{% include figure.html filename="the-thinking.png" caption="'The' is a common word." %}
-
 
 (14618 times, according to the Concordance Hits box in the bottom centre.)
 
@@ -191,11 +178,8 @@ Now that you're comfortable with looking at a KWIC line, try doing it again with
 
 What do you see? I understand this can be a difficult to read way of identifiying patterns. Try pressing the yellow "sort" button. What happens now?
 
-{% include figure.html filename="sorting-shot-1l1r.png" caption="Words that appear next to 'shot'." %}
-
-
 (This might be easier to read!)
-You can adjust the way AntConc sorts information by changing the parameters in the red circle: L corresponds with 'left' and R corresponds with 'right'; you can extend these up to ±5 in either direction. The default is 1 left, 2 right, 3 right, but you can change that to search 3 left, 2 left, 1 right (to get phrases and/or trigrams that end in the search term in question, for example) by clicking the arrow buttons up or down. If you don't want to include a sorting option you can skip it (as in the default: 1L, 2R, 3R) or include it as a 0. Less linear sorting practices are available, such as 4 left, 3 right, 5 right, which includes a lot of other contextual information. 
+You can adjust the way AntConc sorts information by changing the parameters at the bottom of the panel labeled "Level 1", "Level 2", "Level 3": L corresponds with 'left' and R corresponds with 'right'; you can extend these up to ±5 in either direction. The default is 1 left, 2 right, 3 right, but you can change that to search 3 left, 2 left, 1 right (to get phrases and/or trigrams that end in the search term in question, for example) by clicking the arrow buttons up or down. If you don't want to include a sorting option you can skip it (as in the default: 1L, 2R, 3R) or include it as a 0. Less linear sorting practices are available, such as 4 left, 3 right, 5 right, which includes a lot of other contextual information. 
 These parameters can be slow to respond, but be patient. If you're not sure what the resulting search is, just press 'sort' to see what's happened and adjust accordingly.
 
 
@@ -210,7 +194,7 @@ Search for qualit*, then sort this search. What tends to precede and follow qual
 For a full list of available wildcard operators and what they mean, go to Global Settings &gt; Wildcard Settings.  
 {% include figure.html filename="wildcard-settings.png" caption="Adjusting the wildcard settings." %}
 
-To find out the difference between * and ?, search for th*n and th?n. These two search queries look very similiar, but show very different results. 
+To find out the difference between d* and ?, search for th*n and th?n. These two search queries look very similiar, but show very different results. 
 
 The ? operator is more specific than the * operator:  
 wom?n – both women and woman  
@@ -224,17 +208,9 @@ Compare these two searches: wom?n and m?n
 
 >HINT: During the course of exploring in your research, you may generate many such files for reference; it's helpful to use descriptive filenames that describe what's in them (such as "wom?n-results.text", not "antconc_results.txt").
 
-{% include figure.html filename="save-output-as-text-file.png" caption="Save output as text file" %}
-
-{% include figure.html filename="save-as.png" caption="Save As dialog window." %}
-
-And now you can open the plain text file in your text editor; you might have to widen the application window to make it readable:  
-{% include figure.html filename="results.png" caption="The plain text file displayed in a text editor." %}
-
+And now you can open the plain text file in your text editor; you might have to widen the application window to make it readable.
 
 Do this for each of the two searches and then look at the two text files side by side. What do you notice?
-
-
 
 #### The | operator ("or")
 
@@ -254,30 +230,34 @@ Having looked at the KWIC lines for patterns, don't you wish there was a way for
 
 Good news - there is a way to get this information, and it's available from the Collocates tab. Click that, and AntConc will tell you it needs to create a word list. Hit OK; it will do it automatically.  
 
-*Dr. S note:* click "Collocates" tab; then click "Start."  Be sure you see a search term
+*Dr. S note:* The alert about creating a word list doesn't always appear immediately; click "Collocates" tab. Be sure you have entered a search term. Then click "Start" and you will get the alert to create a word list. Click OK.
 
 > NOTE: You will only get this notice when you haven't created a word list yet.
-{% include figure.html filename="wordlistwarning.png" caption="Word list warning" %}
+
 Try generating collocates for she.
 
-The unsorted results will seem to start with function words (words that build phrases) then go down to content words (words that build meaning)– these small boring words are [the most frequent words in English][55], which are largely phrase builders. Later versions of AntConc often include the search term as the first hit, presumably because the search term you are looking for shows up in the text and we are looking for words which are likely to appear with this word. 
+*Dr. S note:* depending on the version or whether you're using Mac or PC, the results may or may not be sorted.  Read through the next four paragraphs in full before playing around with the "sort" feature. The "sort" menu is on the bottom of the panel; you will see a menu you can toggle to "sort by freq", "sort by stat", etc.
+
+The unsorted results will seem to start with function words (words that build phrases) then go down to content words (words that build meaning)– these small boring words are [the most frequent words in English][55], which are largely phrase builders. Some versions of AntConc often include the search term as the first hit, presumably because the search term you are looking for shows up in the text and we are looking for words which are likely to appear with this word. 
 
 Some people might want to remove these small words by using a stopword list; this is a common step in topic modelling.  Personally I don't encourage this practice because addressing highly-frequent words is where computers shine! As readers we tend not to notice them very much. Computers, especially software like Antconc, can show us where these words do and do not appear and that can be quite interesting, especially in very large collections of text - as explored earlier in the tutorial, with *the*, *a*, *she* and *he*.
 
 Additionally you may have a single letter 's' appear, quite high as well - that represents the possessive *'s* (the apostrophe won't be counted), but AntConc considers that s indicative of another word. Another example of this is *'t* appearing with *do*, as they contract as *don't*. Because these so commonly appear together, this makes them highly likely collocates. 
 
-*Dr. S note:* If your list is sorted by "Stat" (statistics), then the higher the number, the more connected those two words are.  The formula takes into account how often they appear together.  Change the way the list is sorted (by Frequency, for example).  Note how the list changes.  The words with the highest "Stat" number always or almost always appear with your search term, and rarely appear anywhere else in the corpus.
+**Dr. S note:** If your list is sorted by "Stat" (statistics), then the higher the number, the more connected those two words are.  The formula takes into account how often they appear together.  Change the way the list is sorted (by Frequency, for example).  Note how the list changes.  The words with the highest "Stat" number always or almost always appear with your search term, and less frequently appear anywhere else in the corpus.
 
 What happens if you change the "Minimum Collocate Frequency" to a higher number?  Try changing it to "3" and click "Start."  Now your list of collocations only includes words that appear at least 3 times in the corpus.*
 
 **Task:** 
 Generate collocates for m?n and wom?n. Now sort them by frequency to 1L.  
 This tells us about what makes a man or woman 'movie-worthy':  
-– women have to be 'beautiful' or 'pregnant' or 'sophisticated'  
-– men have to be somehow outside the norm – 'holy' or 'black' or 'old'  
+– what words are associated with women?  
+– what words are associated with men? 
+– can you draw any conclusions?
 
 This is not necessarily telling us about the movies but about the way those movies are written about in reviews, and can lead us to ask more nuanced questions, like "How are women in romantic comedies described in reviews written by men compared to those written by women?"
 
+**Dr. S note:** the results will vary depending on the parameters of your query:  sort, minimum collocation frequency, 1L/1R vs 2L/2R vs 3L/3R etc.
 
 ### Comparing corpora
 One of the most powerful types of analysis is comparing your corpus to a larger reference corpus.
@@ -286,18 +266,7 @@ I've pulled out reviews of movies with which Steven Spielberg is associated (as 
 
 Be sure to think carefully about what a reference corpus for your own research might look like (eg. a study of Agatha Christie's language in her later years would work nicely as an analysis corpus for comparison to a reference corpus of all her novels). Remember, again, that corpus construction is a subfield in its own right.
 
-Settings &gt; Tool preferences &gt; Keyword List  
-Under 'Reference Corpus' make sure "Use raw files" is checked  
-Add Directory &gt; open the folder containing the files that make up the reference corpus  *(Dr. S note: this is the Spielberg folder)*
-Ensure you have a whole list of files!
-
-{% include figure.html filename="adding-a-reference-corpus.png" caption="Adding a reference corpus." %}
-
-Hit Load (&amp; wait …) then once the 'Loaded' box is checked, hit Apply.  
-You can also opt to swap reference corpus &amp; main files (SWAP REF/MAIN FILES). It is worth looking at what both results show. 
-> If you're using a later version of AntConc, the Swap Ref/Main files option may be marked as 'swap with target files', and you will need to ensure the target and reference corpora have been loaded (press the load button each time you upload, or swap, a corpus).
-
-*Dr. S Note:*
+**Dr. S Note:**
 
 - The TARGET corpus is the corpus you are analyzing 
 
@@ -305,19 +274,29 @@ You can also opt to swap reference corpus &amp; main files (SWAP REF/MAIN FILES)
 
 - So for this activity -- analyzing the Spielberg reviews -- you want Spielberg to be TARGET and the larger 400-review corpus to be REFERENCE.  Swap if necessary; be sure to click "Load" and "Apply" every time you swap.*
 
-**PRO TIP from Dr. S: if you get confused with your corpora and need to restart, clear everything in AntConc out with File > Clear All Tools and Files.  Then Load your TARGET corpus first in the main AntConc window; load the REFERENCE corpus using Settings > Tool Settings > Keyword List.**
+**PRO TIP from Dr. S:** if you get confused with your corpora and need to restart, clear everything in AntConc out with File > Clear All Tools and Files.  Then Load your TARGET corpus first in the main AntConc window; load the REFERENCE corpus using Settings > Tool Settings > Keyword List.
+* In fact, let's do this:  Clear All Tools and Files.  (You should see no files in that left pane.)
+* Now using the File > Open Dir command in the menu bar, load Spielberg reviews in the main Antconc window.  You should see 24 files in the left pane.
 
-In Keyword List, just hit Start (with nothing typed in the search box). If you've just swapped the reference corpus and the target files, you may be prompted to create a new word list before AntConc will calculate the keywords.  We see a list of Keywords that have words that are much more "unusual" – more statistically unexpected – in the corpus we are looking at when compared to the reference corpus.
+Settings &gt; Tool preferences &gt; Keyword List  
+Under 'Reference Corpus' make sure "Use raw files" is checked  
+Add Directory &gt; open the folder containing the files that make up the reference corpus  **(Dr. S note: this is the All Reviews folder)**
+Ensure you have a whole list of files!
 
-&gt; Keyness: this is the frequency of a word in the text when compared with its frequency in a reference corpus, "such that the statistical probability as computed by an appropriate procedure is smaller than or equal to a p value specified by the user." – taken from [here][41].) For those interested in the statistical details, see the section on keyness on p7 of Laurence Anthony's [readme file](http://www.laurenceanthony.net/software/antconc/releases/AntConc335/help.pdf). 
+Hit Load (&amp; wait …) then once the 'Loaded' box is checked, hit Apply.  
+You can also opt to swap reference corpus &amp; main files (SWAP REF/MAIN FILES). It is worth looking at what both results show. 
+> If you're using a later version of AntConc, the Swap Ref/Main files option may be marked as 'swap with target files', and you will need to ensure the target and reference corpora have been loaded (press the load button each time you upload, or swap, a corpus).
+
+In Keyword List, just hit Start (with nothing typed in the search box). If you've cleared your tools or you've just swapped the reference corpus and the target files, you may be prompted to create a new word list in the Word List tool before AntConc will calculate the keywords.  Back in the Keyword List tool, we see a list of Keywords that have words that are much more frequent in the Target corpus than in the Reference corpus.  These words are *characteristic* words for the Target corpus compared to the Reference corpus. 
+
+&gt; Keyness: this is the frequency of a word in the text when compared with its frequency in a reference corpus,  For those interested in the statistical details, see the section on keyness on p7 of Laurence Anthony's [readme file](http://www.laurenceanthony.net/software/antconc/releases/AntConc335/help.pdf). 
 
 What are our keywords?
 
-{% include figure.html filename="spielberg-vs-movie-reviews.png" caption="Spielberg vs movie reviews." %}
-
+(This section heavily modified by Dr. S)
 
 ## Discussion: Making meaningful comparisons
-Keep in mind that the way your organize your text files makes a difference to the kinds of questions you can ask and the kinds of results you will get.  Remember that we are comparing 'negative' and 'positive' reviews quite flatly here. You could, for instance, make other comparisons with different subsets of reviews, which yield very different kinds of questions. 
+Keep in mind that the way your organize your text files makes a difference to the kinds of questions you can ask and the kinds of results you will get.  You could, for instance, make other comparisons with different subsets of reviews, which yield very different kinds of questions. 
 
 Of course, the files you put in your corpus will shape your results. Again, the question of representativeness and sampling are highly relevant here – it's not always necessary or even ideal to use *all* of a dataset at once, even if you do have it. At this juncture, it's really worth interrogating how these methods help produce research questions. 
 
