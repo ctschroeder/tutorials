@@ -1,5 +1,7 @@
 Last modified 3 February 2020
 
+This tutorial lives online at https://github.com/ctschroeder/tutorials/edit/master/antconc-programming-historian.md.
+
 NOTE:  This is a modification of the original [Programming Historian Corpus Analysis with AntConc Tutorial](https://programminghistorian.org/lessons/corpus-analysis-with-antconc).  It contains no images; it does provide an explainer of Target and Reference Corpora, with tips for using them in the Keyword Tool
 
 ## Dr. S in class instructions streamlined ##
@@ -230,13 +232,13 @@ Having looked at the KWIC lines for patterns, don't you wish there was a way for
 
 Good news - there is a way to get this information, and it's available from the Collocates tab. Click that, and AntConc will tell you it needs to create a word list. Hit OK; it will do it automatically.  
 
-*Dr. S note:* The alert about creating a word list doesn't always appear immediately; click "Collocates" tab. Be sure you have entered a search term. Then click "Start" and you will get the alert to create a word list. Click OK.
+**Dr. S note:** The alert about creating a word list doesn't always appear immediately; click "Collocates" tab. Be sure you have entered a search term. Then click "Start" and you will get the alert to create a word list. Click OK.
 
 > NOTE: You will only get this notice when you haven't created a word list yet.
 
 Try generating collocates for she.
 
-*Dr. S note:* depending on the version or whether you're using Mac or PC, the results may or may not be sorted.  Read through the next four paragraphs in full before playing around with the "sort" feature. The "sort" menu is on the bottom of the panel; you will see a menu you can toggle to "sort by freq", "sort by stat", etc.
+**Dr. S note:** depending on the version or whether you're using Mac or PC, the results may or may not be sorted.  Read through the next four paragraphs in full before playing around with the "sort" feature. The "sort" menu is on the bottom of the panel; you will see a menu you can toggle to "sort by freq", "sort by stat", etc.
 
 The unsorted results will seem to start with function words (words that build phrases) then go down to content words (words that build meaning)– these small boring words are [the most frequent words in English][55], which are largely phrase builders. Some versions of AntConc often include the search term as the first hit, presumably because the search term you are looking for shows up in the text and we are looking for words which are likely to appear with this word. 
 
