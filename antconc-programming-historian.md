@@ -125,7 +125,7 @@ In the search box at the bottom, type the and click "start". The Concordance vie
 
 (14618 times, according to the Concordance Hits box in the bottom centre.)
 
-![Concordance Tool](https://github.com/ctschroeder/tutorials/images/01-concordance.png)
+![Concordance Tool](https://github.com/ctschroeder/tutorials/blob/master/images/01-concordance.png)
 
 As above, the KWIC list is a good way to start looking for patterns. Even though it's still a lot of information, what kinds of words appear near "the"? 
 
