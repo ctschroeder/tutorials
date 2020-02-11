@@ -1,59 +1,10 @@
 # Corpus Analysis with AntConc
 
-Last modified 4 February 2020
+Last modified 10 February 2020
 
 This tutorial lives online at https://github.com/ctschroeder/tutorials/edit/master/antconc-programming-historian.md.
 
 This is a modification of the original [Programming Historian Corpus Analysis with AntConc Tutorial](https://programminghistorian.org/lessons/corpus-analysis-with-antconc).  It contains no images; it does provide an explainer of Target and Reference Corpora, with tips for using them in the Keyword Tool
-
-## Dr. S in class instructions streamlined ##
-1. Load the movie review corpus (All Reviews)
-
-2. Search for a term
-
-- use the Concordance tool to find more information about the use of the term
-
-- sort
-
-- change the parameters of "KWIC sort" at the bottom & sort
-
-- Use wild card characters such as * and ? in your search
-
-- Save output as text file(s) with meaningful title
-
-- discuss what you learned from your searches with your neighbor
-
-3. Use the Collocate tool to search for words most associated with your search term.
-
-- Adjust the Window Span and Minimum Collocate Frequency options; how does that change the results?  What do those changes mean? (REREAD what Dr. Froehlich says about MEANING at the end of the [Collocates and Word Lists](https://programminghistorian.org/lessons/corpus-analysis-with-antconc#collocates-and-word-lists).)
-
-- Use wild cards like m?n and wom?n to find collocations
-
-- Find collocations for your own terms
-
-- Save output as text file(s) with meaningful title
-
-4. Use the Keywords tool to compare corpora
-
-- Read the instructions to find words that are more associated with Spielberg reviews than other reviews
-
-- Remember:  TARGET is the corpus you're analyzing; REFERENCE is the comparison corpus
-
-5. Study another corpus
-
-- [Dr. S's class corpus](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/ctschroeder/tutorials/tree/master/teaching-corpora/martyrdoms/texts) (for Keywords activity, use Perpetua and Felicitas as your TARGET)
-
-- [Sermons about Lincoln's death](http://disc.library.emory.edu/lincoln/download/lincoln_sermons.zip)
-
-- [Shakespeare](http://t.co/IXiYiCdkVk)
-
-- A corpus of your own (for Keywords: what's your Target, what's your Reference? why?)
-
-**PRO TIPS from Dr. S**
-
-**1. If you get confused, or you load your files incorrectly:  You can always reset by going to the File menu and selecting "Clear Tool", "Clear All Tools" or "Clear All Tools and Files."  "Clear All Tools and Files" will wipe everything clean.**
-
-**2. You can click the CLONE RESULTS button in a tool to have your results appear in a separate window.**
 
 ---
 title: Corpus Analysis with Antconc
@@ -173,6 +124,8 @@ One of the things corpus tools like Antconc are very good at are finding pattern
 In the search box at the bottom, type the and click "start". The Concordance view will show you every time the word the appears in our corpus of movie reviews, and some context for it. This is called a "Key Words in Context" viewer. 
 
 (14618 times, according to the Concordance Hits box in the bottom centre.)
+
+![Concordance Tool](https://github.com/ctschroeder/tutorials/images/01-concordance.png)
 
 As above, the KWIC list is a good way to start looking for patterns. Even though it's still a lot of information, what kinds of words appear near "the"? 
 
@@ -349,3 +302,53 @@ In summary: it's worth thinking about:
 [54]: http://www.barebones.com/products/textwrangler/
 [55]: http://www.wordfrequency.info/free.asp
 [56]: http://hfroehli.ch/2014/05/11/intro-bibliography-corpus-linguistics/
+
+## Dr. S in class instructions streamlined ##
+1. Load the movie review corpus (All Reviews)
+
+2. Search for a term
+
+- use the Concordance tool to find more information about the use of the term
+
+- sort
+
+- change the parameters of "KWIC sort" at the bottom & sort
+
+- Use wild card characters such as * and ? in your search
+
+- Save output as text file(s) with meaningful title
+
+- discuss what you learned from your searches with your neighbor
+
+3. Use the Collocate tool to search for words most associated with your search term.
+
+- Adjust the Window Span and Minimum Collocate Frequency options; how does that change the results?  What do those changes mean? (REREAD what Dr. Froehlich says about MEANING at the end of the [Collocates and Word Lists](https://programminghistorian.org/lessons/corpus-analysis-with-antconc#collocates-and-word-lists).)
+
+- Use wild cards like m?n and wom?n to find collocations
+
+- Find collocations for your own terms
+
+- Save output as text file(s) with meaningful title
+
+4. Use the Keywords tool to compare corpora
+
+- Read the instructions to find words that are more associated with Spielberg reviews than other reviews
+
+- Remember:  TARGET is the corpus you're analyzing; REFERENCE is the comparison corpus
+
+5. Study another corpus
+
+- [Dr. S's class corpus](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/ctschroeder/tutorials/tree/master/teaching-corpora/martyrdoms/texts) (for Keywords activity, use Perpetua and Felicitas as your TARGET)
+
+- [Sermons about Lincoln's death](http://disc.library.emory.edu/lincoln/download/lincoln_sermons.zip)
+
+- [Shakespeare](http://t.co/IXiYiCdkVk)
+
+- A corpus of your own (for Keywords: what's your Target, what's your Reference? why?)
+
+**PRO TIPS from Dr. S**
+
+**1. If you get confused, or you load your files incorrectly:  You can always reset by going to the File menu and selecting "Clear Tool", "Clear All Tools" or "Clear All Tools and Files."  "Clear All Tools and Files" will wipe everything clean.**
+
+**2. You can click the CLONE RESULTS button in a tool to have your results appear in a separate window.**
+
