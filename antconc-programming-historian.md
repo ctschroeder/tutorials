@@ -109,11 +109,11 @@ Like opening a file elsewhere, we're going to start with the menu bar's File&nbs
 
 Remember we've put our files on the desktop, so navigate there in the dropdown menu.  
 
-From the Desktop you want to navigate to our folder "movie reviews from nltk":  
+From the Desktop you want to **navigate to our folder "movie reviews from nltk":**
 
-First you will select "Negative Reviews" and hit OK. 200 texts should load in the lefthand column Corpus Files – watch the Total No. box!  
+First you will select **"Negative Reviews"** and hit OK. 200 texts should load in the lefthand column Corpus Files – watch the Total No. box!  
 
-Then you're going to repeat the process to load the folder "Positive Reviews". You should now have 400 texts in the Corpus Files column.  
+Then you're going to **repeat the process to load the folder "Positive Reviews".** You should now have 400 texts in the Corpus Files column.  
 
 
 ## Searching Keywords in Context 
@@ -121,7 +121,7 @@ Then you're going to repeat the process to load the folder "Positive Reviews". Y
 ### Start with a basic search
 One of the things corpus tools like Antconc are very good at are finding patterns in language which we have a hard time identifying as readers. Small boring words like *the, I, he, she, a, an, is, have, will* are especially difficult to keep track of as readers, because they're so common, but computers happen to be very good at them. These words are called function words, though they commonly known as 'stopwords' in digital humanities; they are often very distinct measures of authorial and generic style. As a result, they can be quite powerful search terms on their own or when combined with more content-driven terms, helping the researcher identify patterns they may not have been aware of previously. 
 
-In the search box at the bottom, type the and click "start". The Concordance view will show you every time the word the appears in our corpus of movie reviews, and some context for it. This is called a "Key Words in Context" viewer. 
+**In the search box at the bottom, type the and click "start".** The Concordance view will show you every time the word the appears in our corpus of movie reviews, and some context for it. This is called a "Key Words in Context" viewer. 
 
 (14618 times, according to the Concordance Hits box in the bottom centre.)
 
@@ -135,9 +135,13 @@ Now that you're comfortable with looking at a KWIC line, try doing it again with
 
 What do you see? I understand this can be a difficult to read way of identifiying patterns. Try pressing the yellow "sort" button. What happens now?
 
+![Sorting in Concordance tool](https://github.com/ctschroeder/tutorials/blob/master/images/02-sort.png)
+
 (This might be easier to read!)
 You can adjust the way AntConc sorts information by changing the parameters at the bottom of the panel labeled "Level 1", "Level 2", "Level 3": L corresponds with 'left' and R corresponds with 'right'; you can extend these up to ±5 in either direction. The default is 1 left, 2 right, 3 right, but you can change that to search 3 left, 2 left, 1 right (to get phrases and/or trigrams that end in the search term in question, for example) by clicking the arrow buttons up or down. If you don't want to include a sorting option you can skip it (as in the default: 1L, 2R, 3R) or include it as a 0. Less linear sorting practices are available, such as 4 left, 3 right, 5 right, which includes a lot of other contextual information. 
 These parameters can be slow to respond, but be patient. If you're not sure what the resulting search is, just press 'sort' to see what's happened and adjust accordingly.
+
+![Preferences in Concordance tool](https://github.com/ctschroeder/tutorials/blob/master/images/03-KWIC-sort.png)
 
 
 ### Search Operators
@@ -145,11 +149,12 @@ These parameters can be slow to respond, but be patient. If you're not sure what
 #### The * operator (wildcard) 
 The * operator (which finds zero or more characters) can help, for instance, find both the singular and the plural forms of nouns.
 
-**Task:**
-Search for qualit*, then sort this search. What tends to precede and follow quality &amp; qualities? (Hint: they're different words, and have different contexts. Again- look for patterns in usage using the KWIC!)
+**Search for qualit*, then sort this search.** What tends to precede and follow quality &amp; qualities? (Hint: they're different words, and have different contexts. Again- look for patterns in usage using the KWIC!)
 
 For a full list of available wildcard operators and what they mean, go to Global Settings &gt; Wildcard Settings.  
 {% include figure.html filename="wildcard-settings.png" caption="Adjusting the wildcard settings." %}
+
+![Wildcard searches](https://github.com/ctschroeder/tutorials/blob/master/images/04-wildcardsettings.png)
 
 To find out the difference between d* and ?, search for th*n and th?n. These two search queries look very similiar, but show very different results. 
 
@@ -158,12 +163,13 @@ wom?n – both women and woman
 m?n – man and men, but also min  
 contrast to m*n: not helpful, because you'll get mean, melon, etc.
 
-**Task:**
-Compare these two searches: wom?n and m?n  
+**Compare these two searches: wom?n and m?n**
 1. sort each search in a meaningful way (eg. by search term then 1L then 2L)  
 2. File &gt; Save output to text file (&amp; append with .txt. 
 
 >HINT: During the course of exploring in your research, you may generate many such files for reference; it's helpful to use descriptive filenames that describe what's in them (such as "wom?n-results.text", not "antconc_results.txt").
+
+![Saving results](https://github.com/ctschroeder/tutorials/blob/master/images/05-saveresults.png)
 
 And now you can open the plain text file in your text editor; you might have to widen the application window to make it readable.
 
@@ -171,15 +177,9 @@ Do this for each of the two searches and then look at the two text files side by
 
 #### The | operator ("or")
 
-**Task:**
-Search on she|he.
+**Search on she|he.**. Now search for these separately: how many instances of she vs he?  There are many fewer instances of she – why? That's a research question! A good follow-up questions might be to sort the she|he search for patterns, and look to see if particular verbs follow each. 
 
-Now search for these separately: how many instances of she vs he?  
-
-There are many fewer instances of she – why? That's a research question! A good follow-up questions might be to sort the she|he search for patterns, and look to see if particular verbs follow each. 
-
-**Task:** 
-Practice searching a word of your choice, sorting in different ways, using wildcard(s), and finally exporting. Guiding focus question here: what kinds of patterns do you see? Can you explain them?
+**Practice searching a word of your choice, sorting in different ways, using wildcard(s), and finally exporting.** Guiding focus question here: what kinds of patterns do you see? Can you explain them?
 
 
 ### Collocates and word lists
@@ -192,6 +192,8 @@ Good news - there is a way to get this information, and it's available from the 
 > NOTE: You will only get this notice when you haven't created a word list yet.
 
 Try generating collocates for she.
+
+![Collocates for "she"](https://github.com/ctschroeder/tutorials/blob/master/images/06-collocate.png)
 
 **Dr. S note:** depending on the version or whether you're using Mac or PC, the results may or may not be sorted.  Read through the next four paragraphs in full before playing around with the "sort" feature. The "sort" menu is on the bottom of the panel; you will see a menu you can toggle to "sort by freq", "sort by stat", etc.
 
