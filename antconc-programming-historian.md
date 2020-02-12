@@ -1,6 +1,6 @@
 # Corpus Analysis with AntConc
 
-Last modified 10 February 2020
+Last modified 12 February 2020
 
 This tutorial lives online at https://github.com/ctschroeder/tutorials/edit/master/antconc-programming-historian.md.
 
@@ -71,7 +71,7 @@ Unzip the download if necessary, and launch the application. Screen shots below 
 8. Further resources
 
 
-## Working with Plain Text Files
+## 1. Working with Plain Text Files
 * Antconc works only with plain-text files with the file appendix .txt (eg Hamlet.txt).  
 * Antconc **will not** read .doc, .docx, .pdf, files. You will need to convert these into .txt files.  
 * It will read XML files that are saved as .txt files (it's OK if you don't know what an XML file is).  
@@ -95,7 +95,7 @@ Corpus construction is a subfield in its own right. Please see [Representativene
 and [_Developing Linguistic Corpora: a Guide to Good Practice_](http://www.amazon.com/Developing-Linguistic-Corpora-Practice-Guides/dp/1842172050/ref=sr_1_1) for more information. 
 
 
-## Getting Started with AntConc: The AntConc user interface, loading corpora
+## 2. Getting Started with AntConc: The AntConc user interface, loading corpora
 
 When AntConc launches, you will see a **window** with a few sections and a **menu bar** at the top of the screen.
 
@@ -125,7 +125,7 @@ First you will select **"Negative Reviews"** and hit OK. 200 texts should load i
 Then you're going to **repeat the process to load the folder "Positive Reviews".** You should now have 400 texts in the Corpus Files column.  
 
 
-## Searching Keywords in Context 
+## 3. Searching Keywords in Context 
 
 ### Start with a basic search
 One of the things corpus tools like Antconc are very good at are finding patterns in language which we have a hard time identifying as readers. Small boring words like *the, I, he, she, a, an, is, have, will* are especially difficult to keep track of as readers, because they're so common, but computers happen to be very good at them. These words are called function words, though they commonly known as 'stopwords' in digital humanities; they are often very distinct measures of authorial and generic style. As a result, they can be quite powerful search terms on their own or when combined with more content-driven terms, helping the researcher identify patterns they may not have been aware of previously. 
@@ -153,7 +153,7 @@ These parameters can be slow to respond, but be patient. If you're not sure what
 ![Preferences in Concordance tool](https://github.com/ctschroeder/tutorials/blob/master/images/03-KWIC-sort.png)
 
 
-## Advanced KWIC: Search Operators
+## 4. Advanced KWIC: Search Operators
 
 ### The * operator (wildcard) 
 The * operator (which finds zero or more characters) can help, for instance, find both the singular and the plural forms of nouns.
@@ -191,7 +191,7 @@ Do this for each of the two searches and then look at the two text files side by
 **Practice searching a word of your choice, sorting in different ways, using wildcard(s), and finally exporting.** Guiding focus question here: what kinds of patterns do you see? Can you explain them?
 
 
-## Collocates and word lists
+## 5. Collocates and word lists
 Having looked at the KWIC lines for patterns, don't you wish there was a way for the computer to give you a list of words which appear most frequently in company with your keyword?
 
 Good news - there is a way to get this information, and it's available from the Collocates tab. Click that, and AntConc will tell you it needs to create a word list. Hit OK; it will do it automatically.  
@@ -227,7 +227,7 @@ This is not necessarily telling us about the movies but about the way those movi
 
 **Dr. S note:** the results will vary depending on the parameters of your query:  sort, minimum collocation frequency, 1L/1R vs 2L/2R vs 3L/3R etc.
 
-## Comparing corpora
+## 6. Comparing corpora
 One of the most powerful types of analysis is comparing your corpus to a larger reference corpus.
 
 I've pulled out reviews of movies with which Steven Spielberg is associated (as director or producer). We can compare them to a reference corpus of movies by a range of directors.
@@ -267,7 +267,7 @@ What are our keywords?
 
 (This section heavily modified by Dr. S)
 
-## Discussion: Making meaningful comparisons
+## 7. Discussion: Making meaningful comparisons
 Keep in mind that the way your organize your text files makes a difference to the kinds of questions you can ask and the kinds of results you will get.  You could, for instance, make other comparisons with different subsets of reviews, which yield very different kinds of questions. 
 
 Of course, the files you put in your corpus will shape your results. Again, the question of representativeness and sampling are highly relevant here – it's not always necessary or even ideal to use *all* of a dataset at once, even if you do have it. At this juncture, it's really worth interrogating how these methods help produce research questions. 
@@ -301,7 +301,7 @@ In summary: it's worth thinking about:
 
 -----
 
-### Further resources for this tutorial
+## 8. Further resources for this tutorial
 [A short bibliography on corpus linguistics][43].    
 [A more step-by-step version of this tutorial, assuming no computer knowledge](http://hfroehli.ch/workshops/getting-started-with-antconc/)
 
