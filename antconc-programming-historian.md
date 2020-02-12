@@ -4,7 +4,7 @@ Last modified 10 February 2020
 
 This tutorial lives online at https://github.com/ctschroeder/tutorials/edit/master/antconc-programming-historian.md.
 
-This is a modification of the original [Programming Historian Corpus Analysis with AntConc Tutorial](https://programminghistorian.org/lessons/corpus-analysis-with-antconc).  It contains no images; it does provide an explainer of Target and Reference Corpora, with tips for using them in the Keyword Tool
+This is a modification of the original [Programming Historian Corpus Analysis with AntConc Tutorial](https://programminghistorian.org/lessons/corpus-analysis-with-antconc).  The images from the original PH tutorial have been deleted or replaced by screenshots of a more recent AntConc version; it provides a more detailed explainer of Target and Reference Corpora, with tips for using them in the Keyword Tool.
 
 ---
 title: Corpus Analysis with Antconc
@@ -12,15 +12,24 @@ layout: lesson
 date: 2015-06-19
 authors:
 - Heather Froehlich
+
 reviewers:
+
 - Nabeel Siddiqui
+
 - Rob Sieczkiewicz
+
 editors:
 - Fred Gibbs
+
 difficulty: 1
+
 activity: analyzing
-topics: [distant-reading]
+
+topics: distant-reading
+
 abstract: "Corpus analysis is a form of text analysis which allows you to make comparisons between textual objects at a large scale (so-called 'distant reading')."
+
 ---
 
 ## Introduction
@@ -62,7 +71,7 @@ Unzip the download if necessary, and launch the application. Screen shots below 
 8. Further resources
 
 
-### Working with Plain Text Files
+## Working with Plain Text Files
 * Antconc works only with plain-text files with the file appendix .txt (eg Hamlet.txt).  
 * Antconc **will not** read .doc, .docx, .pdf, files. You will need to convert these into .txt files.  
 * It will read XML files that are saved as .txt files (it's OK if you don't know what an XML file is).  
@@ -86,7 +95,7 @@ Corpus construction is a subfield in its own right. Please see [Representativene
 and [_Developing Linguistic Corpora: a Guide to Good Practice_](http://www.amazon.com/Developing-Linguistic-Corpora-Practice-Guides/dp/1842172050/ref=sr_1_1) for more information. 
 
 
-### Getting Started with AntConc: The AntConc user interface, loading corpora
+## Getting Started with AntConc: The AntConc user interface, loading corpora
 
 When AntConc launches, you will see a **window** with a few sections and a **menu bar** at the top of the screen.
 
@@ -144,9 +153,9 @@ These parameters can be slow to respond, but be patient. If you're not sure what
 ![Preferences in Concordance tool](https://github.com/ctschroeder/tutorials/blob/master/images/03-KWIC-sort.png)
 
 
-### Search Operators
+## Advanced KWIC: Search Operators
 
-#### The * operator (wildcard) 
+### The * operator (wildcard) 
 The * operator (which finds zero or more characters) can help, for instance, find both the singular and the plural forms of nouns.
 
 **Search for qualit*, then sort this search.** What tends to precede and follow quality &amp; qualities? (Hint: they're different words, and have different contexts. Again- look for patterns in usage using the KWIC!)
@@ -175,14 +184,14 @@ And now you can open the plain text file in your text editor; you might have to 
 
 Do this for each of the two searches and then look at the two text files side by side. What do you notice?
 
-#### The | operator ("or")
+### The | operator ("or")
 
 **Search on she|he.**. Now search for these separately: how many instances of she vs he?  There are many fewer instances of she – why? That's a research question! A good follow-up questions might be to sort the she|he search for patterns, and look to see if particular verbs follow each. 
 
 **Practice searching a word of your choice, sorting in different ways, using wildcard(s), and finally exporting.** Guiding focus question here: what kinds of patterns do you see? Can you explain them?
 
 
-### Collocates and word lists
+## Collocates and word lists
 Having looked at the KWIC lines for patterns, don't you wish there was a way for the computer to give you a list of words which appear most frequently in company with your keyword?
 
 Good news - there is a way to get this information, and it's available from the Collocates tab. Click that, and AntConc will tell you it needs to create a word list. Hit OK; it will do it automatically.  
@@ -218,7 +227,7 @@ This is not necessarily telling us about the movies but about the way those movi
 
 **Dr. S note:** the results will vary depending on the parameters of your query:  sort, minimum collocation frequency, 1L/1R vs 2L/2R vs 3L/3R etc.
 
-### Comparing corpora
+## Comparing corpora
 One of the most powerful types of analysis is comparing your corpus to a larger reference corpus.
 
 I've pulled out reviews of movies with which Steven Spielberg is associated (as director or producer). We can compare them to a reference corpus of movies by a range of directors.
@@ -237,12 +246,16 @@ Be sure to think carefully about what a reference corpus for your own research m
 * In fact, let's do this:  Clear All Tools and Files.  (You should see no files in that left pane.)
 * Now using the File > Open Dir command in the menu bar, load Spielberg reviews in the main Antconc window.  You should see 24 files in the left pane.
 
-Settings &gt; Tool preferences &gt; Keyword List  
+Now got to Settings in the menu bar and select Settings &gt; Tool preferences &gt; Keyword List  
+
+![Settings for Keyword List](https://github.com/ctschroeder/tutorials/blob/master/images/07-keyness-comparing.png)
+
 Under 'Reference Corpus' make sure "Use raw files" is checked  
 Add Directory &gt; open the folder containing the files that make up the reference corpus  **(Dr. S note: this is the All Reviews folder)**
 Ensure you have a whole list of files!
 
 Hit Load (&amp; wait …) then once the 'Loaded' box is checked, hit Apply.  
+
 You can also opt to swap reference corpus &amp; main files (SWAP REF/MAIN FILES). It is worth looking at what both results show. 
 > If you're using a later version of AntConc, the Swap Ref/Main files option may be marked as 'swap with target files', and you will need to ensure the target and reference corpora have been loaded (press the load button each time you upload, or swap, a corpus).
 
