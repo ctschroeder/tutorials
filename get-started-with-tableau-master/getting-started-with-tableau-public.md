@@ -2,7 +2,7 @@
 
 ## About this Tutorial: Dr. S
 
-This tutorial is a modification of Dr. Miriam Posner's "Getting Started with Tableau" tutorial. Last modified 2/18/2020.
+This tutorial is a modification of Dr. Miriam Posner's "Getting Started with Tableau" tutorial. Last modified 2/18/2020. It lives live at https://github.com/ctschroeder/tutorials/blob/master/get-started-with-tableau-master/getting-started-with-tableau-public.md.
 
 ## About this Tutorial: Dr. Posner
 
