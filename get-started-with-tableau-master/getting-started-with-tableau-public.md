@@ -1,12 +1,20 @@
 # Getting started with Tableau Public
 
+## About this Tutorial: Dr. S
+
+This tutorial is a modification of Dr. Miriam Posner's "Getting Started with Tableau" tutorial. Last modified 2/18/2020.
+
+## About this Tutorial: Dr. Posner
+
 Tableau is a powerful data visualization tool, in heavy use among both laypeople and data professionals.
 
 Tableau Public is the free version of this tool. There are several things to be aware of with regard to Tableau Public. It's free to download and use, but, aside from screenshots, the only way to share Tableau Public visualizations is to publish them to the Tableau Public website. That means they will be freely available on the web, and you will need to create a Tableau account in order to do this.
 
-However, you do not need to create an account in order to use Tableau Public. We will use it today to make two charts, which we'll combine into a dashboard. [Here is a preview of what we'll make.](https://public.tableau.com/profile/miriam.posner#!/vizhome/IowaArtsGrants2015/Dashboard1?publish=yes) At the end of this tutorial, you'll find information on how to publish it to the web. For this exercise, you will need the Iowa Arts Council Grants data CSV file, which you can download at [this link](https://www.dropbox.com/s/lhanmm3v9ylccgz/Iowa_Arts_Council_Grants.csv?dl=0).
+However, you do not need to create an account in order to use Tableau Public. We will use it today to make two charts, which we'll combine into a dashboard. [Here is a preview of what we'll make.](https://public.tableau.com/profile/miriam.posner#!/vizhome/IowaArtsGrants2015/Dashboard1?publish=yes) At the end of this tutorial, you'll find information on how to publish it to the web. For this exercise, you will need the [Iowa Arts Council Grants data CSV file](https://www.dropbox.com/s/lhanmm3v9ylccgz/Iowa_Arts_Council_Grants.csv?dl=0).
 
 ## 1. Choose your data source
+
+### 1a. Getting your data
 
 After opening Tableau, you're presented with a list of file types you can choose to work with ("connect"). Even though our Iowa Arts Council Grants file *opens* in Excel, it's saved as a CSV. To Tableau, a CSV is a text file. So select **Text file.** Then navigate to the file you downloaded earlier and double-click to open it.
 
@@ -14,9 +22,15 @@ After opening Tableau, you're presented with a list of file types you can choose
 
 [1]: images/getting-started-with-tableau-public/choose-your-data-source.png
 
+### 1b. Understanding your data
+
+Look at your data!  It should look like a spreadsheet.  What is this dataset? What information do you have? 
+
+*Advanced: You can click on some different places in the column headers to format your data inside Tableau, including telling Tableau what kind of data you have. You don't need to do this now, but I'm telling you so you can play around with it later if you want,*
+
 ## 2. Create a sheet
 
-Tableau will open your file. It should look pretty familiar! In Tableau, you begin visualizing data by creating a **Sheet**. Do that by clicking on the orange **Sheet** button in the lower left-hand corner.
+In Tableau, you begin visualizing data by creating a **Sheet**. Do that by clicking on the orange **Sheet** button in the lower left-hand corner.
 
 ![][2]
 
@@ -62,7 +76,9 @@ Once you've dropped the "Number of Records" measure, you'll see that they're nic
 
 ## 7. Compare multiple values
 
-You created a visualization! Now, let's see if we can create a stacked bar chart, the way we did with Excel. We'll show how **Application Instition Type** correlates with **Application Arts Discipline**.
+### 7a. You created a visualization! Now, let's see if we can create a stacked bar chart. 
+
+We'll show how **Application Instition Type** correlates with **Application Arts Discipline**.
 
 Luckily, this is easy. Just drag the Application Institution Type measure onto the bar chart you've already created.
 
@@ -70,13 +86,36 @@ Luckily, this is easy. Just drag the Application Institution Type measure onto t
 
 [7]: images/getting-started-with-tableau-public/compare-multiple-values.png
 
-## 8. Create a stacked bar chart
+### 7b. Adjust the chart to differentiate the "Institution Type"'s
 
-Now, let's switch to a stacked bar chart, so we can see the distinctions among institution types more clearly. You'll notice that as you hover over each segment, a tooltip gives you more information.
+Look at the box labeled "Marks" to the left of your chart.  
+
+Click on the little dots to the left of the blue Applicant Insitution Type dimension.
+
+Select "Color".  What happens? 
+
+What happens when you hover over the colors on the bars?
+
+What happens when you click on a bar?
+
+### 7c. The chart's legend
+
+Look in the upper right.  Click on "Show Me" to get rid of all the visualization options. (Don't worry -- if you click on it again, they come back.). You should see the *legend* for your chart.
+
+What happens when you click on an item on that legend?
+
+
+## 8. Create a different stacked bar chart
+
+Now, let's switch to another stacked bar chart, so we can see the distinctions among institution types more clearly. Go back to "Show Me" and display all the visualization types.  You'll notice that as you hover over each segment, a tooltip gives you more information.
+
+Click on the vertical bar chart option.
 
 ![][8]
 
 [8]: images/getting-started-with-tableau-public/create-a-stacked-bar-chart.png
+
+What happens?  How did your chart change?  What are the stacks showing?
 
 ## 9. Give your chart a name
 
@@ -136,6 +175,8 @@ From the left-hand side of your dashboard's window, click on each of your sheets
 
 ## 16. Options for exporting
 
+### 16a. Publishing and embedding
+
 As I've mentioned, in order to make your visualization web-accessible, you will need to create a Tableau account and publish to Tableau's site. From there, you can embed your visualizations in other web pages. To begin this process, select **Save to Tableau Public As...** from the **File** menu. You will be prompted to begin the process of creating an account, logging in, and publishing to the web.
 
 There's a *ton* more you can do with Tableau. You can begin learning about its other features [here](https://public.tableau.com/en-us/s/resources).
@@ -143,3 +184,53 @@ There's a *ton* more you can do with Tableau. You can begin learning about its o
 ![][16]
 
 [16]: images/getting-started-with-tableau-public/options-for-exporting.png
+
+### 16b.
+
+Take a screenshot. Unfortunately, the free Tableau Public doesn't have a good way to export a visualization as a static image like a jpg.  You can take a screenshot.
+
+For the best image for a screenshot, look at the toolbar above the "Columns" field, and you'll see a little screen icon. Click on that for a clean full screen image you can screenshot.
+
+## 17. Let's create a map across multiple states.
+
+Download [this dataset about photographs in the Charles Weever Cushman Collection at Indiana University](https://www.dropbox.com/s/38yz4c64b7wb1w7/cushman-collection-lat-long-disagg.csv?dl=0).
+
+Create a new project by going to the menu bar and clicking File > New.  Click "Connect to Data Source" and upload this file just like you did the earlier one above. (It's also a text file.)
+
+Look at your data -- what kind of data do you have?
+
+### 17a. Create our first map of coordinates.
+
+Click on Sheet to create a new sheet.
+
+Look at the "Measures" in the lower left.  Drag "Latitude" up to "Rows".  ("Latitude" not "Latitude (generated)".)
+
+On my Tableau Public, suddenly in Rows "Latitude" now says "AVG(Latitude)".  UH OH! I don't want the average latitude!  Click on the little arrow inside the colored AVG(Latitude) oval. You'll get a drop-down menu.  Select "Dimension" so that Tableau will chart this data as a DIMENSION not as an an AVERAGE of all the entries.
+
+Now drag "Longitude" up to "Columns".
+
+You should see a map with lots of coordinates!
+
+Now drag "Number of Records" up to the "Marks" panel.  Click on the little dots next to the colored oval there and select "Size".  What happens?
+
+Click on Sheet 1 above your map to give your map a good title.
+
+### 17b. Now let's create another map.
+
+DUPLICATE your sheet:  control-click or right-click on the Sheet 1 tab on the bottom. Select "Duplicate."  You should see a new tab that says "Sheet 1 (2)".  
+
+In the "Marks" panel, click on the green oval that says "SUM(Number of Records)". A dropdown menu appears; select "Remove".
+
+Find in the "Dimensions" panel "Topical Subject Headings 1."  Drag it over to the Marks panel.
+
+Click on the little dots next to the blue oval and select "Color."
+
+What happens???
+
+Give your map a cool title!!
+
+
+
+
+
+
