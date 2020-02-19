@@ -74,6 +74,8 @@ Once you've dropped the "Number of Records" measure, you'll see that they're nic
 
 [6]: images/getting-started-with-tableau-public/choose-the-chart-type-you-want.png
 
+*What does your chart tell you about your data???*
+
 ## 7. Compare multiple values
 
 ### 7a. You created a visualization! Now, let's see if we can create a stacked bar chart. 
@@ -97,6 +99,8 @@ Select "Color".  What happens?
 What happens when you hover over the colors on the bars?
 
 What happens when you click on a bar?
+
+*What does your chart tell you about your data??*
 
 ### 7c. The chart's legend
 
