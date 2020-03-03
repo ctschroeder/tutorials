@@ -1,10 +1,29 @@
-Intro DH:  Day 2 on Omeka
+# Omeka: Adding Items and Collections
 
-1. In your groups, share the three things you brought to class:
+## About this tutorial
 
- * Each person describe one Item, then go around the circle two more times
+This tutorial was created by Caroline T. Schroeder, licensed [CC-BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Last updated 3 March 2020.
 
- * Think about whether or not there are logical Collections to which you could add your items, or whether you need to create new Collections.  
+This tutorial lives live online at https://github.com/ctschroeder/tutorials/master/add-omeka-items.md
+
+The creators of Omeka maintain robust [documentation for Omeka online](https://omeka.org/classic/docs/).  You can also visit an online [showcase of projects using Omeka](https://omeka.org/classic/showcase/).
+
+This tutorial is for Omeka classic, not [Omeka S](https://omeka.org/s/).
+
+## 1. Find at least three objects pertaining to the text
+
+In class we all read a text that will be the basis of our Omeka exhibit(s). (For 2020, the Martyrdoms of Perpetua and Felicitas).
+
+Find at least three objects that will help you address the questions and issues we discussed in class about the text.
+  - Be sure you can authenticate the item -- is the source reliable, why? 
+  - Do you have permission to use the item in our exhibit? What is the license -- is there one? Is there some other statement?
+  - Bookmark, save, make notes on your items
+
+## 2. In your groups, share the three things you brought to class:
+
+ - Each person describe one Item, then go around two more times
+
+ - Think about whether or not there are logical Collections to which you could add your items, or whether you need to create new Collections.  
 
    * WRITE down possible Collection names – we will discuss as a class
 
@@ -18,9 +37,9 @@ Intro DH:  Day 2 on Omeka
 
 
 
-2. Add ONE item from each person to our Omeka site
+## 3. Add ONE item from each person to our Omeka site
 
- * Login at the site (check your email/class syllabus/Canvas:  login is the site URL + /admin added at the end (e.g., http://dhproject.carrieschroeder.org/admin )
+ * Login at the site (check your email/class syllabus/Canvas:  login is the site URL + /admin added at the end.
 
  * Click on Items and Add New Item
 
@@ -70,7 +89,7 @@ Intro DH:  Day 2 on Omeka
 
   * this is where you upload a file if you are providing a file.  If your object has more than one file, you can upload multiple
 
-  * Tags (give your item tags; spell correctly and use capitalization only for proper names, e.g. Thecla, arena, etc.)
+  * Tags (give your item tags; spell correctly and use capitalization only for proper names, e.g. Perpetua, arena, etc.)
 
   * Click on Public on the right so the world can see your item
 
@@ -80,9 +99,9 @@ Intro DH:  Day 2 on Omeka
 
 * SAVE CHANGES
 
-***HELP EACH OTHER OUT IN YOUR GROUP.***
+***HELP EACH OTHER OUT.***
 
-Review
+### 4. Review
 
  * Each person in the group should review someone else’s item – review the metadata, the file information, tags, collection, etc.  
 
