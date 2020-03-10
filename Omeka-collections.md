@@ -4,7 +4,7 @@
 
 This tutorial was created by Caroline T. Schroeder, licensed [CC-BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Last updated 3 March 2020.
 
-This tutorial lives live online at https://github.com/ctschroeder/tutorials/blob/master/omeka-collections.md
+This tutorial lives live online at https://github.com/ctschroeder/tutorials/blob/master/Omeka-collections.md
 
 The creators of Omeka maintain robust [documentation for Omeka online](https://omeka.org/classic/docs/).  You can also visit an online [showcase of projects using Omeka](https://omeka.org/classic/showcase/).
 
