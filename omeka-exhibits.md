@@ -37,11 +37,19 @@ As a class, we will decide on the final Exhibits. In groups working on your assi
 
 Click on Exhibits > Add Exhibit to create your Exhibit – come up with a good title!
 
-In your Exhibit admin, Add a Page for each person in your group
+Fill out the rest of the boxes.
+
+In your Exhibit admin, add a Page for each person in your group
+
 
 ## 4.	Each person in a team is responsible for one Page in the group’s Exhibit
 
-•	You pick the layout for your Page
+•	You pick the layout for your Page.  You will see several options for Content "Blocks" for your page. You can use as many content blocks as you like in any order.
+   - Select the Layout you want.
+   - Click the large button to "Add New Content Block"
+   - Repeat as necessary
+   - For Blocks with Files, Click on the icon "Add Item" to select the item you want to include there on that page.
+   - For Blocks with text, you will see an interface to type and stylize narrative text.
 
 •	You write the text and add the Items
 
@@ -51,3 +59,8 @@ In your Exhibit admin, Add a Page for each person in your group
 
 Cite the chapter of the original primary source if you reference our common text.
 
+Be sure to save your changes!
+
+## 5. Publish your Pages and Exhibit
+
+When you are ready, Edit your Page and Exhibit. On each be sure the "Public" box is checked so that your Exhibit and Pages are publicly visible.
