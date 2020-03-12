@@ -17,8 +17,11 @@ Keeping in mind what we discussed last time about "Creators", "Publishers", and 
 Now, let's clean up our metadata one last time
 
 •	Description:  This field should contain as much information as possible about the Item being catalogued.  IF YOU TOOK CONTENT WORD-FOR-WORD from the source website of your item, indicate it here.  At the end of the description, put something like “(Description from <Title of source website + link to source website>)” or "(Description from <Source>.)" where <Source> is whatever is in your Source field.
+  
 •	Source (link where appropriate and full information — not just the blog where the pic appeared, but if this is a book or an art object, be sure the original source is credited.  USE TWO input fields if necessary.)
+
 •	Creator (be sure this is the creator of the thing being catalogued, not just the person who uploaded the image to the internet)
+
 •	Tags – are they consistent with the tags we are using course-wide/site-wide?
 
 ## 2. Create Collections
