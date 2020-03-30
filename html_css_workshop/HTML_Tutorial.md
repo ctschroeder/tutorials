@@ -1,14 +1,21 @@
 Build a webpage from scratch with HTML
 ======================================
 
+About this Tutorial
+-------------------
+
+This tutorial is a lightly modified version of [Dr. Miriam Posner's HTML tutorial](https://github.com/miriamposner/html_css_workshop/blob/master/HTML_Tutorial.md). Last modified 30/03/2020 for Dr. Caroline T. Schroeder's 2020 Intro DH class at OU.  It lives online at https://github.com/ctschroeder/tutorials/blob/master/html_css_workshop/HTML_Tutorial.md
+
+About HTML
+----------
+
 HTML is the language that web browsers (like Firefox, Chrome, and
 Safari) understand. It's a markup language, meaning you annotate content
 with it so that the browser treats that content in different ways.
 
 It's not too hard to learn, and it's fun!
 
-Get set up
-----------
+## 1. Get set up
 
 ![](html_tutorial/media/ssimage1.png)
 
@@ -22,17 +29,18 @@ rich-text document. And remember where you saved it!
 **If you're on a PC**, open up **Notebook++** and create a new blank
 document. Save it as **index.html**, and remember where you put it!
 
+**DR. S PRO-TIP:  Save _all the relevant files for your website_ in one folder. Don't put other stuff in that folder. So, have a folder on your computer just for this website/project we are doing now.**
+
 Believe it or not, a plain text editor (like Notebook) and a web browser
 (like Chrome, Safari, or Firefox) are all you need to build even the
 fanciest webpage!
 
-Enter the document declaration and a little bit of text
--------------------------------------------------------
+## 2. Enter the document declaration and a little bit of text
 
 ![](html_tutorial/media/ssimage2.png)
 
-A **document declaration** gives instructions to the web browser (like
-Safari or Firefox) for how to handle the document you've created.
+### 2a. A _document declaration_ gives instructions to the web browser (like Safari or Firefox) for how to handle the document you've created.
+
 Luckily, they're easy to make. Just type **&lt;!DOCTYPE html&gt;** at
 the very top of the document.
 
@@ -41,8 +49,9 @@ to expect HTML in the document that follows. Then skip a few lines and
 close your html tag by typing **&lt;/html&gt;**. (Your browser doesn't
 care about spaces and returns that aren't inside HTML tags.)
 
-It's considered good practice to divide up your webpage into **head**
-and **body** sections. Special instructions for the browser (if you have
+### 2b. It's considered good practice to divide up your webpage into _head_ and _body_ sections. 
+
+Special instructions for the browser (if you have
 any) go in the head section. Content goes in the body section.
 
 To make these sections, press **return** and enter **&lt;head&gt;**.
@@ -52,9 +61,13 @@ Leave a line or two blank and close your head tag by typing
 Now make the **body** section. Below your **&lt;head&gt;** tag, type
 **&lt;body&gt;**. Then skip a few lines and type **&lt;/body&gt;**.
 
+### 2c. Add some text!
+
 Let's put some text in, too, so we have something to look at. Type
 **&lt;p&gt;Welcome to my webpage&lt;/p&gt;** after your opening body tag
 and before the closing body tag. **Save** your document.
+
+### 2d. Test it out -- preview your document in a web browser
 
 Leave your document open and navigate to where you saved the file.
 Double-click the icon. By default, the file should open up in a browser.
@@ -67,7 +80,7 @@ it says something different and **save** the document. Now click
 **Refresh** on your web browser. The text on the webpage should show the
 new text you've saved.
 
-Add a header
+## 3. Add a header
 ------------
 
 ![](html_tutorial/media/ssimage3.png)
@@ -83,8 +96,9 @@ You can also use **&lt;h2&gt;** tags, which are a bit smaller, and
 **&lt;h5&gt;** tags. Experiment with different-sized headers, saving and
 refreshing as you go.
 
-How links work
---------------
+## 4. Links!
+
+### 4a. How links work
 
 ![](html_tutorial/media/ssimage4.png)
 
@@ -96,8 +110,7 @@ In the example above, **www.google.com** is the URL to which you want to
 link and **text of your link** is the text that actually appears as a
 hyperlink.
 
-Create a link on your page
---------------------------
+### 4b. Create a link on your page
 
 ![](html_tutorial/media/ssimage5.png)
 
@@ -105,30 +118,26 @@ Try it yourself by creating a new paragraph (using the opening and
 closing &lt;p&gt; tags) and creating a link in your new paragraph. Save
 your document, refresh your browser and test your link!
 
-How images work
----------------
+## 5. Images!
+
+### 5a. How images work
 
 ![](html_tutorial/media/ssimage6.png)
 
-You can link to an image in one of two ways. If there's an image out
-there on the Web that you'd like to embed on your page, you can grab the
-link to the image by right-clicking on the image and clicking **Copy
-Image URL**. Then you can embed the image by pasting the link, as above.
+You can link to an image in one of two ways. 
 
-If you have an image on your computer that you'd like to use, you can
-save it **at the same place where your html file is saved** and link
-directly to it by entering the file name, as above.
+ - If there's an image out there on the Web that you'd like to embed on your page, you can grab the link to the image by right-clicking on the image and clicking **Copy Image URL**. Then you can embed the image by pasting the link, as above.
 
-Add an image
-------------
+ - If you have an image on your computer that you'd like to use, you can save it **at the same place where your html file is saved** and link directly to it by entering the file name, as above.
+
+### 5b. Add an image
 
 ![](html_tutorial/media/ssimage7.png)
 
 Add an image to your webpage using one of the two methods from the
 previous step.
 
-Add some emphasis
------------------
+## 6. Add some emphasis
 
 ![](html_tutorial/media/ssimage8.png)
 
@@ -141,8 +150,7 @@ browser will italicize the text inside this tag) and **&lt;strong&gt;**
 Create more text and experiment with emphasis and headers. Just remember
 to always close those tags!
 
-But wait! No one can see your page!
------------------------------------
+## 7. But wait! No one can see your page!
 
 ![](html_tutorial/media/ssimage9.png)
 
@@ -153,6 +161,4 @@ computer. No one else can see your webpage at the moment.
 
 In order for other people to see your file, it has to be **hosted on a
 server**, meaning moved to a special computer whose job is to broadcast
-files to the internet. You don't have a server yet, but you will on
-Friday. Francesca will show you how to purchase server space and move
-your file to a server.
+files to the internet. 
