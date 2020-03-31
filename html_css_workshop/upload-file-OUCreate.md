@@ -1,5 +1,7 @@
 # Tutorial on Uploading your files to your server space at OU
 
+This tutorial was created on 30-March-2020 for Caroline T. Schroeder's Intro to DH course at OU.
+
 ## About files and servers
 
 For people to be able to see your files, such as your HTML files you created in [the HTML tutorial](https://github.com/ctschroeder/tutorials/blob/master/html_css_workshop/HTML_Tutorial.md), you need to put them on a server on the web. Fortunately, you have access to server space through the OU Create program. This tutorial will show you how to create a subdomain and put your files in a public folder for the world to see.
