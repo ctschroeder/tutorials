@@ -1,4 +1,4 @@
-# Tutorial on Uploading your files to your server space at OU
+# Tutorial on Creating a Subdomain and Uploading Files to Your Server Space at OU
 
 This tutorial was created on 30-March-2020 for Caroline T. Schroeder's Intro to DH course at OU.  It lives on the web at  https://github.com/ctschroeder/tutorials/blob/master/html_css_workshop/upload-file-OUCreate.md.  It's licensed [CC-BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/).
 
