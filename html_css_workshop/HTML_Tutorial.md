@@ -162,3 +162,5 @@ computer. No one else can see your webpage at the moment.
 In order for other people to see your file, it has to be **hosted on a
 server**, meaning moved to a special computer whose job is to broadcast
 files to the internet. 
+
+Do the next tutorial, on [Creating a Subdomain and Uploading Files to the Server](https://github.com/ctschroeder/tutorials/blob/master/html_css_workshop/upload-file-OUCreate.md)!
