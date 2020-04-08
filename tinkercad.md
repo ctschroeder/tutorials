@@ -29,13 +29,14 @@ It took me 15 minutes to do the tutorial through to the keychain. 25 for that an
 **Notes (Read these first):**
   - You can "undo" anything you mess up by clicking the left arrow in the top menu bar. You also can "undo" using the normal "undo" key combos on your computer (on a Mac it's usually command+z).
   
-  image
+  ![](images/tinkercad-upper-left.png)
+
   
   - On the "Place Your Letters" section of the Key Ring tutorial, I couldn't change the snap grid setting--don't worry about it.
  
-  - The top right menu bar has the group, ungroup, align, and mirror buttons. 
+  - The top right menu bar has the group, ungroup, align, and mirror buttons. "Group" is the seamless square + circle; "ungroup" is to the right of "group" and looks like a circle on top of the square
   
-  image
+    ![](images/tinkercad-upper-right.png)
   
 When you finish the "Die on the Workplane" tutorial, the website takes you to a project page with lots of tutorials. You can do more or start in on your own project.
 
@@ -72,7 +73,7 @@ You can use the LEFT, RIGHT arrows to move a shape l,r.
 
 If you need to move your shape  UP or DOWN click on the little black arrow on top of your shape to lift it up or down.
 
-image7
+![](images/7-tinkercad-up-down.png)
 
 ----
 
@@ -80,19 +81,19 @@ Below I'll show some steps for moving around and placing a shape on a shape.
 
 Here I've got part of my bunny created.  I want to add a mustache, so I toggled the menu from Basic Shapes to Character, and I dropped the mustache on my plane. I used the black arrow to move it UP.  Now I need to move it right to get it to my bunny.
 
-image 8
+![](images/8-addedmustache-rightarrow.png)
 
 -----
 
 Here I've clicked on the mustache to select it and then used the right arrow on my keyboard to get it over but it's still too high!  I will next click on the black triangle, hold, and drag the mustache down
 
-image9
+![](images/9-tinkercad-needblacktriangle-mustachedown.png)
 
 -----
 
 Hey, it looks pretty good here, right?
 
-image 10
+![](images/10-tinkercad-hmmm-mustachelooksok.png)
 
 
 -----
@@ -101,7 +102,7 @@ Uh oh.
 
 I rotated that cube in the upper left to rotate my view, and I can see my mustache isn't really on my bunny. 
 
-11 image
+![](images/11-tinkercad-use-left-for-mustache.png)
 
 Now I'll click on the mustache and use the left arrow on my keyboard to move it left until it's on my bunny.
 
@@ -111,7 +112,9 @@ After I put the mustache on the bunny, I've rotated the cube again to get the fr
 
 TADA the bunny looks good. 
 
-image 12
+![](images/12-tinkercad-tada-needtogroup.png)
+
+-----
 
 Now I will group the remaining shapes (eyes + mustache + head).
 
@@ -119,6 +122,9 @@ Now I will group the remaining shapes (eyes + mustache + head).
   - Then I'll click the "group" button on the top right menu bar (looks like square and circle seamlessley joined). ("Ungroup" is to the right -- the circle on top of the square.)
   
 Now my model is ready!
+
+![](images/13-tinkercad-bunny.png)
+
 
 ## 6. Name your model
 
