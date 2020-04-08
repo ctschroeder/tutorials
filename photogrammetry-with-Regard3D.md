@@ -24,7 +24,7 @@ We will be doing the tutorial in 4.1.3.
 ### Download:
   - [The Regard3D application](http://www.regard3d.org/). Either go to the homepage, click download in the top menu, and click the link provided, or go directly to this [Regard3D Downloads page](https://sourceforge.net/projects/regard3d/files/latest/download). (The download should begin automatically from the downloads page.)
   - [Sceaux Castle images](http://sourceforge.net/projects/regard3d/files/Demo/OpenMVG/SceauxCastle.zip/download) (it should automatically begin downloading a zip file.)
-  - This [annotated pdf of the Regard3D Tutorial]() I created just for this class.  The [original Regard3D Tutorial lives online here](http://www.regard3d.org/index.php/documentation/tutorial).
+  - This [annotated pdf of the Regard3D Tutorial](https://github.com/ctschroeder/tutorials/blob/master/other-files/Regard3D-tutorial-annotated.pdf) I created just for this class.  The [original Regard3D Tutorial lives online here](http://www.regard3d.org/index.php/documentation/tutorial).
 
 ### Unzip and Install
 
