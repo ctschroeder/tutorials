@@ -2,7 +2,7 @@
 
 ## About this Tutorial
 
-Created by Caroline T. Schroeder for Intro to DH at OU, Spring 2020. This tutorial lives online at 
+Created by Caroline T. Schroeder for Intro to DH at OU, Spring 2020. This tutorial lives online at https://github.com/ctschroeder/tutorials/blob/master/photogrammetry-with-Regard3D.md.
 
 This tutorial is licensed [CC-BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). It links to and relies on other tutorial materials on the web, which may not be covered by the same license.
 
