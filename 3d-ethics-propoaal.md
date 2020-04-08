@@ -4,7 +4,7 @@
 
 This tutorial is created primarily from materials provided by Dr. Susanne Garrett, CLIR postdoctoral fellow at the University of Oklahoma Libraries.
 
-This tutorial lives online at 
+This tutorial lives online at https://github.com/ctschroeder/tutorials/blob/master/3d-ethics-propoaal.md
 
 This tutorial is licensed [CC-BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)
 
