@@ -4,6 +4,8 @@
 
 Created by Caroline T. Schroeder for Intro to DH at OU, Spring 2020. This tutorial lives online at https://github.com/ctschroeder/tutorials/blob/master/tinkercad.md
 
+This tutorial is licensed [CC-BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)
+
 For this tutorial you will need consistent wifi access.
 
 ## About 3D Modeling
