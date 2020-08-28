@@ -6,7 +6,7 @@ This tutorial was created by Caroline T. Schroeder using some content from the s
 
 This tutorial lives live online at https://github.com/ctschroeder/tutorials/blob/master/basic-wp-setup.md
 
-** OU maintains a robust set of [support documents](https://create.ou.edu/docs/) including a LONG tutorial for [setting up your WordPress site](https://create.ou.edu/docs/web-apps/wordpress/). 
+**OU maintains a robust set of [support documents](https://create.ou.edu/docs/) including a LONG tutorial for [setting up your WordPress site](https://create.ou.edu/docs/web-apps/wordpress/).**
 
 This tutorial focuses on the BARE MINIMUM you need to do to set up a basic WordPress site for **my course**, before adding a lot of content.
 
