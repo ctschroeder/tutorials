@@ -35,7 +35,7 @@ At least ONE archive must be something new -- not something on the syllabus for 
 
 You can add a web link to digital archive, a photograph of a physical archive, or just enter a physical or fictional archive without a link or photo.
 
-##2. Watch the videos
+## 2. Watch the videos
 
 If you've never used Omeka, [watch this Introduction to Omeka](https://www.youtube.com/watch?v=tii2aL7cMBE) created by the Duke University Wired! Lab. **It's only 5 minutes: watch it!**
 
@@ -165,7 +165,7 @@ This is where you upload a file if you are providing a file.  (You do not need a
 
 ### Click the big ADD ITEM button
 
-### 5. Review your item
+## 5. Review your item
 
  * Click on Items in the left menu bar.
  
@@ -181,7 +181,7 @@ This is where you upload a file if you are providing a file.  (You do not need a
    
  * Go back to the item page and click Edit if you need to fix anything
  
- ## 6. Go back and redo Steps 4-5 for your second archive
+ ## 6. Go back and [redo Steps 4-5](https://github.com/ctschroeder/tutorials/blob/master/add-omeka-items.md#4-add-your-items-to-our-omeka-site) for your each additional Item.
  
  ## 7. Go to the public site and look for your Items
  
@@ -197,6 +197,6 @@ This is where you upload a file if you are providing a file.  (You do not need a
      
      * No? Edit them and be sure you 1) clicked the Public button so everyone can see your Items, and 2) selected a Collection. Be sure to Save!!
      
-   * Go back to "Browse Collections" on the public page. You should see your items now!
+   * Go back to "Browse Collections" on the public page. You should see your items in their Collections now!
      
 
