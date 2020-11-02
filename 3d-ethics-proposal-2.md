@@ -23,7 +23,7 @@ In this tutorial, you'll select an object for scanning and explain why it should
 Find an object in a museum that you want to scan.
 
   - If you've been to a museum recently and know something right away, go ahead and pick that.  Find the museum's website online and see if you can find an official link to the object.  Make a note of that link!
-  - You can also go to the [Sam Noble Museum website]() and click on Permanent Exhibits or Collections. Browse around to find an object. 
+  - You can also go to the [Sam Noble Museum website](https://samnoblemuseum.ou.edu/) and click on Permanent Exhibits or Collections. Browse around to find an object. 
   
 Make a note of the link to the ojbect or it's image on the museum site!  Bookmark it or copy and paste it into a text file for future use.
 
