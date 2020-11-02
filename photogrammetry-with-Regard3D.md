@@ -2,7 +2,7 @@
 
 ## About this Tutorial
 
-Created by Caroline T. Schroeder for Intro to DH at OU, Spring 2020. This tutorial lives online at https://github.com/ctschroeder/tutorials/blob/master/photogrammetry-with-Regard3D.md.
+Created by Caroline T. Schroeder, originally for Intro to DH at OU, Spring 2020 and revised for subsequent courses. This tutorial lives online at https://github.com/ctschroeder/tutorials/blob/master/photogrammetry-with-Regard3D.md.
 
 This tutorial is licensed [CC-BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). It links to and relies on other tutorial materials on the web, which may not be covered by the same license.
 
@@ -24,7 +24,7 @@ We will be doing the tutorial in 4.1.3.
 ### Download:
   - [The Regard3D application](http://www.regard3d.org/). Either go to the homepage, click download in the top menu, and click the link provided, or go directly to this [Regard3D Downloads page](https://sourceforge.net/projects/regard3d/files/latest/download). (The download should begin automatically from the downloads page.)
   - [Sceaux Castle images](http://sourceforge.net/projects/regard3d/files/Demo/OpenMVG/SceauxCastle.zip/download) (it should automatically begin downloading a zip file.)
-  - This [annotated pdf of the Regard3D Tutorial](https://github.com/ctschroeder/tutorials/blob/master/other-files/Regard3D-tutorial-annotated.pdf) I created just for this class.  The [original Regard3D Tutorial lives online here](http://www.regard3d.org/index.php/documentation/tutorial).
+  - This [annotated pdf of the Regard3D Tutorial](https://github.com/ctschroeder/tutorials/blob/master/other-files/Regard3D-tutorial-annotated.pdf) I created for another class.  The [original Regard3D Tutorial lives online here](http://www.regard3d.org/index.php/documentation/tutorial).
 
 ### Unzip and Install
 
@@ -40,17 +40,15 @@ Open the Annotated pdf of the tutorial.  My comments are in BLUE BOXES.  I've al
 
 ## 3. Export your Model
 
-Take a screen shot of your model!
+First, take a screen shot of your model. (On a Mac, press shift + command + 4 and select the area you want to shoot; on a [Windows machine do this](https://www.cnet.com/how-to/7-ways-you-can-take-screenshots-in-windows-10/)
 
-Look at the Summary section of the Tutorial.  It tells you to select your model in the "project tree" on the left and click on "Export point cloud/Export surface." Do this twice -- export as an OBJ file.
+Second, we're going to export the full 3d model.  Look at the Summary section of the Tutorial.  It tells you to select your model in the "project tree" on the left and click on "Export point cloud/Export surface." Do this twice -- export as an OBJ file.
 
 ## 4. Share your Model
 
-There are lots of websites where you can share 3D models.  For this course, you'll post it on the student blog.
+There are lots of websites where you can share 3D models.  For this course, you'll post it on the student blog or your own personal website. We cannot upload an OBJ file to the blog.  You can upload it to Canvas if you'd like.
 
-We cannot upload an OBJ file to the blog.  You can upload it to Canvas if you'd like.
-
-On the student blog, please post:
+On the student blog or your website, please post:
   - A screenshot of the scanned ojbect and brief description of the object
   - Citation/links to the tutorial and software used
   - anything else you want to add about your experience of the process
