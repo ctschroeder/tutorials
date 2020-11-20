@@ -2,7 +2,7 @@
 
 In this tutorial, you will learn how to archive Tweets from Twitter on a particular keyword or hashtag using [Martin Hawksey's TAGS tool](https://tags.hawksey.info/).
 
-This tutorial lives online at 
+This tutorial lives online at https://github.com/ctschroeder/tutorials/blob/master/TAGS-tutorial.md
 
 This tutorial is licensed [CC-BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)
 
