@@ -96,4 +96,6 @@ Follow the instructions to create and verify your account.
 
 17. Turn in your report by posting the URL to the Canvas Assignment.
 
+18. For reference you can see [my example photograph](https://commons.wikimedia.org/wiki/File:Red_Monastery_Sohag_Egypt_Sanctuary_North_apse.jpg) and [the WP entry where I added the photograph](https://en.wikipedia.org/wiki/Red_Monastery)
+
 
