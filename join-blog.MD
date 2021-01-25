@@ -20,11 +20,11 @@ I will delete the blog entirely after the semester ends.
 
 1. Check your OU email inbox for an invitation from WORDPRESS to the private course blog.  If you don’t see it, look in your junk/spam folder.
 
-1. Click on the FIRST link to register and change your password. **NOTE: IF YOU DON’T SEE THE EMAIL go to https://chdata20-blog.carrieschroeder.net/ and click “forgot your password?”. Then enter your OU email address.  Check your email (including spam/junk).**  IF YOU STILL can’t log in come to my Zoom office hours.  (If the scheduled times don’t work, please email me with times that work for you, and we will meet another time!)
+1. Click on the FIRST link to register and change your password. **NOTE: IF YOU DON’T SEE THE EMAIL go to the link for the blog on your course page and click “forgot your password?”. Then enter your OU email address.  Check your email (including spam/junk).**  IF YOU STILL can’t log in come to my Zoom office hours.  (If the scheduled times don’t work, please email me with times that work for you, and we will meet another time!)
 
 ### Update your username and avatar ###
 
-3. Once you are LOGGED IN look in the upper left. Hover over “PRIVATE Blog for Cultural Heritage Data… “  “Dashboard” should appear in a dropdown menu. Click on Dashboard.
+3. Once you are LOGGED IN look in the upper left. Hover over “PRIVATE Blog for [class name]… “  “Dashboard” should appear in a dropdown menu. Click on Dashboard.
 
 ![Image of screen](https://github.com/ctschroeder/tutorials/blob/master/images/wordpress-dashboard.png)
 
@@ -50,7 +50,7 @@ Go to Avatar, not Profile Picture!
 
 Click "Choose image" and upload a profile picture. This picture will appear alongside your name on the blog. Please pick one that you will be happy with for the semester (or at least for the first several weeks, so we can get to know you.) 
 
-You do not need to show us your face if you don't want to (but you're welcome to!). Just be sure to pick something that you feel represents you well and [doesn't violate our course principles](https://chdata20.carrieschroeder.net/our-community/).
+You do not need to show us your face if you don't want to (but you're welcome to!). Just be sure to pick something that you feel represents you well and doesn't violate our course principles.
 
 7. Click the blue “Update Profile” button.
 
