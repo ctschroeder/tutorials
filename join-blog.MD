@@ -4,7 +4,7 @@
 
 This is a tutorial created by [Prof. Caroline T. Schroeder](http://www.carrieschroeder.com) of the University of Oklahoma. 
 
-It was last updated 22 August 2020; previous versions are in the commit history here on GitHub.
+It was last updated 25 January 2021; previous versions are in the commit history here on GitHub.
 
 This tutorial is licensed under a [Creative Commons 4.0 Attribution-Noncommercial (CC BY-NC) license](https://creativecommons.org/licenses/by-nc/4.0/).
 
