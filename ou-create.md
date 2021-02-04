@@ -47,7 +47,7 @@ If you know web programming, you can use whatever system you like.  If you don�
 2.	You should see a panel with a lot of applications.  When you get to that panel, click on WordPress, and then click on “Install this application” 
 
 3.	You should get to a window with the Installatron install wizard:
-If you are using WordPress for your main website:  **make sure the DOMAIN is your website, and DIRECTORY is BLANK. You may need to delete “blog” from DIRECTORY.**
+If you are using WordPress for your main website:  **make sure the DOMAIN is your website using https not http, and DIRECTORY is BLANK. You may need to delete “blog” from DIRECTORY.**
  
 ![Installatron](https://github.com/ctschroeder/tutorials/blob/master/images/installatron.png)
  
@@ -68,7 +68,7 @@ On the same page, scroll down to SETTINGS.
 5. Make sure everything on this page is as you like it and click INSTALL.
 
 6. You will get to a page that tells you the web address of your website and the web address to administer it.  
-This should look like http://whateveryoupickedforyourdomainname and http://whateveryoupickedforyourdomainname/wp-admin 
+This should look like https://whateveryoupickedforyourdomainname and https://whateveryoupickedforyourdomainname/wp-admin 
 
 7. BOOKMARK these pages. 
 
