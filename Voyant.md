@@ -1,6 +1,6 @@
 # Voyant Tools for Text Analysis: Tutorial
 
-Last modified January 2020 for Intro to DH, Spring 2020, the University of Oklahoma.
+Last modified February 2021 for Intro to DH, Spring 2021, the University of Oklahoma.
 Originally Created for Intro to DH, Fall 2017, RELI/ENGL 39 at the University of the Pacific.
 
 A live version (with images, live links) lives at https://github.com/ctschroeder/tutorials/blob/master/Voyant.md
@@ -30,7 +30,7 @@ There are three main ways of selecting a corpus in Voyant Tools:
 This tutorial uses process #1 & #3.  (So we will use TWO different corpora.)  Try out #2 on your own!
 
 ### Step 1:
-* Download [a test corpus on to your computer](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/ctschroeder/tutorials/tree/master/teaching-corpora/martyrdoms/texts)
+* Download a test corpus on to your computer (see official course page for links or visit [Alan Liu's list of plain-text collections](http://dhresourcesforprojectbuilding.pbworks.com/w/page/69244469/Data%20Collections%20and%20Datasets#demo-corpora)
 * Remember where you put it or the file name so you can find it again.
 
 ### Step 2: Upload your corpus to Voyant via one of the following methods
