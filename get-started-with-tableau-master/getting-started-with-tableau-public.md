@@ -60,7 +60,7 @@ We want Tableau to create a chart that visualizes the number of grants awarded p
 
 Luckily, Tableau has done this for us. Scroll to the bottom of the Data column, and look at the measure types that are in italics. You'll see that they contain the word **generated** next to them in parentheses. This means that these are numbers that Tableau has calculated for you.
 
-You'll notice a measure called **Number of Records**. Since each record corresponds to a grant, that's the one we want. Click on this measure and drag it to the table on your canvas. Drop it in the second column of the table, where the values are currently represented as "Abc."
+You'll notice a measure called **Number of Records** or **Iowa_Arts_Council_Grants.csv(count)**. Since each record corresponds to a grant, and we want to count the number of grants, that's the one we want. Click on this measure and drag it to the table on your canvas. Drop it in the second column of the table, where the values are currently represented as "Abc."
 
 ![][5]
 
