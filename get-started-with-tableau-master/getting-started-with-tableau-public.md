@@ -149,6 +149,10 @@ Tableau has automatically geocoded our geographic dimensions. You can tell becau
 
 Now that you've done a map, let's add a measure to it. Drag **Number of Records** into the main canvas area, on top of your map.
 
+```diff
+- In newer versions of Tableau this field may be titled "Iowa_Arts_Council_Grants.csv (Count)" instead of "Number of Records"
+```
+
 ![][12]
 
 [12]: images/getting-started-with-tableau-public/you-have-a-map-.png
@@ -215,7 +219,7 @@ Now drag "Longitude" up to "Columns".
 
 You should see a map with lots of coordinates!
 
-Now drag "Number of Records" up to the "Marks" panel.  Click on the little dots next to the colored oval there and select "Size".  What happens?
+Now drag "Number of Records" up to the "Marks" panel.  **NEWER version may label this field cushman-collection-lat-long-disagg.csv(Count) instead of "Number of Records".** Click on the little dots next to the colored oval there and select "Size".  What happens?
 
 Click on Sheet 1 above your map to give your map a good title.
 
