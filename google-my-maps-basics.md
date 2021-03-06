@@ -4,7 +4,7 @@ This tutorial will show you how to upload a spreadsheet (or other structured dat
 
 It works best in the CHROME browser.
 
-Created for the University of Oklahoma's Introduction to Digital Humanities course. It lives online at https://github.com/ctschroeder/tutorials/blob/master/google-my-maps-basics.md . Last updated 3/7/2021.
+Created for the University of Oklahoma's Introduction to Digital Humanities course. It lives online at https://github.com/ctschroeder/tutorials/blob/master/google-my-maps-basics.md. Licensed [CC-BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/).  Last updated 3/7/2021.
 
 ## 1. Upload Your Data
 
