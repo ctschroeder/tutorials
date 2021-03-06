@@ -4,6 +4,8 @@ This tutorial will show you how to upload a spreadsheet (or other structured dat
 
 It works best in the CHROME browser.
 
+Created for the University of Oklahoma's Introduction to Digital Humanities course. It lives online at https://github.com/ctschroeder/tutorials/blob/master/google-my-maps-basics.md . Last updated 3/7/2021.
+
 ## 1. Upload Your Data
 
 For this tutorial, use will use the same [Cushman Collection dataset about photographs at Indiana University](https://www.dropbox.com/s/38yz4c64b7wb1w7/cushman-collection-lat-long-disagg.csv?dl=0) we used for Tableau.  Download the file as a csv.
@@ -42,7 +44,7 @@ What happens to your map?
 
 ### 3b. Change the color or style for different groups of entries
 
-Click on "Uniform Style" again. 
+Directly underneath your filename in the upper left box we are working in, you should see something that says something-something "Style"; mine says "Uniform Style". Hover over it with your cursor and you'll see a pop-up that says you can "Customize the appearance" of features on your map.  Click on it.
 
 This time use the "Group Places By" option. Click on that and set it to "genre_1". What happens?
 
