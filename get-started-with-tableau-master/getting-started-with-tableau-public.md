@@ -2,7 +2,7 @@
 
 ## About this Tutorial: Dr. S
 
-This tutorial is a modification of Dr. Miriam Posner's "Getting Started with Tableau" tutorial. Last modified 2/24/2021. It lives live at https://github.com/ctschroeder/tutorials/blob/master/get-started-with-tableau-master/getting-started-with-tableau-public.md.
+This tutorial is a modification of Dr. Miriam Posner's "Getting Started with Tableau" tutorial. Last modified 3/7/2021. It lives live at https://github.com/ctschroeder/tutorials/blob/master/get-started-with-tableau-master/getting-started-with-tableau-public.md.
 
 ## About this Tutorial: Dr. Posner
 
@@ -147,11 +147,7 @@ Tableau has automatically geocoded our geographic dimensions. You can tell becau
 
 ## 12. You have a map!
 
-Now that you've done a map, let's add a measure to it. Drag **Number of Records** into the main canvas area, on top of your map.
-
-```diff
-- In newer versions of Tableau this field may be titled "Iowa_Arts_Council_Grants.csv (Count)" instead of "Number of Records"
-```
+Now that you've done a map, let's add a measure to it. Drag **"Iowa_Arts_Council_Grants.csv (Count)"** into the main canvas area, on top of your map. This field ("Iowa_Arts_Council_Grants.csv (Count)") is the number of records in your spreadsheet or table. In previous versions of Tableau it was called **Number of Records**.
 
 ![][12]
 
