@@ -25,7 +25,7 @@ Many of the sites you visited in class used Omeka!
 The creators of Omeka maintain robust [documentation for Omeka online](https://omeka.org/classic/docs/).  You can also visit an online [showcase of projects using Omeka](https://omeka.org/classic/showcase/).
 
 
-## 1. Find at least TWO archives to add to our archive of archives
+## 1. Find at least THREE items to add to our online archive & exhibit
 
 In class we all read a text that will be the basis of our Omeka exhibit(s). (For 2021, the Martyrdoms of Perpetua and Felicitas).
 
