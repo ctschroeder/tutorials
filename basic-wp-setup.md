@@ -12,7 +12,7 @@ This tutorial focuses on the BARE MINIMUM you need to do to set up a basic WordP
 
 ### 1. The WordPress Dashboard
 
-The Dashboard is where you give WordPress all of its instructions on how to display your site.  You should be familiar with it, because you probably have already used it in a Private Student Blog or Discussion Site in the course already.
+The Dashboard is where you give WordPress all of its instructions on how to display your site.  You may be familiar with it if you have already used it in a Private Student Blog or Discussion Site in a course.
 
 To get to your dashboard, you go to your domain with /wp-admin/ tacked on to the end.  So if your OU Create (sub)domain is imsocool.oucreate.com, you would go to https://imsocool.oucreate.com/wp-admin/
 
