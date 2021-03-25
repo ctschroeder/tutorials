@@ -26,13 +26,13 @@ When you change the Blog title and tag line, they will show up at the top of you
 
 The look and layout of your WordPress site is determined by the Theme.  There are a MILLION themes for WordPress. The OU Create documentation page about [setting up your WordPress site](https://create.ou.edu/docs/web-apps/wordpress/) has a section on WordPress Themes with pictures!!!
 
-When you install WordPress, the default (or pre-set) theme is called [Twenty Twenty](https://wordpress.org/support/article/twenty-twenty/) (as of WordPress version 5.3). It is a very customizable theme. You can easily modify the colors of the different fonts and backgrounds used in the theme and even choose between different templates for each page.
+When you install WordPress, the default (or pre-set) theme is called [Twenty Twenty-One](https://wordpress.org/themes/twentytwentyone/) (as of Spring 2021). It is a very customizable theme. You can easily modify the colors of the different fonts and backgrounds used in the theme.
 
 To pick a different theme and activate a theme go to Appearance > Themes in your dashboard.  You will see thumbnail images representing each of the themes that you currently have available on your site. Simply mouse over any one of them, and click the Activate link.
 
-**Note: You don't have to install a new theme immediately. If you're new to this it's perfectly ok to stick with the Twenty Twenty Theme!!! If you want to keep Twenty Twenty, skip to Step 4 below.**
+**Note: You don't have to install a new theme immediately. If you're new to this it's perfectly ok to stick with the Twenty Twenty-One Theme!!! If you want to keep Twenty Twenty-One, skip to Step 4 below.**
 
-If you don't like the themes you see, you can install a new one. (Our course site uses the theme Gutenix.)
+If you don't like the themes you see, you can install a new one. (Some of my course sites use the theme Gutenix.)
 
 - Navigate to Appearance > Themes. 
 - Click the Add New Button
@@ -64,7 +64,7 @@ Go to Appearance > Customize on the lefthand dashboard menu. *Each theme has dif
 
 - Under Homepage Settings, select either a Static Page or Page of Posts for your home page. (See discussion in #4 about this choice.) If you chose Static Page, you'll be prompted to pick a specific page.
 
-- Pick colors, header image or format (may not be in Twenty Twenty theme), font, etc.  **You can get lost in all these options; if you're new to this, you can stay basic until you're more familiar!**
+- Pick colors, header image or format (options depend on your theme), font, etc.  **You can get lost in all these options; if you're new to this, you can stay basic until you're more familiar!**
 
 Be sure to click "Publish" at the top when you're done to publish your site!!!
 
