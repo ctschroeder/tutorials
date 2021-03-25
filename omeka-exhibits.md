@@ -2,7 +2,7 @@
 
 ## About this tutorial
 
-This tutorial was created by Caroline T. Schroeder, licensed [CC-BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Last updated 3 March 2020.
+This tutorial was created by Caroline T. Schroeder, licensed [CC-BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Last updated 24 March 2021.
 
 This tutorial lives live online at https://github.com/ctschroeder/tutorials/blob/master/omeka-exhibits.md
 
@@ -53,11 +53,13 @@ In your Exhibit admin, add a Page for each person in your group
 
 •	You write the text and add the Items
 
-•	In the text: explain the questions that led you to create this page, why you chose these Items, and how they illustrate your theme and the Acts of Paul and Thecla.
+•	In the text: explain the topic/questions that led you to create this page and how the itmes illustrate your theme and the Martyrdom of Perpetua and Felicitas.
 
-•	If you do conduct research, you must cite and link to the source.  No matter what:  if you take material word for word from somewhere else, you must put those words in quotation marks and give the source.  If you take ideas and/or information from somewhere else (but not word-for-word) you need a citation.
+•	You must cite and link to source(s) you use.  No matter what:  if you take material word for word from somewhere else, you must put those words in quotation marks and give the source.  If you take ideas and/or information from somewhere else (but not word-for-word) you need a citation.  Cite the chapter of the original primary source if you reference our common text.
 
-Cite the chapter of the original primary source if you reference our common text.
+•	Have at least one image on your page
+
+•	Make a substantive reference to BOTH the original text AND the secondary source by Cohick & Hughes and cite appropriately
 
 Be sure to save your changes!
 
