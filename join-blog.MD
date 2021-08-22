@@ -38,15 +38,13 @@ I will delete the blog entirely after the semester ends.
 - Last name
 - Nickname
 - Display name publicly as ( this is the name that will appear on your posts to the class)
-- Biographical info (may be short and sweet)
+- Biographical info (may be blank or short and sweet)
 
 ![Image of screen](https://github.com/ctschroeder/tutorials/blob/master/images/wp-profile-edit-1.png)
 
-![Image of screen](https://github.com/ctschroeder/tutorials/blob/master/images/wp-profile-edit2.png)
+![Image of screen](https://github.com/ctschroeder/tutorials/blob/master/images/wp-profile-edit3.png)
 
-6. Under Avatar choose your Image
-
-Go to Avatar, not Profile Picture!
+6. Under Profile Picture choose your Image
 
 Click "Choose image" and upload a profile picture. This picture will appear alongside your name on the blog. Please pick one that you will be happy with for the semester (or at least for the first several weeks, so we can get to know you.) 
 
