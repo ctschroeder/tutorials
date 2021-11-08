@@ -85,7 +85,7 @@ How does your plans for who has access guide your decisions about where to store
 
 ## 6. Watch or Review the Photogrammetry Video
 
-Watch or Review the [Photogrammetry Video posted to Canvas](https://canvas.ou.edu/courses/189099/files/folder/Photogrammetry?preview=30280871). There's also an [automated transcript you can read](https://canvas.ou.edu/files/30280873/download?download_frd=1) or you can [listen to the audio (mp3)](https://canvas.ou.edu/courses/189099/files/folder/Photogrammetry?preview=30280872). Video is the best because they show things that will be useful.
+Watch or Review the [Photogrammetry Video posted to Canvas](https://canvas.ou.edu/courses/218120/files/folder/Photogrammetry?preview=38181236). There's also an [automated transcript you can read](https://canvas.ou.edu/courses/218120/files/folder/Photogrammetry?preview=38181237) or you can [listen to the audio (mp3)](https://canvas.ou.edu/courses/218120/files/folder/Photogrammetry?preview=38181238). Video is the best because they show things that will be useful.
 
 ## 6. Complete the Rest of the Activity
 
