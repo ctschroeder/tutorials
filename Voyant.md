@@ -1,6 +1,6 @@
 # Voyant Tools for Text Analysis: Tutorial
 
-Last modified February 2021 for Intro to DH, Spring 2021, the University of Oklahoma.
+Last modified January 2022 for Intro to DH, Spring 2022, the University of Oklahoma.
 Originally Created for Intro to DH, Fall 2017, RELI/ENGL 39 at the University of the Pacific.
 
 A live version (with images, live links) lives at https://github.com/ctschroeder/tutorials/blob/master/Voyant.md
@@ -32,6 +32,7 @@ This tutorial uses process #1 & #3.  (So we will use TWO different corpora.)  Tr
 ### Step 1:
 * Download a test corpus on to your computer (see official course page for links or visit [Alan Liu's list of plain-text collections](http://dhresourcesforprojectbuilding.pbworks.com/w/page/69244469/Data%20Collections%20and%20Datasets#demo-corpora)
 * Remember where you put it or the file name so you can find it again.
+* **I strongly recommend you create a folder on your computer for all your work in this class and download relevant data files there**
 
 ### Step 2: Upload your corpus to Voyant via one of the following methods
 * Navigate to http://voyant-tools.org/
@@ -97,7 +98,7 @@ The count tells you the number of times each term appears in the corpus.
 * Click on Links. Now you'll see a network of terms that appear near each other.  [More information here](http://voyant-tools.org/docs/#!/guide/collocatesgraph)
 
 ### Step 6: Check the time.
-* If we are almost out of time, skip down to Step 8 to bookmark your corpus and do Steps 8-11.  You can finish Steps 7 & 12 at home on your own.
+* If we are almost out of time, skip down to Step 8 to bookmark your corpus and do Steps 8-11.  You can finish Steps 7 through 12 at home on your own.
 
 ### Step 7: Play around with the other tools in Voyant
 * Search for terms in "Trends".  Where in the corpus do certain words trend? Are there words that appear all the way across a corpus? What does this tell you, if anything? 
@@ -156,15 +157,15 @@ Sometimes you might want a LIVE version of your visualization, so people can cli
 * Click export for the snippet to appear
 * Select and copy the snippet. (command-a to select all, command-c to copy)
 * For HTML pages: cut and paste into your HTML page. (If you don't know what this is, don't worry -- you don't need to)
-* For a blog post: start a new blog post on your Wordpress blog
-* Click on the Text tab (**This is very important**. The code won't work if you are in the Visual tab.)
-* Paste the snippet into your post. (command-v to paste)
-* Adjust the height or width if you'd like by changing the 800px (=800 pixels) height to another number or the 100% width to another percentage of your screen
+* For a blog post: start a new blog post on *the private class Wordpress blog*
+  * Select the HTML block for the blog (not paragraph, not bullets, not image but HTML)
+  * Paste the snippet into your post (command-v to paste)
+* Adjust the height or width if you'd like by changing the pixels (800px =800 pixels) to another number or the 100% width to another percentage of your screen
 
 ### Step 11: Document your visualization and corpus
 
 * In your blog post, website, or separate text/wordprocessor file where you are keeping your notes: document what your corpus is and where you got it from
-* You should also document the tool if you are including visualizations/information based on the tool.  
+* You should also document the tool if you are including visualizations/information based on the tool and the tutorial you used 
 * First we will document Voyant Tools. Click on the Export button for the tool.
   * Click on Export View
   * Select Bibliographic reference and click Export
@@ -179,11 +180,12 @@ Sometimes you might want a LIVE version of your visualization, so people can cli
   * Put this link in your webpage/blog post/notes as documentation
   
 ### Step 12: Try it with another corpus
-* Go back up to Step 2.  If you used the Lincoln sermons or one of Voyant's corpora for this tutorial, then do the tutorial again using our test corpus. If you used the test corpus, try it with the Lincoln sermons or one of Voyant's.
+* Go back up to Step 2 and do the tutorial again using another corpus. If you used a downloaded one, download a different one or one of Voyant's embedded corpora
+
+### Step 13: Further considerations
 * Is there a corpus of literature you are interested in? 
   * How could you use Voyant to study your corpus?
   * What would you need to do to make it ready to import into Voyant?
-  
 
 ## Credits
 This tutorial has been adapted from prior work by me, the Voyant Tools documentation, ["Doing Digital History"](http://history2016.doingdh.org/voyant-tutorial/), and [Kate Farley](http://katefarley.org/voyant/)
