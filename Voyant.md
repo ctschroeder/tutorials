@@ -5,6 +5,8 @@ Originally Created for Intro to DH, Fall 2017, RELI/ENGL 39 at the University of
 
 A live version (with images, live links) lives at https://github.com/ctschroeder/tutorials/blob/master/Voyant.md
 
+## NOTE: I had problems uploading files to Voyant using the Chrome browser. On my Mac, Safari worked. If you can't upload, click the OPEN button in Step 2 and use one of the pre-loaded corpora
+
 ## Description of the tool
 Voyant is ["a web-based reading and analysis environment for digital texts."](http://voyant-tools.org/)
 You can use Voyant:
