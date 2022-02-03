@@ -153,8 +153,12 @@ A line graph that depicts the distribution of a word or words (occurrence across
 
 ### Step 10: Embed a corpus or tool visualization in a blog post or website
 
-#### Note: on Feb 2 we had trouble exporting images using the html snippet or png file. There seems to be a bug in Voyant. Instead, take a screenshot of your visualization and copy the LINK to your corpus or visualization in Voyant and put both the static image/screenshot and the link in your blog post.****
+#### Note: on Feb 2 we had trouble exporting images using the html snippet or png file. There seems to be a bug in Voyant. Here are two other options:
 
+1. Take a screenshot of your visualization and copy the LINK to your corpus or visualization in Voyant and put both the static image/screenshot and the link in your blog post
+2. Select "custom HTML" block in Wordpress. Copy the following code into the block:  <iframe src="INSERT YOUR URL HERE" height='800px' width='750px'></iframe> . Then go to Voyant. Pick the visualization you want to embed and hover over its question mark above the tool/viz. You should see a few icons appear; click on the box with the arrow . Click "Export", and that tool/viz should appear in a new tab or window all on its own.  Copy the URL or web address of the new tab and paste it in the code where INSERT YOUR URL HERE appears. The live clickable Voyant embed should appear.
+
+#### Feb 2022 the following wasn't working -- skip to step 11
 Sometimes you might want a LIVE version of your visualization, so people can click around or hover over the visualization to reveal more information. 
 
 * Click Export at the top of the page. 
