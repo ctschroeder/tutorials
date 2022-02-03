@@ -1,6 +1,6 @@
 # Voyant Tools for Text Analysis: Tutorial
 
-Last modified January 2022 for Intro to DH, Spring 2022, the University of Oklahoma.
+Last modified February 2022 for Intro to DH, Spring 2022, the University of Oklahoma.
 Originally Created for Intro to DH, Fall 2017, RELI/ENGL 39 at the University of the Pacific.
 
 A live version (with images, live links) lives at https://github.com/ctschroeder/tutorials/blob/master/Voyant.md
@@ -152,6 +152,9 @@ A line graph that depicts the distribution of a word or words (occurrence across
 , etc.)
 
 ### Step 10: Embed a corpus or tool visualization in a blog post or website
+
+#### Note: on Feb 2 we had trouble exporting images using the html snippet or png file. There seems to be a bug in Voyant. Instead, take a screenshot of your visualization and copy the LINK to your corpus or visualization in Voyant and put both the static image/screenshot and the link in your blog post.****
+
 Sometimes you might want a LIVE version of your visualization, so people can click around or hover over the visualization to reveal more information. 
 
 * Click Export at the top of the page. 
@@ -165,7 +168,6 @@ Sometimes you might want a LIVE version of your visualization, so people can cli
 * Adjust the height or width if you'd like by changing the pixels (800px =800 pixels) to another number or the 100% width to another percentage of your screen
 
 ### Step 11: Document your visualization and corpus
-
 * In your blog post, website, or separate text/wordprocessor file where you are keeping your notes: document what your corpus is and where you got it from
 * You should also document the tool if you are including visualizations/information based on the tool and the tutorial you used 
 * First we will document Voyant Tools. Click on the Export button for the tool.
