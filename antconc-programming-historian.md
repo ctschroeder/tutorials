@@ -1,6 +1,6 @@
 # Corpus Analysis with AntConc
 
-Last modified 12 February 2020
+Last modified 9 February 2022
 
 This tutorial lives online at https://github.com/ctschroeder/tutorials/edit/master/antconc-programming-historian.md.
 
@@ -58,7 +58,7 @@ This tutorial explores several different ways to approach a corpus of texts. It'
 1. Software:[AntConc](http://www.laurenceanthony.net/software/antconc/).    
 Unzip the download if necessary, and launch the application. Screen shots below may vary slightly from the version you have (and by operationg system, of course), but the procedures are more or less the same across platforms and recent versions of AntConc. This tutorial is written with a (much older) version of AntConc in mind, as I find it easier to use in an introductory context. You are welcome to use the most recent version, but if you wish to follow along with the screenshots provided, you can download the version used here, [version 3.2.4](http://www.laurenceanthony.net/software/antconc/releases/AntConc324/).
 
-2. Sample Corpus: Download the [zip file of movie reviews](/assets/corpus-analysis-with-antconc/antconc_corpus_files.zip).
+2. Sample Corpus: Download the [zip file of movie reviews](https://programminghistorian.org/assets/corpus-analysis-with-antconc/antconc_corpus_files.zip).
 
 ### A broad outline of this tutorial:
 1. Working with plain text files
@@ -101,40 +101,52 @@ When AntConc launches, you will see a **window** with a few sections and a **men
 
 On the left-hand side, there is a window to see all corpus files loaded (which we'll use momentarily).
 
-There are 7 tabs across the top:  
-**Concordance:** This will show you what's known as a Keyword in Context view (abbreviated KWIC, more on this in a minute), using the search bar below it.  
-**Concordance Plot:** This will show you a very simple visualization of your KWIC search, where each instance will be represented as a little black line from beginning to end of each file containing the search term.  
-**File View:** This will show you a full file view for larger context of a result.  
-**Clusters:** This view shows you words which very frequently appear together.  
-**Collocates:** Clusters show us words which _definitely _appear together in a corpus; collocates show words which are statistically likely to appear together.  
-**Word list:** All the words in your corpus.  
+There are 7 tabs across the top (v. 4.03 has 8 tabs which I describe below -- the screen shots are from a previous version and do not show all 7):  
+**KWIC:** This will show you what's known as a Keyword in Context view (abbreviated KWIC, more on this in a minute), using the search bar below it; this is the classic Concordance feature.  
+**Plot:** This will show you a very simple visualization of your KWIC search, where each instance will be represented as a little black line from beginning to end of each file containing the search term.  
+**File:** This will show you a full file view for larger context of a result.  
+**Cluster:** This view shows you words which very frequently appear together. 
+**N-Gram:** This shows frequency of words that appear right next to each other. N-gram size 3 shows all the combinations of three words in a row and how frequently those three words appear in a row in the corpus. N-gram size 4 shows four word combinations, etc.
+**Collocate:** Clusters show us words which _definitely_ appear near each other in a corpus; collocates show words which are statistically likely to appear together.  
+**Word:** A list of all the words in your corpus.  
 **Keyword List:** This will show comparisons between two corpora.
 
-As an introduction, this tutortial barely scratches the surface of what you can do with AntConc. We will focus on the Concordance, Collocates, Keywords, and Word List functions. 
-
+As an introduction, this tutortial barely scratches the surface of what you can do with AntConc. We will focus on the KWIC, Collocate, Keywords, and Word List functions. 
 
 ### Loading Corpora
-Like opening a file elsewhere, we're going to start with the menu bar's File&nbsp; &gt; Open, but instead of opening just ONE file we want to open the directory of all our files.  AntConc allows you to open entire directories, so if you're comfortable with this concept, you can just open the folder 'all reviews' and jump to Basic Analysis, below    
+AntConc's recent version has pre-built corpora embedded in it. You can experiment with those later. Today we will use our own corpus of film reviews.
 
-Remember we've put our files on the desktop, so navigate there in the dropdown menu.  
+Start with the menu bar's File&nbsp; &gt; > Corpus Manager. (For this activity, you can also select the Quick Corpus option in the File menu, but I want you to see the full Corpus Manager screen.) Be sure you're in the "Target Corpus" Tab.
 
-From the Desktop you want to **navigate to our folder "movie reviews from nltk":**
+AntConc allows you to open entire directories, so:
 
-First you will select **"Negative Reviews"** and hit OK. 200 texts should load in the lefthand column Corpus Files – watch the Total No. box!  
-
-Then you're going to **repeat the process to load the folder "Positive Reviews".** You should now have 400 texts in the Corpus Files column.  
+- Under Corpus Source on the left select "Raw files"
+- On the right select Add Directory to add a directory or folder of files. (You don't want to add 100 files one by one.)
+- Remember we've put our files on the desktop, so navigate there in the dropdown menu.  
+- From the Desktop you want to **navigate to our folder "Corpus Files for AntConc Workshop":**
+- Keep opening the folders until you get to the **Positive Reviews** folder -- load that directory
+- You should see a list of files appear in the window in the upper right and the number of files should read 200
+- Do the same thing to add the **Negative Reviews** folder
+- You should see the nuber of files jump to 400
+- Give your corpus a descriptive name (mine is ph-movie-reviews)
+- Keep the other options the same. 
+- Don't worry about the metadata table -- that is an advanced option we're not using right now
+- **Click Create at the bottom of the screen**
+- Close the window
 
 
 ## 3. Searching Keywords in Context 
 
+Note: for any query below or change to order or Sort be sure to click **Start** after you make a change in the other settings or query.
+
 ### Start with a basic search
 One of the things corpus tools like Antconc are very good at are finding patterns in language which we have a hard time identifying as readers. Small boring words like *the, I, he, she, a, an, is, have, will* are especially difficult to keep track of as readers, because they're so common, but computers happen to be very good at them. These words are called function words, though they commonly known as 'stopwords' in digital humanities; they are often very distinct measures of authorial and generic style. As a result, they can be quite powerful search terms on their own or when combined with more content-driven terms, helping the researcher identify patterns they may not have been aware of previously. 
 
-**In the search box at the bottom, type the and click "start".** The Concordance view will show you every time the word the appears in our corpus of movie reviews, and some context for it. This is called a "Key Words in Context" viewer. 
+**In the search box at the bottom, type the and click "start".** The KWIC view (CONCORDANCE in the images) will show you every time the word the appears in our corpus of movie reviews, and some context for it. This is called a "Key Words in Context" viewer. 
 
-(14618 times, according to the Concordance Hits box in the bottom centre.)
+(14618 times, according to the Hits box in the top in version 4.03.)
 
-![Concordance Tool](https://github.com/ctschroeder/tutorials/blob/master/images/01-concordance.png)
+![KWIC or Concordance Tool](https://github.com/ctschroeder/tutorials/blob/master/images/01-concordance.png)
 
 As above, the KWIC list is a good way to start looking for patterns. Even though it's still a lot of information, what kinds of words appear near "the"? 
 
@@ -142,13 +154,14 @@ Try a similar search for "a". Both "a" and "the" are articles, but one is a defi
 
 Now that you're comfortable with looking at a KWIC line, try doing it again with "shot": this will produce examples of both shot the noun ('line up the **shot**') and the verb 'this scene was **shot** carefully')
 
-What do you see? I understand this can be a difficult to read way of identifiying patterns. Try pressing the yellow "sort" button. What happens now?
+What do you see? I understand this can be a difficult to read way of identifiying patterns. 
+
+Try changing the option in the lower right from Order by freq to Order by value -- what happens?
 
 ![Sorting in Concordance tool](https://github.com/ctschroeder/tutorials/blob/master/images/02-sort.png)
 
-(This might be easier to read!)
-You can adjust the way AntConc sorts information by changing the parameters at the bottom of the panel labeled "Level 1", "Level 2", "Level 3": L corresponds with 'left' and R corresponds with 'right'; you can extend these up to ±5 in either direction. The default is 1 left, 2 right, 3 right, but you can change that to search 3 left, 2 left, 1 right (to get phrases and/or trigrams that end in the search term in question, for example) by clicking the arrow buttons up or down. If you don't want to include a sorting option you can skip it (as in the default: 1L, 2R, 3R) or include it as a 0. Less linear sorting practices are available, such as 4 left, 3 right, 5 right, which includes a lot of other contextual information. 
-These parameters can be slow to respond, but be patient. If you're not sure what the resulting search is, just press 'sort' to see what's happened and adjust accordingly.
+You can adjust the way AntConc sorts information by changing the parameters at the bottom of the panel labeled "Sort 1", "Sort 2", "Sort 3": L corresponds with 'left' and R corresponds with 'right'; you can extend these up to ±5 in either direction. The default is 1 right, 2 right, 3 right, but you can change that to search 3 left, 2 left, 1 right (to get phrases and/or trigrams that end in the search term in question, for example) by clicking the arrow buttons up or down. If you don't want to include a sorting option you can skip it (as in the default: 1L, 2R, 3R) or include it as a 0. Less linear sorting practices are available, such as 4 left, 3 right, 5 right, which includes a lot of other contextual information. 
+These parameters can be slow to respond, but be patient. 
 
 ![Preferences in Concordance tool](https://github.com/ctschroeder/tutorials/blob/master/images/03-KWIC-sort.png)
 
@@ -160,10 +173,7 @@ The * operator (which finds zero or more characters) can help, for instance, fin
 
 **Search for qualit*, then sort this search.** What tends to precede and follow quality &amp; qualities? (Hint: they're different words, and have different contexts. Again- look for patterns in usage using the KWIC!)
 
-For a full list of available wildcard operators and what they mean, go to Global Settings &gt; Wildcard Settings.  
-{% include figure.html filename="wildcard-settings.png" caption="Adjusting the wildcard settings." %}
-
-![Wildcard searches](https://github.com/ctschroeder/tutorials/blob/master/images/04-wildcardsettings.png)
+For a full list of available wildcard operators and what they mean, go to Global Settings &gt; Search.  
 
 To find out the difference between d* and ?, search for th*n and th?n. These two search queries look very similiar, but show very different results. 
 
@@ -174,9 +184,9 @@ contrast to m*n: not helpful, because you'll get mean, melon, etc.
 
 **Compare these two searches: wom?n and m?n**
 1. sort each search in a meaningful way (eg. by search term then 1L then 2L)  
-2. File &gt; Save output to text file (&amp; append with .txt. 
+2. File &gt; Save Current Tab Results to a text file (&amp; append with .txt )
 
->HINT: During the course of exploring in your research, you may generate many such files for reference; it's helpful to use descriptive filenames that describe what's in them (such as "wom?n-results.text", not "antconc_results.txt").
+>HINT: During the course of exploring in your research, you may generate many such files for reference; it's helpful to use descriptive filenames that describe what's in them (such as "wom?n-KWIC-results.text", not "antconc_results.txt").
 
 ![Saving results](https://github.com/ctschroeder/tutorials/blob/master/images/05-saveresults.png)
 
@@ -242,26 +252,22 @@ Be sure to think carefully about what a reference corpus for your own research m
 
 - So for this activity -- analyzing the Spielberg reviews -- you want Spielberg to be TARGET and the larger 400-review corpus to be REFERENCE.  Swap if necessary; be sure to click "Load" and "Apply" every time you swap.*
 
-**PRO TIP from Dr. S:** if you get confused with your corpora and need to restart, clear everything in AntConc out with File > Clear All Tools and Files.  Then Load your TARGET corpus first in the main AntConc window; load the REFERENCE corpus using Settings > Tool Settings > Keyword List.
+**PRO TIP from Dr. S:** if you get confused with your corpora and need to restart, clear everything in AntConc out with File > Clear All Tools and Files.  Then Load your TARGET corpus first ; load the REFERENCE corpus using the corpus manager.
 * In fact, let's do this:  Clear All Tools and Files.  (You should see no files in that left pane.)
-* Now using the File > Open Dir command in the menu bar, load Spielberg reviews in the main Antconc window.  You should see 24 files in the left pane.
+* Now using the File > Corpus Manager command in the menu bar, open the corpus manager
+* clear your corpus here again
+* load Spielberg reviews in the main Antconc window.  You should see 24 files. give it a name!! and click CREATE
+* Click the REFERENCE corpus tab
+* You should see your larger movie reviews corpus in the lower right -- select it by double clicking on it
+* Click Return to the Main Window 
 
-Now got to Settings in the menu bar and select Settings &gt; Tool preferences &gt; Keyword List  
+Note: You can also opt to swap reference corpus &amp; main files (SWAP REF/MAIN FILES). You can come back to the Corpus Manager and do that
 
-![Settings for Keyword List](https://github.com/ctschroeder/tutorials/blob/master/images/07-keyness-comparing.png)
+In Keyword TAB, just hit Start (with nothing typed in the search box).   
 
-Under 'Reference Corpus' make sure "Use raw files" is checked  
-Add Directory &gt; open the folder containing the files that make up the reference corpus  **(Dr. S note: this is the All Reviews folder)**
-Ensure you have a whole list of files!
+We see a list of Keywords that have words that are much more frequent in the Target corpus than in the Reference corpus.  These words are *characteristic* words for the Target corpus compared to the Reference corpus. 
 
-Hit Load (&amp; wait …) then once the 'Loaded' box is checked, hit Apply.  
-
-You can also opt to swap reference corpus &amp; main files (SWAP REF/MAIN FILES). It is worth looking at what both results show. 
-> If you're using a later version of AntConc, the Swap Ref/Main files option may be marked as 'swap with target files', and you will need to ensure the target and reference corpora have been loaded (press the load button each time you upload, or swap, a corpus).
-
-In Keyword List, just hit Start (with nothing typed in the search box). If you've cleared your tools or you've just swapped the reference corpus and the target files, you may be prompted to create a new word list in the Word List tool before AntConc will calculate the keywords.  Back in the Keyword List tool, we see a list of Keywords that have words that are much more frequent in the Target corpus than in the Reference corpus.  These words are *characteristic* words for the Target corpus compared to the Reference corpus. 
-
-&gt; Keyness: this is the frequency of a word in the text when compared with its frequency in a reference corpus,  For those interested in the statistical details, see the section on keyness on p7 of Laurence Anthony's [readme file](http://www.laurenceanthony.net/software/antconc/releases/AntConc335/help.pdf). 
+&gt; Keyness: this is the frequency of a word in the text when compared with its frequency in a reference corpus,  For those interested in the statistical details, see the section on keyness on Laurence Anthony's [readme file](http://www.laurenceanthony.net/software/antconc/releases/AntConc335/help.pdf). 
 
 What are our keywords?
 
@@ -299,9 +305,13 @@ In summary: it's worth thinking about:
 * What kinds of queries make meaningful research questions
 * Principles of corpora construction: sampling &amp; ensuring you can get something representative
 
+## 8. Check out the N-Gram tool (it's pretty self-explanatory)
+
+## 9. Try a different corpus!!
+
 -----
 
-## 8. Further resources for this tutorial
+## 9. Further resources for this tutorial
 [A short bibliography on corpus linguistics][43].    
 [A more step-by-step version of this tutorial, assuming no computer knowledge](http://hfroehli.ch/workshops/getting-started-with-antconc/)
 
@@ -319,11 +329,11 @@ In summary: it's worth thinking about:
 [56]: http://hfroehli.ch/2014/05/11/intro-bibliography-corpus-linguistics/
 
 ## Dr. S in class instructions streamlined ##
-1. Load the movie review corpus (All Reviews)
+1-2. Load the movie review corpus (All Reviews)
 
-2. Search for a term
+3-4. Search for a term
 
-- use the Concordance tool to find more information about the use of the term
+- use the KWIC tool to find more information about the use of the term
 
 - sort
 
@@ -335,7 +345,7 @@ In summary: it's worth thinking about:
 
 - discuss what you learned from your searches with your neighbor
 
-3. Use the Collocate tool to search for words most associated with your search term.
+5. Use the Collocate tool to search for words most associated with your search term.
 
 - Adjust the Window Span and Minimum Collocate Frequency options; how does that change the results?  What do those changes mean? (REREAD what Dr. Froehlich says about MEANING at the end of the [Collocates and Word Lists](https://programminghistorian.org/lessons/corpus-analysis-with-antconc#collocates-and-word-lists).)
 
@@ -345,25 +355,21 @@ In summary: it's worth thinking about:
 
 - Save output as text file(s) with meaningful title
 
-4. Use the Keywords tool to compare corpora
+6. Use the Keywords tool to compare corpora
 
 - Read the instructions to find words that are more associated with Spielberg reviews than other reviews
 
 - Remember:  TARGET is the corpus you're analyzing; REFERENCE is the comparison corpus
 
-5. Study another corpus
+7. Make meaningful analyses and comparisons from your results
 
-- [Dr. S's class corpus](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/ctschroeder/tutorials/tree/master/teaching-corpora/martyrdoms/texts) (for Keywords activity, use Perpetua and Felicitas as your TARGET)
+8. Play around with the N-Gram tool
 
-- [Sermons about Lincoln's death](http://disc.library.emory.edu/lincoln/download/lincoln_sermons.zip)
-
-- [Shakespeare](http://t.co/IXiYiCdkVk)
-
-- A corpus of your own (for Keywords: what's your Target, what's your Reference? why?)
+9. Try a different corpus! (for Keywords: what's your Target, what's your Reference? why?)
 
 **PRO TIPS from Dr. S**
 
-**1. If you get confused, or you load your files incorrectly:  You can always reset by going to the File menu and selecting "Clear Tool", "Clear All Tools" or "Clear All Tools and Files."  "Clear All Tools and Files" will wipe everything clean.**
+**1. If you get confused, or you load your files incorrectly:  You can always reset by going to the File menu and selecting "Clear Tool", "Clear All Tools" or "Clear All Tools and Files."  "Clear All Tools and Files" will wipe your tool clean.**
 
-**2. You can click the CLONE RESULTS button in a tool to have your results appear in a separate window.**
+**2. Click File > Save Current Tab results to save your results before doing another query.**
 
