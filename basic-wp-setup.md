@@ -88,7 +88,7 @@ You need to create a menu to put one on your site. I'm going to describe #1 abou
 
 - Enter a menu name in the Menu Name box. (I often use Main Menu as the name for the main menu I want to go across the top of my website. Some people use Primary.)
 
-- Some themes will give you an option about where to put the menu -- click the boxes you want. In Twenty Twenty, I put the Main Menu in my Desktop Horizontal Menu (because that runs across the top) AND the Mobile Menu
+- Some themes will give you an option about where to put the menu -- click the boxes you want.
 
 - Click "Create Menu"
 
