@@ -24,7 +24,7 @@ I will delete the blog entirely after the semester ends.
 
 ### Update your username and avatar ###
 
-3. Once you are LOGGED IN look in the upper left. Hover over “PRIVATE Blog for [class name]… “  “Dashboard” should appear in a dropdown menu. Click on Dashboard.
+3. Once you are LOGGED IN look in the upper left. There is a black menu bar. Hover over “PRIVATE Blog for [class name]… “ next to the big W.  “Dashboard” should appear in a dropdown menu. Click on Dashboard.
 
 ![Image of screen](https://github.com/ctschroeder/tutorials/blob/master/images/wordpress-dashboard.png)
 
