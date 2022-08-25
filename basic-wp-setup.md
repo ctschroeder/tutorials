@@ -2,7 +2,7 @@
 
 ### About this tutorial
 
-This tutorial was created by Caroline T. Schroeder using some content from the staff at OU Create, licensed [CC-BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Last updated for Fall 2020 courses.  This page BLATANTLY STEALS text from the [OU Create Wordpress](https://create.ou.edu/docs/web-apps/wordpress/) documentation. Please credit OU Create if you use this tutorial.
+This tutorial was created by Caroline T. Schroeder using some content from the staff at OU Create, licensed [CC-BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Last updated for Fall 2022 courses.  This page BLATANTLY STEALS text from the [OU Create Wordpress](https://create.ou.edu/docs/web-apps/wordpress/) documentation. Please credit OU Create if you use this tutorial.
 
 This tutorial lives live online at https://github.com/ctschroeder/tutorials/blob/master/basic-wp-setup.md
 
@@ -16,6 +16,8 @@ The Dashboard is where you give WordPress all of its instructions on how to disp
 
 To get to your dashboard, you go to your domain with /wp-admin/ tacked on to the end.  So if your OU Create (sub)domain is imsocool.oucreate.com, you would go to https://imsocool.oucreate.com/wp-admin/
 
+OU has a [guide to general settings](https://sites.create.ou.edu/guides/2021/08/27/wordpress-settings/) on your dashboard if you want more info
+
 ### 2. Title
 
 Go to Settings > General on your dashboard. Once you’re on the General Settings page, you can give your blog any title you want. You can also give your blog a tagline, which can be a short description of the blog.
@@ -24,7 +26,7 @@ When you change the Blog title and tag line, they will show up at the top of you
 
 ### 3. Themes
 
-The look and layout of your WordPress site is determined by the Theme.  There are a MILLION themes for WordPress. The OU Create documentation page about [setting up your WordPress site](https://create.ou.edu/docs/web-apps/wordpress/) has a section on WordPress Themes with pictures!!!
+The look and layout of your WordPress site is determined by the Theme.  There are a MILLION themes for WordPress. The OU Create documentation page about [setting up your WordPress site](https://sites.create.ou.edu/guides/) has a [section on WordPress Themes](https://sites.create.ou.edu/guides/2021/08/27/themes/) with pictures!!!
 
 When you install WordPress, the default (or pre-set) theme is called [Twenty Twenty-One](https://wordpress.org/themes/twentytwentyone/) (as of Spring 2021). It is a very customizable theme. You can easily modify the colors of the different fonts and backgrounds used in the theme.
 
@@ -42,7 +44,7 @@ If you don't like the themes you see, you can install a new one. (Some of my cou
 
 ### 4. Pages and Posts
 
-There are two basic kinds of content for Wordpress: Pages (your basic web page) and Posts (Blog posts that appear on a blog, like the News page of the course website.) The OU Create documentation page about [setting up your WordPress site](https://create.ou.edu/docs/web-apps/wordpress/) has a good section about "Publishing Content" with screenshots, images, and more info on Pages vs. Posts -- go check it out!
+There are two basic kinds of content for Wordpress: Pages (your basic web page) and Posts (Blog posts that appear on a blog, like the News page of the course website.) The OU Create documentation page about [adding pages and posts](https://sites.create.ou.edu/guides/2021/08/28/adding-posts-and-pages/) has screenshots, images, and more info -- go check it out!
 
 You will need to choose if you want your Home page for your site to be your blog roll or a web page. Advantage of a blog -- all your new content appears right away. Advantage of a Page -- information about who you are, what the site is is always there; you can add links to your latest posts in a separate area of a Page called a Widget. We will talk about those later!!!. **You can always change your mind later, so just pick one for now!!!**
 
@@ -72,7 +74,7 @@ Be sure to click "Publish" at the top when you're done to publish your site!!!
 
 #### About Menus
 
-Menus help your readers navigate your site.  The OU Create documentation page about [setting up your WordPress site](https://create.ou.edu/docs/web-apps/wordpress/) has a GOOD section about "Building Your Custom Menu" with screenshots/images. CHECK IT OUT if you're confused.
+Menus help your readers navigate your site.  The OU Create documentation page on [organizing your WordPress site](https://sites.create.ou.edu/guides/2021/08/27/organize-your-site/) has a GOOD section about menus with screenshots/images. CHECK IT OUT if you're confused.
 
 There are TWO ways to create/edit your menus
 
