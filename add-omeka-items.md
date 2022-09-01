@@ -10,7 +10,7 @@ Check your email and/or your instructions for how to login and add items.
 
 In this tutorial, you will learn to add objects to a digital archive and exhibit.
 
-This tutorial was created by Caroline T. Schroeder, licensed [CC-BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Last updated 1 March 2022.
+This tutorial was created by Caroline T. Schroeder, licensed [CC-BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Last updated 1 September 2022.
 
 This tutorial lives live online at https://github.com/ctschroeder/tutorials/blob/master/add-omeka-items.md
 
@@ -25,16 +25,16 @@ Many of the sites you visited in class used Omeka!
 The creators of Omeka maintain robust [documentation for Omeka online](https://omeka.org/classic/docs/).  You can also visit an online [showcase of projects using Omeka](https://omeka.org/classic/showcase/).
 
 
-## 1. Find at least THREE items to add to our online archive & exhibit
+## 1. Find at the required number and type of items to add to our online archive & exhibit
 
-In class we all read a text that will be the basis of our Omeka exhibit(s). (For 2022, the Martyrdoms of Perpetua and Felicitas).
+Your class assignment instructions will tell you how many items to add and what type of item.
 
-Find at least three objects that will help you address the questions and issues we discussed in class about the text.
+Find the required number of objects 
   - Be sure you can authenticate the item -- is the source reliable, why? 
   - Do you have permission to use the item in our exhibit? What is the license -- is there one? Is there some other statement?
   - Bookmark, save, make notes on your items
 
-You can add an object in a museum, a book/letter/document/film of or about the text we read, photographs of relevant sites, etc. Be creative!
+Again: be sure to review the specific assignment instructions for requirements.
 
 ## 2. Optional: Watch the videos
 
@@ -60,7 +60,7 @@ Yes?  Great! Now [watch this video about adding content to Omeka](https://youtu.
 
 * Do you know how to add an Item?
 
-## 3. In your groups, share the three things you brought to class:
+## 3. In class: in your groups, share the three things you brought to class:
 
  - Each person describe one Item, then go around two more times
 
