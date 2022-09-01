@@ -20,7 +20,7 @@ This tutorial is for Omeka classic, not [Omeka S](https://omeka.org/s/).
 
 Omeka is one of the most popular programs designed to create digital archives. Programmers, academics, and librarians at George Mason University created it and maintain it. 
 
-Most of the sites you visited in class for this unit used Omeka!
+Some of the sites you visited in class for this unit used Omeka!
 
 The creators of Omeka maintain robust [documentation for Omeka online](https://omeka.org/classic/docs/).  You can also visit an online [showcase of projects using Omeka](https://omeka.org/classic/showcase/).
 
@@ -181,7 +181,7 @@ This is where you upload a file if you are providing a file.  (You do not need a
    
  * Go back to the item page and click Edit if you need to fix anything
  
- ## 6. Go back and [redo Steps 4-5](https://github.com/ctschroeder/tutorials/blob/master/add-omeka-items.md#4-add-your-items-to-our-omeka-site) for your each additional Item.
+ ## 6. Go back and [redo Steps 4-5](https://github.com/ctschroeder/tutorials/blob/master/add-omeka-items.md#4-add-your-items-to-our-omeka-site) for each additional Item.
  
  ## 7. Go to the public site and look for your Items
  
