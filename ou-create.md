@@ -1,6 +1,6 @@
 ## Registering a domain/subdomain at OU Create ##
 
-### About this tutorial ###
+### 1. About this tutorial ###
 
 This tutorial will teach you how to create a domain or subdomain on OU Create AND how to install WordPress. 
 - **If you already have your own (sub)domain on OU Create or on another hosting service you may use that. Check in with Dr. S before moving ahead**
@@ -10,7 +10,7 @@ This tutorial lives online (with live links) at https://github.com/ctschroeder/t
 
 Last edited for Dr. Schroeder's Spring 2021 courses.
 
-### Registering your domain name. ###
+### 2. Registering your domain name. ###
 
 1. BEFORE you do, read about:
 
@@ -25,7 +25,9 @@ Last edited for Dr. Schroeder's Spring 2021 courses.
 
 3. Click “Get Started” or “Login” 
 
-4. Follow the directions to register your domain name or your subdomain  
+4. Follow the directions to request a domain or subdomain (do not register for a Wordpress site -- request a full site and subdomain)
+
+   - On the form, tell them you are in Dr. Schroeder's DH class 
 
 REMEMBER to think about your web presence.  
 
@@ -34,13 +36,13 @@ Pick things that reflect WELL on you professionally for your domain name, if you
 
 [More instructions on signing up](https://create.ou.edu/docs/getting-started/signing-up/)
 
-### Setting up your website AT your domain ###
+### 3. Setting up your website AT your domain ###
 
 Once your Domain or Subdomain (the web URL) is registered, you need to set up a website.  
 
 If you know web programming, you can use whatever system you like.  If you don’t, I recommend you use WordPress, which is the dominant content management system on the web.  (If you want you can [read more about web applications](https://create.ou.edu/docs/web-apps/what-exactly-is-a-web-application/)). 
 
-#### Installing Wordpress ####
+#### 4. Installing Wordpress ####
 
 1.	Click on CPanel once you’ve logged into create.ou.edu if you're not already there. (CPanel is a window with a lot of applications icons on it.)
 
@@ -74,7 +76,7 @@ This should look like https://whateveryoupickedforyourdomainname and https://wha
 
 8. Click on the admin address (with wp-admin) and Customize your site!!  
 
-### What If I Forget My Domain Name or Password??? ###
+### 5. What If I Forget My Domain Name or Password??? ###
 
 You can also **find your (sub)domain again** by going to create.ou.edu
 
