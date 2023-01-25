@@ -76,7 +76,16 @@ This should look like https://whateveryoupickedforyourdomainname and https://wha
 
 8. Click on the admin address (with wp-admin) and Customize your site!!  
 
-### 5. What If I Forget My Domain Name or Password??? ###
+### 5. Customizing your site & Accessibility
+
+We will spend more time later on setting up and customizing your site, but if you want to get started you can [check out this tutorial](https://github.com/ctschroeder/tutorials/blob/master/basic-wp-setup.md). If you do get started, two considerations on accessibility
+   - To make your site more accessible to the visually impaired, you can search for an accessible theme 
+   - You can also add a plugin (in the dashboard you will see a section for plugins). Search for a new plugin to install, and search for the name "One Click Accessibility." 
+      - Install and activate the plugin
+
+Here are [resources on using Wordpress](https://github.com/ctschroeder/tutorials/blob/master/wp-roundup.md).
+
+### 6. What If I Forget My Domain Name or Password??? ###
 
 You can also **find your (sub)domain again** by going to create.ou.edu
 
