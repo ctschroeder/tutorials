@@ -1,6 +1,6 @@
 # Voyant Tools for Text Analysis: Tutorial
 
-Last modified February 2022 for Intro to DH, Spring 2022, the University of Oklahoma.
+Last modified February 2023 for Intro to DH, Spring 2023, the University of Oklahoma.
 Originally Created for Intro to DH, Fall 2017, RELI/ENGL 39 at the University of the Pacific.
 
 A live version (with images, live links) lives at https://github.com/ctschroeder/tutorials/blob/master/Voyant.md
@@ -134,7 +134,7 @@ A line graph that depicts the distribution of a word or words (occurrence across
 **_Additional tools can be added using the Choose Another Tool button described above._**
 
 ### Step 8: Bookmark a corpus or a view within a tool to return to it later
-[https://github.com/ctschroeder/tutorials/blob/master/images/voyant-export-tool.png](export function)
+![export function](https://github.com/ctschroeder/tutorials/blob/master/images/voyant-export-tool.png)
 
 * Click Export at the top right of the page
 * Select & copy or bookmark the URL for this view to return to your corpus later. (Note, the team at Voyant indicates that the corpus will “accessible as long as it accessed at least once a month.”
@@ -153,12 +153,12 @@ A line graph that depicts the distribution of a word or words (occurrence across
 
 ### Step 10: Embed a corpus or tool visualization in a blog post or website
 
-#### Note: on Feb 2 we had trouble exporting images using the html snippet or png file. There seems to be a bug in Voyant. Here are two other options:
+This section will tell you how to embed a static image (png file) or live interactive visualization (an html snippet) in your website.
 
-1. Take a screenshot of your visualization and copy the LINK to your corpus or visualization in Voyant and put both the static image/screenshot and the link in your blog post
-2. Select "custom HTML" block in Wordpress. Copy the following code into the block:  <iframe src="INSERT YOUR URL HERE" height='800px' width='750px'></iframe> . Then go to Voyant. Pick the visualization you want to embed and hover over its question mark above the tool/viz. You should see a few icons appear; click on the box with the arrow . Click "Export", and that tool/viz should appear in a new tab or window all on its own.  Copy the URL or web address of the new tab and paste it in the code where INSERT YOUR URL HERE appears. The live clickable Voyant embed should appear.
+#### Note: In Feb 2022 and 2023 I had trouble exporting images using the html snippet or png file in SAFARI. If you're using Safari: 
+If you're using Safari or another browser where you don't see options to export visualizations listed above then COPY the url for your Voyant corpus [see Step 8 above](https://github.com/ctschroeder/tutorials/blob/master/Voyant.md#step-8-bookmark-a-corpus-or-a-view-within-a-tool-to-return-to-it-later) and PASTE it into the CHROME BROWSER.
 
-#### Feb 2022 the following wasn't working -- skip to step 11
+#### Once you've got your Voyant into Chrome:  
 Sometimes you might want a LIVE version of your visualization, so people can click around or hover over the visualization to reveal more information. 
 
 * Click Export at the top of the page. 
@@ -168,13 +168,19 @@ Sometimes you might want a LIVE version of your visualization, so people can cli
 * For HTML pages: cut and paste into your HTML page. (If you don't know what this is, don't worry -- you don't need to)
 * For a blog post: start a new blog post on *the private class Wordpress blog*
   * Select the HTML block for the blog (not paragraph, not bullets, not image but HTML)
-  * Paste the snippet into your post (command-v to paste)
+  * Paste the snippet into the window for HTML in your post (command-v to paste)
 * Adjust the height or width if you'd like by changing the pixels (800px =800 pixels) to another number or the 100% width to another percentage of your screen
+* If your window is not centered on the page, edit the HTML by adding the code <div style="text-align:center"> at the very start of your HTML (be careful -- everything must be positioned correctly for it to work) and adding the code </div> at the end of the HTML.
+
+#### If you don't have Chrome here are two other options:
+    1. Take a screenshot of your visualization and copy the LINK to your corpus or visualization in Voyant and put both the static image/screenshot and the link in your blog post
+    OR
+    2. Select "custom HTML" block in Wordpress. Copy the following code into the block:  <div style="text-align:center"><iframe src="INSERT YOUR URL HERE" height='800px' width='750px'></iframe></div> . Then go to Voyant. Pick the visualization you want to embed and hover over its question mark above the tool/viz. You should see a few icons appear; click on the box with the arrow . Click "Export", and that tool/viz should appear in a new tab or window all on its own.  Copy the URL or web address of the new tab and paste it in the code where INSERT YOUR URL HERE appears. The live clickable Voyant embed should appear.
 
 ### Step 11: Document your visualization and corpus
 * In your blog post, website, or separate text/wordprocessor file where you are keeping your notes: document what your corpus is and where you got it from
 * You should also document the tool if you are including visualizations/information based on the tool and the tutorial you used 
-* First we will document Voyant Tools. Click on the Export button for the tool.
+* First we will document Voyant Tools. Click on the Export button for the tool. (**again, this works best in CHROME**)
   * Click on Export View
   * Select Bibliographic reference and click Export
   * Copy the reference in whichever format you prefer.
