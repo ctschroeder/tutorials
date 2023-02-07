@@ -101,29 +101,29 @@ When AntConc launches, you will see a **window** with a few sections and a **men
 
 On the left-hand side, there is a window to see all corpus files loaded (which we'll use momentarily).
 
-There are 7 tabs across the top (v. 4.03 has 8 tabs which I describe below -- the screen shots are from a previous version and do not show all 7):  
+There are 9 tabs across the top:
 **KWIC:** This will show you what's known as a Keyword in Context view (abbreviated KWIC, more on this in a minute), using the search bar below it; this is the classic Concordance feature.  
 **Plot:** This will show you a very simple visualization of your KWIC search, where each instance will be represented as a little black line from beginning to end of each file containing the search term.  
-**File:** This will show you a full file view for larger context of a result.  
+**File View:** This will show you a full file view for larger context of a result.  
 **Cluster:** This view shows you words which very frequently appear together. 
 **N-Gram:** This shows frequency of words that appear right next to each other. N-gram size 3 shows all the combinations of three words in a row and how frequently those three words appear in a row in the corpus. N-gram size 4 shows four word combinations, etc.
 **Collocate:** Clusters show us words which _definitely_ appear near each other in a corpus; collocates show words which are statistically likely to appear together.  
 **Word:** A list of all the words in your corpus.  
-**Keyword List:** This will show comparisons between two corpora.
+**Keyword:** This will show comparisons between two corpora.
+**Wordcloud:** This is a new feature only in the recent versions.
 
 As an introduction, this tutortial barely scratches the surface of what you can do with AntConc. We will focus on the KWIC, Collocate, Keywords, and Word List functions. 
 
 ### Loading Corpora
 AntConc's recent version has pre-built corpora embedded in it. You can experiment with those later. Today we will use our own corpus of film reviews.
 
-Start with the menu bar's File&nbsp; &gt; > Corpus Manager. (For this activity, you can also select the Quick Corpus option in the File menu, but I want you to see the full Corpus Manager screen.) Be sure you're in the "Target Corpus" Tab.
+Start with the menu bar's File&nbsp; &gt; > Corpus Manager. (For this activity, you can also select the Quick Corpus option in the File menu, but I want you to see the full Corpus Manager screen.) Be sure you're in the "Target Corpus" Tab. (Tabs are on the right side pane of the Corpus Manager.)
 
 AntConc allows you to open entire directories, so:
 
 - Under Corpus Source on the left select "Raw files"
 - On the right select Add Directory to add a directory or folder of files. (You don't want to add 100 files one by one.)
-- Remember we've put our files on the desktop, so navigate there in the dropdown menu.  
-- From the Desktop you want to **navigate to our folder "Corpus Files for AntConc Workshop":**
+- In the dropdown menu a**navigate to our folder "Corpus Files for AntConc Workshop":**
 - Keep opening the folders until you get to the **Positive Reviews** folder -- load that directory
 - You should see a list of files appear in the window in the upper right and the number of files should read 200
 - Do the same thing to add the **Negative Reviews** folder
@@ -132,8 +132,9 @@ AntConc allows you to open entire directories, so:
 - Keep the other options the same. 
 - Don't worry about the metadata table -- that is an advanced option we're not using right now
 - **Click Create at the bottom of the screen**
-- Close the window
-
+- In the right pane, you should see a bunch of info about your corpus appear
+- Click **Return to Main Window**
+- You should see all the files from your corpus on the left pane
 
 ## 3. Searching Keywords in Context 
 
@@ -142,9 +143,9 @@ Note: for any query below or change to order or Sort be sure to click **Start** 
 ### Start with a basic search
 One of the things corpus tools like Antconc are very good at are finding patterns in language which we have a hard time identifying as readers. Small boring words like *the, I, he, she, a, an, is, have, will* are especially difficult to keep track of as readers, because they're so common, but computers happen to be very good at them. These words are called function words, though they commonly known as 'stopwords' in digital humanities; they are often very distinct measures of authorial and generic style. As a result, they can be quite powerful search terms on their own or when combined with more content-driven terms, helping the researcher identify patterns they may not have been aware of previously. 
 
-**In the search box at the bottom, type the and click "start".** The KWIC view (CONCORDANCE in the images) will show you every time the word the appears in our corpus of movie reviews, and some context for it. This is called a "Key Words in Context" viewer. 
+**In the search box at the bottom, type the word the and click "start".** The KWIC view (CONCORDANCE in the images) will show you every time the word the appears in our corpus of movie reviews, and some context for it. This is called a "Key Words in Context" viewer. 
 
-(14618 times, according to the Hits box in the top in version 4.03.)
+(14618 times, according to the Hits box on the top right.)
 
 ![KWIC or Concordance Tool](https://github.com/ctschroeder/tutorials/blob/master/images/01-concordance.png)
 
@@ -156,15 +157,16 @@ Now that you're comfortable with looking at a KWIC line, try doing it again with
 
 What do you see? I understand this can be a difficult to read way of identifiying patterns. 
 
-Try changing the option in the lower right from Order by freq to Order by value -- what happens?
+Try changing the option in the lower right from Order by freq to Order by value and click the Start box -- what happens?
 
-![Sorting in Concordance tool](https://github.com/ctschroeder/tutorials/blob/master/images/02-sort.png)
-
-You can adjust the way AntConc sorts information by changing the parameters at the bottom of the panel labeled "Sort 1", "Sort 2", "Sort 3": L corresponds with 'left' and R corresponds with 'right'; you can extend these up to ±5 in either direction. The default is 1 right, 2 right, 3 right, but you can change that to search 3 left, 2 left, 1 right (to get phrases and/or trigrams that end in the search term in question, for example) by clicking the arrow buttons up or down. If you don't want to include a sorting option you can skip it (as in the default: 1L, 2R, 3R) or include it as a 0. Less linear sorting practices are available, such as 4 left, 3 right, 5 right, which includes a lot of other contextual information. 
+You can adjust the way AntConc sorts information by changing the parameters at the bottom of the panel labeled "Sort 1", "Sort 2", "Sort 3" (see image below): 
+- L corresponds with 'left' and R corresponds with 'right'; you can extend these up to ±5 in either direction. 
+- The default is 1 right, 2 right, 3 right, but you can change that to search 3 left, 2 left, 1 right (to get phrases and/or trigrams that end in the search term in question, for example). 
+- If you don't want to include a sorting option you can select C. 
+- Less linear sorting practices are available, such as 4 left, 3 right, 5 right, which includes a lot of other contextual information. 
 These parameters can be slow to respond, but be patient. 
 
-![Preferences in Concordance tool](https://github.com/ctschroeder/tutorials/blob/master/images/03-KWIC-sort.png)
-
+![Sorting in Concordance tool](https://github.com/ctschroeder/tutorials/blob/master/images/02-sort.png)
 
 ## 4. Advanced KWIC: Search Operators
 
@@ -194,25 +196,37 @@ And now you can open the plain text file in your text editor; you might have to 
 
 Do this for each of the two searches and then look at the two text files side by side. What do you notice?
 
-### The | operator ("or")
+### The || operator ("or")
 
-**Search on she|he.**. Now search for these separately: how many instances of she vs he?  There are many fewer instances of she – why? That's a research question! A good follow-up questions might be to sort the she|he search for patterns, and look to see if particular verbs follow each. 
+The operator || (two vertical lines) is the equivalent of "or" and lets you search for multiple terms.
+
+**Search on she||he.**. 
+
+**Now search for she and he separately:** how many instances of she vs he?  There are many fewer instances of she – why? That's a research question! A good follow-up questions might be to sort the she|he search for patterns, and look to see if particular verbs follow each. 
 
 **Practice searching a word of your choice, sorting in different ways, using wildcard(s), and finally exporting.** Guiding focus question here: what kinds of patterns do you see? Can you explain them?
-
 
 ## 5. Collocates and word lists
 Having looked at the KWIC lines for patterns, don't you wish there was a way for the computer to give you a list of words which appear most frequently in company with your keyword?
 
-Good news - there is a way to get this information, and it's available from the Collocates tab. Click that, and AntConc will tell you it needs to create a word list. Hit OK; it will do it automatically.  
-
-**Dr. S note:** The alert about creating a word list doesn't always appear immediately; click "Collocates" tab. Be sure you have entered a search term. Then click "Start" and you will get the alert to create a word list. Click OK.
-
-> NOTE: You will only get this notice when you haven't created a word list yet.
+Good news - there is a way to get this information, and it's available from the Collocates tab. Click that. Sometimes (if Collocates are the first thing you do in AntConc) AntConc will tell you it needs to create a word list. Hit OK; it will do it automatically.  
 
 Try generating collocates for she.
 
-![Collocates for "she"](https://github.com/ctschroeder/tutorials/blob/master/images/06-collocate.png)
+The Default settings in AntConc only show the most statistically significant collocates. If you want to see _all collocates_ you need to adjust the settings:
+- In the upper left menu click on Settings then Tool Settings then Collocate
+- Under the Likelihood Measure option you will see Threshold
+- Set to "All Values"
+- Click Apply
+- Close the window
+- In your Collocates Pane click Start to rerun your query.
+- Notice the differences in the two lists
+
+The two images below show the Collocates list with the two different settings. What do you notice about the lists?
+
+![Collocates for "wom?n": Threshold of All Values](https://github.com/ctschroeder/tutorials/blob/master/images/06-collocate.png)
+
+![Collocates for "wom?n": Default settings](https://github.com/ctschroeder/tutorials/blob/master/images/06b-collocate.png)
 
 **Dr. S note:** depending on the version or whether you're using Mac or PC, the results may or may not be sorted.  Read through the next four paragraphs in full before playing around with the "sort" feature. The "sort" menu is on the bottom of the panel; you will see a menu you can toggle to "sort by freq", "sort by stat", etc.
 
@@ -222,9 +236,9 @@ Some people might want to remove these small words by using a stopword list; thi
 
 Additionally you may have a single letter 's' appear, quite high as well - that represents the possessive *'s* (the apostrophe won't be counted), but AntConc considers that s indicative of another word. Another example of this is *'t* appearing with *do*, as they contract as *don't*. Because these so commonly appear together, this makes them highly likely collocates. 
 
-**Dr. S note:** If your list is sorted by "Stat" (statistics), then the higher the number, the more connected those two words are.  The formula takes into account how often they appear together.  Change the way the list is sorted (by Frequency, for example).  Note how the list changes.  The words with the highest "Stat" number always or almost always appear with your search term, and less frequently appear anywhere else in the corpus.
+**Dr. S note:** "Likelihood" is the likelihood these words appear together:  the higher the number, the more connected those two words are.  The formula takes into account how often they appear together.  The words with the highest "Likelihood" number always or almost always appear with your search term, and less frequently appear anywhere else in the corpus.
 
-What happens if you change the "Minimum Collocate Frequency" to a higher number?  Try changing it to "3" and click "Start."  Now your list of collocations only includes words that appear at least 3 times in the corpus.*
+What happens if you change the "Minimum Freq" to a higher number?  Try changing it to "3" and click "Start."  Now your list of collocations only includes words that appear at least 3 times in the corpus.*
 
 **Task:** 
 Generate collocates for m?n and wom?n. Now sort them by frequency to 1L.  
@@ -235,7 +249,7 @@ This tells us about what makes a man or woman 'movie-worthy':
 
 This is not necessarily telling us about the movies but about the way those movies are written about in reviews, and can lead us to ask more nuanced questions, like "How are women in romantic comedies described in reviews written by men compared to those written by women?"
 
-**Dr. S note:** the results will vary depending on the parameters of your query:  sort, minimum collocation frequency, 1L/1R vs 2L/2R vs 3L/3R etc.
+**Dr. S note:** the results will vary depending on the parameters of your query:  sort, minimum collocation frequency, 1L/1R vs 2L/2R vs 3L/3R etc. and whether you changed the default Settings as described above.
 
 ## 6. Comparing corpora
 One of the most powerful types of analysis is comparing your corpus to a larger reference corpus.
@@ -256,12 +270,15 @@ Be sure to think carefully about what a reference corpus for your own research m
 * In fact, let's do this:  Clear All Tools and Files.  (You should see no files in that left pane.)
 * Now using the File > Corpus Manager command in the menu bar, open the corpus manager
 * clear your corpus here again
-* load Spielberg reviews in the main Antconc window.  You should see 24 files. give it a name!! and click CREATE
-* Click the REFERENCE corpus tab
-* You should see your larger movie reviews corpus in the lower right -- select it by double clicking on it
+* load Spielberg reviews in the main Antconc window.  You should see 24 files. **Give it a new name!!** and click CREATE
+* Click the REFERENCE corpus tab on the RIGHT pane
+* On the LEFT pane click the Corpus Database button (you're going to choose a corpus you used before and that AntConc saved.)
+  * You should see your larger movie reviews corpus if you haven't restarted AntConc-- **select it by clicking on it.** Then **click Choose** 
+  * If you don't see it in the list of databases you load the files again. Click on Raw File(s). Be sure you're in the REFERENCE tab, clear the corpus, load your reference corpus directory, give it a name, hit Create)
+* Click on both Reference and Target tabs to be sure you have the right corpus in each one.
 * Click Return to the Main Window 
 
-Note: You can also opt to swap reference corpus &amp; main files (SWAP REF/MAIN FILES). You can come back to the Corpus Manager and do that
+Note: You can also opt to swap reference corpus &amp; main files in the Files menu (File > Swap Target/Reference Corpora). 
 
 In Keyword TAB, just hit Start (with nothing typed in the search box).   
 
