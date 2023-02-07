@@ -1,6 +1,6 @@
 # Corpus Analysis with AntConc
 
-Last modified 9 February 2022
+Last modified 7 February 2023
 
 This tutorial lives online at https://github.com/ctschroeder/tutorials/edit/master/antconc-programming-historian.md.
 
@@ -56,7 +56,7 @@ This tutorial explores several different ways to approach a corpus of texts. It'
 
 ### Tutorial downloads
 1. Software:[AntConc](http://www.laurenceanthony.net/software/antconc/).    
-Unzip the download if necessary, and launch the application. Screen shots below may vary slightly from the version you have (and by operationg system, of course), but the procedures are more or less the same across platforms and recent versions of AntConc. This tutorial is written with a (much older) version of AntConc in mind, as I find it easier to use in an introductory context. You are welcome to use the most recent version, but if you wish to follow along with the screenshots provided, you can download the version used here, [version 3.2.4](http://www.laurenceanthony.net/software/antconc/releases/AntConc324/).
+Unzip the download if necessary, and launch the application. Screen shots below may vary slightly from the version you have (and by operationg system, of course), but the procedures are more or less the same across platforms and recent versions of AntConc. 
 
 2. Sample Corpus: Download the [zip file of movie reviews](https://programminghistorian.org/assets/corpus-analysis-with-antconc/antconc_corpus_files.zip).
 
@@ -102,14 +102,23 @@ When AntConc launches, you will see a **window** with a few sections and a **men
 On the left-hand side, there is a window to see all corpus files loaded (which we'll use momentarily).
 
 There are 9 tabs across the top:
+
 **KWIC:** This will show you what's known as a Keyword in Context view (abbreviated KWIC, more on this in a minute), using the search bar below it; this is the classic Concordance feature.  
+
 **Plot:** This will show you a very simple visualization of your KWIC search, where each instance will be represented as a little black line from beginning to end of each file containing the search term.  
+
 **File View:** This will show you a full file view for larger context of a result.  
+
 **Cluster:** This view shows you words which very frequently appear together. 
+
 **N-Gram:** This shows frequency of words that appear right next to each other. N-gram size 3 shows all the combinations of three words in a row and how frequently those three words appear in a row in the corpus. N-gram size 4 shows four word combinations, etc.
+
 **Collocate:** Clusters show us words which _definitely_ appear near each other in a corpus; collocates show words which are statistically likely to appear together.  
+
 **Word:** A list of all the words in your corpus.  
+
 **Keyword:** This will show comparisons between two corpora.
+
 **Wordcloud:** This is a new feature only in the recent versions.
 
 As an introduction, this tutortial barely scratches the surface of what you can do with AntConc. We will focus on the KWIC, Collocate, Keywords, and Word List functions. 
@@ -264,7 +273,7 @@ Be sure to think carefully about what a reference corpus for your own research m
 
 - You want the REFERENCE corpus to be the corpus for comparison
 
-- So for this activity -- analyzing the Spielberg reviews -- you want Spielberg to be TARGET and the larger 400-review corpus to be REFERENCE.  Swap if necessary; be sure to click "Load" and "Apply" every time you swap.*
+- So for this activity -- analyzing the Spielberg reviews -- you want Spielberg to be TARGET and the larger 400-review corpus to be REFERENCE. 
 
 **PRO TIP from Dr. S:** if you get confused with your corpora and need to restart, clear everything in AntConc out with File > Clear All Tools and Files.  Then Load your TARGET corpus first ; load the REFERENCE corpus using the corpus manager.
 * In fact, let's do this:  Clear All Tools and Files.  (You should see no files in that left pane.)
