@@ -12,6 +12,12 @@ Tableau Public is the free version of this tool. There are several things to be 
 
 However, you do not need to create an account in order to use Tableau Public. We will use it today to make two charts, which we'll combine into a dashboard. [Here is a preview of what we'll make.](https://public.tableau.com/profile/miriam.posner#!/vizhome/IowaArtsGrants2015/Dashboard1?publish=yes) At the end of this tutorial, you'll find information on how to publish it to the web. For this exercise, you will need the [Iowa Arts Council Grants data CSV file](https://www.dropbox.com/s/lhanmm3v9ylccgz/Iowa_Arts_Council_Grants.csv?dl=0).
 
+## Tableau Public Application and Tableau Public Workspace Online
+
+You can use Tableau Public by downloading to your computer from https://public.tableau.com. Select Create and then Download. Then you can work offline without worrying about your internet connection.
+
+You also can go to https://public.tableau.com and select Create > Web Authoring to upload your data directly to Tableau online and work in their online environment. This is good for people who a) have a secure internet connection and b) don't have a laptop/desktop or don't have permission to install software on their laptop/desktop.
+
 ## 1. Choose your data source
 
 ### 1a. Getting your data
