@@ -56,7 +56,7 @@ There's a reason for that: Tableau doesn't know what you want it to count.
 
 ## 5. Tell Tableau which measure to use
 
-We want Tableau to create a chart that visualizes the number of grants awarded per arts discipline. As we did when we used Excel to create a Pivot table, we want Tableau to summarize the values.
+We want Tableau to create a chart that visualizes the number of grants awarded per arts discipline. We want Tableau to summarize the values.
 
 Luckily, Tableau has done this for us. Scroll to the bottom of the Data column, and look at the measure types that are in italics. You'll see that they contain the word **generated** next to them in parentheses. This means that these are numbers that Tableau has calculated for you.
 
@@ -179,9 +179,20 @@ From the left-hand side of your dashboard's window, click on each of your sheets
 
 ## 16. Options for exporting
 
+As I've mentioned, in order to make your visualization web-accessible, you will need to create a Tableau account and publish to Tableau's site. From there, you can embed your visualizations in other web pages. To begin this process, select **Save to Tableau Public As...** from the **File** menu. You will be prompted to begin the process of creating an account, logging in, and publishing to the web.
+
 ### 16a. Publishing and embedding
 
-As I've mentioned, in order to make your visualization web-accessible, you will need to create a Tableau account and publish to Tableau's site. From there, you can embed your visualizations in other web pages. To begin this process, select **Save to Tableau Public As...** from the **File** menu. You will be prompted to begin the process of creating an account, logging in, and publishing to the web.
+Once you've published your charts to the web, you can go to your account on Tableau and get the code to embed. Usually when you **Save to Tableau Public As...** Tableau will trigger your browser to open a window with your account and your chart online. 
+ -  On the upper right you will see a very small star icon and a small icon with three circles connected by lines. Click on the three circles
+ -  Copy the embed code (not the link)
+ -  In Wordpress create your blog post and open an HTML block in your post
+ -  Paste the code into the window for your HTML
+ -  **LOOK AT YOUR CODE:**
+    - It opens with a <div> tag and then has a closing tag and then a lot of other code after. 
+    - Delete the code _AFTER_ the closing tag </div>
+    - DO NOT delete any of the stuff in the middle of the div tags
+    - LOOK AT YOUR CODE: it should begin with an opening div tag and end with a closing div tag. 
 
 There's a *ton* more you can do with Tableau. You can begin learning about its other features [here](https://public.tableau.com/en-us/s/resources).
 
@@ -189,11 +200,20 @@ There's a *ton* more you can do with Tableau. You can begin learning about its o
 
 [16]: images/getting-started-with-tableau-public/options-for-exporting.png
 
-### 16b.
+### 16b. Screenshot + link
 
 Take a screenshot. Unfortunately, the free Tableau Public doesn't have a good way to export a visualization as a static image like a jpg.  You can take a screenshot.
 
-For the best image for a screenshot, look at the toolbar above the "Columns" field, and you'll see a little screen icon. Click on that for a clean full screen image you can screenshot.
+For the best image for a screenshot, look at the toolbar above the "Columns" field, and you'll see a little screen icon. Click on that for a clean full screen image you can screenshot. (The option below in 16c will give you a higher quality image though.)
+
+Upload the screenshot and link to your Tableau public site.
+
+### 16c. Download image + link
+
+Download the image of your chart/graph from Tableau Public. In your browser at your Tableau Public account page showing your visualization, look in the upper right. 
+ - Next to the star icon and three circles icon you will also see an icon that looks like a square with a downward arrow. 
+ - Click it and download an image
+ - Upload the image to your blog post and link to your Tableau account
 
 ## 17. Let's create a map across multiple states.
 
