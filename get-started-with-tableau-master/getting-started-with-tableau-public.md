@@ -248,8 +248,10 @@ Now drag "Number of Records" up to the "Marks" panel.  **NEWER version may label
   - Select Edit Colors
   - Select Advanced
   - Click the End check box
-  - Enter 200 as the end number and hit OK
-  - Now what does your map look like
+  - Enter 40 as the end number and hit OK
+  - Now what does your map look like?
+- Try clicking on the colored dots next to CNT... in the Marks section and selecting Size instead. What happens?
+- Pick your favorite (color or size) 
 
 Click on Sheet 1 above your map to give your map a good title.
 
