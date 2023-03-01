@@ -241,7 +241,15 @@ Now drag "Longitude" up to "Columns".
 
 You should see a map with lots of coordinates!
 
-Now drag "Number of Records" up to the "Marks" panel.  **NEWER version may label this field cushman-collection-lat-long-disagg.csv(Count) instead of "Number of Records".** Click on the little dots next to the colored oval there and select "Size".  What happens?
+Now drag "Number of Records" up to the "Marks" panel.  **NEWER version may label this field cushman-collection-lat-long-disagg.csv(Count) instead of "Number of Records".** 
+- Click on the little dots next to the colored oval there and select "Size".  
+- What happens? If the dots are all the same color follow the steps below
+  - On the right you'll see a legend that begins with CNT and a color slider: if the dots are all the same color, click on the little down arrow
+  - Select Edit Colors
+  - Select Advanced
+  - Click the End check box
+  - Enter 200 as the end number and hit OK
+  - Now what does your map look like
 
 Click on Sheet 1 above your map to give your map a good title.
 
@@ -258,6 +266,8 @@ Click on the little dots next to the blue oval and select "Color."
 What happens???
 
 Give your map a cool title!!
+
+### 18. Go back up to Step 14 and create a Dashboard with your maps
 
 
 
