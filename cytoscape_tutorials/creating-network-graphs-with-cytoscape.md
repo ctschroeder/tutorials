@@ -1,5 +1,14 @@
 # Creating Network Graphs with Cytoscape
 
+## About this tutorial
+
+This tutorial is a modified version of Dr. Miram Posner's Cytoscape tutorial ["Creating Network Graphs with Cytoscape"](http://dx.doi.org/10.5281/zenodo.56245). Licensed [CC-BY 4.0](https://github.com/ctschroeder/cytoscape_tutorials/blob/master/license.md). 
+
+Modified for use in Caroline T. Schroeder's Introduction to Digital Humanities course at the University of Oklahoma.
+
+For this tutorial you can use
+## About Cytoscape
+
 Cytoscape is a tool for viewing and analyzing **networks** (meaning, in this case, any group of entities that are connected in some way). Cytoscape is not too hard to use, but it won't make much sense unless you have a sense of some basic network analysis vocabulary and concepts. I've made a glossary for you [here](https://github.com/miriamposner/network_analysis_workshop/blob/master/SNAglossary.md). In addition, Scott Weingart has a great [introduction to network analysis](http://journalofdigitalhumanities.org/1-1/demystifying-networks-by-scott-weingart/).
 
 ## Setting up your data
@@ -18,6 +27,8 @@ Other kinds of relationships you could describe in an edge list:
 
 You can save your spreadsheet as an Excel document (with the file extension .xls) or its generic equivalent, a CSV (with the file extension .csv). Cytoscape can interpret both of these formats.
 
+** Note from Dr. S:** You also can have an edge list with edge attributes. Such a list would have two columns for the entities (as described above) and then additional columns for the type of relationship or edge. So you could have a two columns of people who are familial relations. Person A is related to Person B. Column C might have the type of relationship (parent, child, sibing, etc.). Be sure your edge attributes are _edge_ attributes not _person_ attributes. So Column C would be describing Person A as the parent of Person B, not saying that Person A has an identity as a parent. (Person A is of course a parent, but Column C is describing the _relationship_ -- the edge -- between A & B, not a characteristic of A. A could also be a sibling or an aunt/uncle as part of their identity, but what matters to you is their relationship to B (parent).
+
 ![][1]
 
 [1]: images/creating-network-graphs-with-cytoscape/setting-up-your-data.png
@@ -31,6 +42,14 @@ Drag the edge list you've prepared into the pane labeled **Drag network files he
 ![][2]
 
 [2]: images/creating-network-graphs-with-cytoscape/get-your-edge-list-into-cytoscape.png
+
+### Pre-prepared data you can use for this tutorial
+
+Dr. Posner has an [edge-list of African American actors in silent films](https://github.com/miriamposner/cytoscape_tutorials/blob/master/data/edgelist.csv). (Use the "raw" download link.)
+
+Dr. S will be using data from the [Programming Historian tutorial on network analysis of historical sources](https://programminghistorian.org/en/lessons/creating-network-diagrams-from-historical-sources). If you use this data please:
+  - Read the [section describing the data and case study](https://programminghistorian.org/en/lessons/creating-network-diagrams-from-historical-sources#about-the-case-study)
+  - Read the [section about the coding scheme](https://programminghistorian.org/en/lessons/creating-network-diagrams-from-historical-sources#about-the-case-study) for relationships, race, gender, and time
 
 ## If you don't see that welcome screen...
 
@@ -46,13 +65,16 @@ The screen that pops up after you imported your edge list might be the most init
 
 Cytoscape hasn't understood right away that you want a network composed of **film** and **actor** nodes. You can tell that's the case because the icon that appears next to the words **actors** and **films** looks sort of like a document, which means that Cytoscape thinks that you've fed it a list of **edge attributes**, not edges themselves. Edge attributes can come in handy, as I'll explain below, but that's not what you've provided Cytoscape at the moment.
 
-We need to tell Cytoscape that the edge list we've provided contains **Sources** in one column and **Targets** in another. It doesn't matter, in this case, which column you designate a **source** and which column you designate a **target**; it's just that one column has to be one and the other has to be the other. (If our network was [directed](http://www.shizukalab.com/toolkits/sna/plotting-directed-networks), this would matter, but that's more information than you need right now.)
+We need to tell Cytoscape that the edge list we've provided contains **Sources** in one column and **Targets** in another. 
+1.  **If you're using Dr. Posner's data:** It doesn't matter, in this case, which column you designate a **source** and which column you designate a **target**; it's just that one column has to be one and the other has to be the other. (If our network was [directed](http://www.shizukalab.com/toolkits/sna/plotting-directed-networks), this would matter, but that's more information than you need right now.) 
+    - OK, let's tell Cytoscape how to interpret our data. Click on the arrow next to the word **actors** and from the menu that appears, select the green circle. Cryptically, this icon means **Source**. 
+    - For the **films** column, do the same thing, but this time select the red bullseye, which means **Target**.
+    - When you've changed both columns, click **OK**.
 
-OK, let's tell Cytoscape how to interpret our data. Click on the arrow next to the word **actors** and from the menu that appears, select the green circle. Cryptically, this icon means **Source**.
-
-For the **films** column, do the same thing, but this time select the red bullseye, which means **Target**.
-
-When you've changed both columns, click **OK**.
+2.  **If you're using the Programming Historian data about help in the Holocaust**: 
+    - Click on the arrow next to **Giver**, which means **source**. 
+    - For the **Recipient** column select the bullseye, which means **target**.
+    - When you've changed both columns, click **OK**.
 
 ![][4]
 
@@ -96,7 +118,9 @@ Looking at the **Node** style pane, you'll see that we can alter many aspects of
 
 **Byp.** stands for **bypass**, and it allows you to apply a style to a group of nodes that you select.
 
-The **Map.** (mapping) column allows you to control the visual features of your nodes *according to their properties*. For example, let's say you'd like all of the films from a particular studio to appear in pink. You can do that by mapping that attribute to a particular color. Or, let's say you'd like those nodes with more connections to appear larger. You can do that with the mapping control.
+The **Map.** (mapping) column allows you to control the visual features of your nodes *according to their properties*. 
+  - For example, if you're using Dr. Posner's data, let's say you'd like all of the films from a particular studio to appear in pink. You can do that by mapping that attribute to a particular color. Or, let's say you'd like those nodes with more connections to appear larger. You can do that with the mapping control.
+  - If you're using the Programming Historian data, you can color the nodes by race or by gender of the person. 
 
 The problem is, we don't have any of that information currently included in our network. So in the next tutorial, we'll look at how to load up **attributes** for our nodes.
 
