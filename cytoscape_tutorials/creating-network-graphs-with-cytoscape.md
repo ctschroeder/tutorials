@@ -26,7 +26,7 @@ Other kinds of relationships you could describe in an edge list:
 
 You can save your spreadsheet as an Excel document (with the file extension .xls) or its generic equivalent, a CSV (with the file extension .csv). Cytoscape can interpret both of these formats.
 
-** Note from Dr. S:** You also can have an edge list with edge attributes. Such a list would have two columns for the entities (as described above) and then additional columns for the type of relationship or edge. So you could have a two columns of people who are familial relations. Person A is related to Person B. Column C might have the type of relationship (parent, child, sibing, etc.). Be sure your edge attributes are _edge_ attributes not _person_ attributes. So Column C would be describing Person A as the parent of Person B, not saying that Person A has an identity as a parent. (Person A is of course a parent, but Column C is describing the _relationship_ -- the edge -- between A & B, not a characteristic of A. A could also be a sibling or an aunt/uncle as part of their identity, but what matters to you is their relationship to B (parent).
+**Note from Dr. S:** You also can have an edge list with edge attributes. Such a list would have two columns for the entities (as described above) and then additional columns for the type of relationship or edge. So you could have a two columns of people who are familial relations. Person A is related to Person B. Column C might have the type of relationship (parent, child, sibing, etc.). Be sure your edge attributes are _edge_ attributes not _person_ attributes. So Column C would be describing Person A as the parent of Person B, not saying that Person A has an identity as a parent. (Person A is of course a parent, but Column C is describing the _relationship_ -- the edge -- between A & B, not a characteristic of A. A could also be a sibling or an aunt/uncle as part of their identity, but what matters to you is their relationship to B (parent).
 
 ![][1]
 
@@ -71,7 +71,7 @@ We need to tell Cytoscape that the edge list we've provided contains **Sources**
     - When you've changed both columns, click **OK**.
 
 2.  **If you're using the Programming Historian data about help in the Holocaust**: 
-    - Click on the arrow next to **Giver**, which means **source**. 
+    - Click on the arrow next to **Giver**, and then select the green button which means **source**. 
     - For the **Recipient** column select the bullseye, which means **target**.
     - When you've changed both columns, click **OK**.
 
