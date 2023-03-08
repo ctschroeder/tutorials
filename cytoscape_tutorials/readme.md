@@ -8,6 +8,8 @@ This repository is a copy of and modification of [Miriam Posner's Cytoscape Tuto
 
 Everything below this section of this Read Me document was written by Miriam Posner unless otherwise indicated.
 
+## Cytoscape
+
 [Cytoscape](http://www.cytoscape.org/?gclid=CjwKEAjwsMu5BRD7t57R1P2HwBgSJABrtj-R-qVRQblhiMF7UjtuOoE7qYEOXXN9AGOtC7dThG8KZhoCKiHw_wcB) is a tool for viewing and analyzing **networks** (meaning, in this case, any group of entities that are connected in some way). Cytoscape is not too hard to use, but it won't make much sense unless you have a sense of some basic network analysis vocabulary and concepts. I've made a glossary for you [here](https://github.com/miriamposner/network_analysis_workshop/blob/master/social-network-glossary.md). In addition, Scott Weingart has a great [introduction to network analysis](http://journalofdigitalhumanities.org/1-1/demystifying-networks-by-scott-weingart/).
 
 ## What is this?
