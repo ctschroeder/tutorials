@@ -1,12 +1,20 @@
 # Creating Network Graphs with Cytoscape
 
+## About this repository
+
+This repository is a copy of and modification of [Miriam Posner's Cytoscape Tutorials](https://github.com/miriamposner/cytoscape_tutorials). 
+
+**Some documents have been modified by Caroline T. Schroeder and some haven't. Check the document and the commit logs; documents that have been modified will have a statement to that effect in the beginning of the document.**
+
+Everything below this section of this Read Me document was written by Miriam Posner unless otherwise indicated.
+
 [Cytoscape](http://www.cytoscape.org/?gclid=CjwKEAjwsMu5BRD7t57R1P2HwBgSJABrtj-R-qVRQblhiMF7UjtuOoE7qYEOXXN9AGOtC7dThG8KZhoCKiHw_wcB) is a tool for viewing and analyzing **networks** (meaning, in this case, any group of entities that are connected in some way). Cytoscape is not too hard to use, but it won't make much sense unless you have a sense of some basic network analysis vocabulary and concepts. I've made a glossary for you [here](https://github.com/miriamposner/network_analysis_workshop/blob/master/social-network-glossary.md). In addition, Scott Weingart has a great [introduction to network analysis](http://journalofdigitalhumanities.org/1-1/demystifying-networks-by-scott-weingart/).
 
 ## What is this?
 These tutorials provide a basic introduction to using Cytoscape to conduct network analysis of humanistic data. They're intended to be used with the [data my students and I collected about early African-American silent film](http://dhbasecamp.humanities.ucla.edu/afamfilm/the-data/). However, anyone should be able to follow along.
 
 Here's what's included:
-* Creating a basic Cytoscape network (that's this tutorial)
+* Creating a basic Cytoscape network (that's this tutorial) (**Note from @ctschroeder; There is also a stand-alone tutorial document for [creating a basic network graph](creating-network-graphs-with-cytoscape.md)**
 * [Importing a node list and working with node attributes](working-with-attributes.md)
 * [Selecting parts of your network](working-with-selections.md)
 * [Converting your bimodal edge list into a unimodal edge list](get-a-unimodal-network.md)
