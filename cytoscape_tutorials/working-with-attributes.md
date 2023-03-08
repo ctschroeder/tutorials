@@ -1,12 +1,22 @@
 # Working with Attributes
 
+## About this tutorial
+
+This tutorial is a modification of [Miriam Posner's Cytoscape tutorial on Working with Attributes](https://github.com/miriamposner/cytoscape_tutorials/blob/master/working-with-attributes.md). Licensed [CC-BY 4.0](https://github.com/ctschroeder/cytoscape_tutorials/blob/master/license.md). 
+
+Modified for use in Caroline T. Schroeder's Introduction to Digital Humanities course at the University of Oklahoma.
+
+## What is a Node list or an Attributes list
+
 As we learned in the last tutorial, all Cytoscape *really* needs is an edge list with two columns in it. But you might also want to supply Cytoscape with a list of nodes. That way, you can feed Cytoscape extra information that you can use to distinguish among nodes. That extra information about your nodes is called **attributes**.
 
 (Actually, edges can have attributes, too, as you might have guessed. In the case of edges, the attributes usually describe the nature of the connection between nodes. For example, if I had a People column and a Book column, I could use edge attributes to describe the nature of each connection: *published*, *wrote*, *illustrated*. We'll just deal with node attributes here, but the same steps apply to edge attributes, too.)
 
 ## Preparing a node list
 
-Your node list should contain, at a minimum, one column that supplies the name of every node *once*. My edge list, as you may have noticed, contained many actors' names and film titles multiple times. For example, since Ida Anderson appeared in multiple films, I had rows that looked like this:
+Your node list should contain, at a minimum, one column that supplies the name of every node *once*. 
+
+Dr. Posner's African American actors in silent films edge list, as you may have noticed, contained many actors' names and film titles multiple times. For example, since Ida Anderson appeared in multiple films, I had rows that looked like this:
 
 | actor | film |
 | -----| ----- |
@@ -20,13 +30,21 @@ We don't want this in our node list, though. We only want Ida Anderson to appear
 
 By convention, we usually label node names **id**, although it won't mess anything up if you want to label the column something else.
 
-In subsequent columns, you can provide attributes for each of your nodes. I'll just supply one here, called **type**, containing either **actor** or **film**. You could provide multiple columns, though, like **gender** or **director**.
+In subsequent columns, you can provide attributes for each of your nodes. 
+
+### For Dr. Posner's dataset on African American actors in silent films
+
+I'll just supply one here, called **type**, containing either **actor** or **film**. You could provide multiple columns, though, like **gender** or **director**.
 
 Once you've prepared your node list, save it as either an Excel document or a CSV (either is fine).
 
 ![][1]
 
 [1]: images/working-with-attributes/preparing-a-node-list.png
+
+### For Dr. Schroeder's/Programming Historian's dataset on help during the Holocaust
+
+You can see that the attributes list contains a list of names in Column A and columns for race and gender. Each name appears only once. See the Programming Historian website for [information about how the numbers correspond to race and gender](https://programminghistorian.org/en/lessons/creating-network-diagrams-from-historical-sources#developing-a-coding-scheme).
 
 ## Add your node list to your Cytoscape graph
 
@@ -42,7 +60,7 @@ Do that by clicking on the **Import Table from File** button, circled below. In 
 
 Hopefully, the window that pops up looks something like the one below. The column labeled with a key is the column Cytoscape will use to try and match your node attributes with the nodes that already exist in your Cytoscape graph.
 
-You can see that Cytoscape has labled your **type** column with an icon that looks like a document. That means that Cytoscape has interpreted that column, correctly, as attribute information for your nodes. This all looks good, so we can click **OK**.
+You can see that Cytoscape has labled your **type** column (or for the Holocaust data the **gender** and **race** columns) with an icon that looks like a document. That means that Cytoscape has interpreted that column, correctly, as attribute information for your nodes. This all looks good, so we can click **OK**.
 
 ![][3]
 
@@ -50,7 +68,7 @@ You can see that Cytoscape has labled your **type** column with an icon that loo
 
 ## What happened?
 
-Not a lot, at first glance! But if you look at the pane at the bottom of Cytoscape's window and click on the **Node Table** tab, you'll see that your node table now has an extra column, in which each entity is labeled as either an actor or a film.
+Not a lot, at first glance! But if you look at the pane at the bottom of Cytoscape's window and click on the **Node Table** tab, you'll see that your node table now has an extra column, in which each entity is labeled as either an actor or a film (if you're using Dr. Posner's data) or two extra columns (if you're using the Holocaust data).
 
 That's good! It means the last step worked!
 
@@ -84,7 +102,11 @@ Give each type of node a color by clicking on the tiny button that contains thre
 
 You can supply your own attributes to Cytoscape, as we just did with our node list. However, part of the power of Cytoscape is its ability to calculate certain attributes of your network *for* you. For example, Cytoscape can provide each node with a number that reflects its *degree*, meaning the number of connections to and from that node. We can then use that number to control the size of our nodes.
 
-To get Cytoscape to provide these values, choose **Tools** from Cytoscape's menu, then **Network Analyzer**, then **Network Analysis**, and finally **Analyze Network**. In the window that pops up, Cytoscape will ask you whether you'd like it to treat your edges as directed or undirected. Remember, all of our connections are reciprocal, so select **Treat Network as Undirected**. Once you click **OK**, Cytoscape will perform some calculations and fill in some new columns in your Nodes, Edges, and Network tables.
+To get Cytoscape to provide these values, choose **Tools** from Cytoscape's menu, then **Network Analyzer**, then **Network Analysis**, and finally **Analyze Network**. In the window that pops up, Cytoscape will ask you whether you'd like it to treat your edges as directed or undirected. 
+- **For Dr. Posner's actor/film data:** Remember, all of our connections are reciprocal, so select **Treat Network as Undirected**. 
+- **For the Holocaust data:** you can choose either directed or undirected. Choose directed if you want statistics that take into account who is the giver and who is the recipient. Choose undirected if you want the statistics to look only at contacts (who has a relationship with whom and not whether the perosn gives or receives).
+
+Once you click **OK**, Cytoscape will perform some calculations and fill in some new columns in your Nodes, Edges, and Network tables.
 
 ![][7]
 
@@ -92,11 +114,11 @@ To get Cytoscape to provide these values, choose **Tools** from Cytoscape's menu
 
 ## Understanding these statistics
 
-To understand what these numbers mean, refresh your memory of the [social network analysis glossary](https://github.com/miriamposner/network_analysis_workshop/blob/master/social-network-glossary.md) I provided you in the last tutorial. Here's an important caveat, though: Some of these statistics are meaningful for the kind of graph we have, and some of them aren't. We have a [**bimodal network**](http://www.scottbot.net/HIAL/index.html@p=41158.html), meaning we have two different kinds of things: actors and nodes. Not all measures of networks make sense for bimodal networks.
+To understand what these numbers mean, refresh your memory of the [social network analysis glossary](https://github.com/miriamposner/network_analysis_workshop/blob/master/social-network-glossary.md) I provided you in the last tutorial. Here's an important caveat, though: Some of these statistics are meaningful for the kind of graph we have, and some of them aren't. **The film/actor dataset is a [**bimodal network**](http://www.scottbot.net/HIAL/index.html@p=41158.html), meaning we have two different kinds of things: actors and nodes. Not all measures of networks make sense for bimodal networks. **The Holocaust data* is a single mode network** since each node is a person.
 
 Degree centrality, for example, still makes some sense for bimodal networks. If a node has a bunch of connections, we know it's either *an actor who appeared in a lot of movies* or *a film that contains a lot of actors*. (Although, obviously, those two qualities are two very different things.) The clustering coefficient statistic, however, means very little for bimodal networks, because your network contains two different orders of things. To read more about measures of bimodal networks, see Scott Weingart's [stern words of advice.](http://www.scottbot.net/HIAL/index.html@p=41158.html)
 
-
+For the Holocaust data, degree centrality will tell us who has a lot of connections with other people.
 
 ![][8]
 
