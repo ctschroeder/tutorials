@@ -109,20 +109,40 @@ Confoundingly, each of these wildly different network layouts displays the same 
 
 ## Customize your style
 
+### Overview
+
 You can make changes to many visual attributes of your network graph from Cytoscape's control panel. Once you've selected the **Style** tab, look at the bottom of the control panel. You'll see that three additional buttons allow you to customize the look of the **nodes**, the **edges**, and the **network** as a whole.
 
 Looking at the **Node** style pane, you'll see that we can alter many aspects of our nodes, including their border, the color, height, labels, etc. But what do the three columns, labeled **Def.**, **Map.,** and **Byp.** mean?
 
-**Def.** stands for **default**: the default visual attribute of a node. If you click on the default fill color for your network diagram, for example (in the image below, it's a blue square), you'll see that you can swap out the colors of your network's nodes.
+- **Def.** stands for **default**: the default visual attribute of a node. If you click on the default fill color for your network diagram, for example (in the image below, it's a blue square), you'll see that you can swap out the colors of your network's nodes.
 
-**Byp.** stands for **bypass**, and it allows you to apply a style to a group of nodes that you select.
+- **Byp.** stands for **bypass**, and it allows you to apply a style to a group of nodes that you select.
 
-The **Map.** (mapping) column allows you to control the visual features of your nodes *according to their properties*. 
+- The **Map.** (mapping) column allows you to control the visual features of your nodes *according to their properties*. 
   - For example, if you're using Dr. Posner's data, let's say you'd like all of the films from a particular studio to appear in pink. You can do that by mapping that attribute to a particular color. Or, let's say you'd like those nodes with more connections to appear larger. You can do that with the mapping control.
   - If you're using the Programming Historian data, you can color the nodes by race or by gender of the person. 
 
-The problem is, we don't have any of that information currently included in our network. So in the next tutorial, we'll look at how to load up **attributes** for our nodes.
+The problem is, we don't have any information about the nodes currently included in our network. So in the next tutorial, we'll look at how to load up **attributes** for our nodes.
+
 
 ![][8]
 
 [8]: images/creating-network-graphs-with-cytoscape/customize-your-style.png
+
+## Analyze centrality and betweenness with the Holocaust Data
+
+Once you have picked a style, you can analyze the relationships between your nodes.
+
+On the top menu, click Tools > Analyze
+ - you will need to decide whether you want a DIRECTED or UNDIRECTED network
+ - only choose DIRECTED if you know for sure your network is directed
+ - choosing undirected will tell you the connections between nodes regardless of direction
+
+On the lower pane you should see a list of names and data.
+  - click on the label of any column to sort the data according to that label
+  - for example, clicking on "Betweenness Centrality" will list the names according to who is most or less "between". Then you can see who has the most "betweenness"!
+  - clicking on Degree or Number of Edges will tell you how connected a node is to its neighbor nodes -- how many relationships that node has
+
+When you describe _what you learn from your network graph_ you should use those statistics to inform your analysis.
+
