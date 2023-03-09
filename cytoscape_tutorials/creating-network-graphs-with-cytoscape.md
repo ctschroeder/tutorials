@@ -1,16 +1,16 @@
 # Creating Network Graphs with Cytoscape
 
-## About this tutorial
+## 1. About this tutorial
 
 This tutorial is a modified version of Dr. Miram Posner's Cytoscape tutorial ["Creating Network Graphs with Cytoscape"](http://dx.doi.org/10.5281/zenodo.56245). Licensed [CC-BY 4.0](https://github.com/ctschroeder/cytoscape_tutorials/blob/master/license.md). 
 
 Modified for use in Caroline T. Schroeder's Introduction to Digital Humanities course at the University of Oklahoma.
 
-## About Cytoscape
+### About Cytoscape
 
 Cytoscape is a tool for viewing and analyzing **networks** (meaning, in this case, any group of entities that are connected in some way). Cytoscape is not too hard to use, but it won't make much sense unless you have a sense of some basic network analysis vocabulary and concepts. Dr. Posner made a glossary for you [here](https://github.com/miriamposner/network_analysis_workshop/blob/master/SNAglossary.md). In addition, Scott Weingart has a great [introduction to network analysis](http://journalofdigitalhumanities.org/1-1/demystifying-networks-by-scott-weingart/).
 
-## Setting up your data
+## 2. Setting up your data
 
 The most important thing to understand about Cytoscape (or, really, most network analysis tools) is the format in which you need to structure your data. At its most basic, Cytoscape wants a spreadsheet containing two columns. The objects in the first column should be connected in some way to the objects in the second column. This is called an **edge list**. In the example below, my edge list contains two kinds of things: **films** and **actors**. The columns could be reordered so that the Films column precedes the Actors column; it doesn't matter. All that matters here is that each row in my spreadsheet describes a connection between two entities.
 
@@ -32,7 +32,7 @@ You can save your spreadsheet as an Excel document (with the file extension .xls
 
 [1]: images/creating-network-graphs-with-cytoscape/setting-up-your-data.png
 
-## Get your edge list into Cytoscape
+## 3. Get your edge list into Cytoscape
 
 Open up Cytoscape. You should be greeted with a welcome pane that looks something like the one below. (If not, read on for instructions on how to accomplish the same thing without the welcome screen.)
 
@@ -50,7 +50,7 @@ Dr. S will be using data from the [Programming Historian tutorial on network ana
   - Read the [section describing the data and case study](https://programminghistorian.org/en/lessons/creating-network-diagrams-from-historical-sources#about-the-case-study)
   - Read the [section about the coding scheme](https://programminghistorian.org/en/lessons/creating-network-diagrams-from-historical-sources#about-the-case-study) for relationships, race, gender, and time
 
-## If you don't see that welcome screen...
+### If you don't see that welcome screen...
 
 no big deal. Someone might have disabled it, but you can accomplish the same thing by clicking on the **Import Network from File** button (circled below) and selecting your edge list.
 
@@ -58,7 +58,7 @@ no big deal. Someone might have disabled it, but you can accomplish the same thi
 
 [3]: images/creating-network-graphs-with-cytoscape/if-you-don-t-see-that-welcome-screen.png
 
-## Help Cytoscape understand your data
+## 4. Help Cytoscape understand your data
 
 The screen that pops up after you imported your edge list might be the most initially confusing part of Cytoscape, although it's no problem once you figure out what it wants. You need to tell Cytoscape which parts of your data constitute the entities in your network diagram.
 
@@ -79,7 +79,7 @@ We need to tell Cytoscape that the edge list we've provided contains **Sources**
 
 [4]: images/creating-network-graphs-with-cytoscape/help-cytoscape-understand-your-data.png
 
-## You have a (very confusing) network!
+## 5. You have a (very confusing) network!
 
 If the previous steps worked properly, you should have a network of connected nodes. If you have more than 100 or so, though, your network will look a lot like a hairball. We'll talk about ways to make your network graph more legible in subsequent steps.
 
@@ -89,7 +89,7 @@ For now, note that you can zoom in on parts of your network using the magnifying
 
 [5]: images/creating-network-graphs-with-cytoscape/you-have-a--very-confusing--network-.png
 
-## Switch up your style
+## 6. Switch up your style
 
 One of the easiest ways to change the look of your network diagram is to switch the style using one of Cytoscape's built-in options. To do that, click the **Style** tab on the control panel and then choose one of the options with which you're presented. I don't know if I *love* any of them, but some are more legible than others.
 
@@ -97,7 +97,7 @@ One of the easiest ways to change the look of your network diagram is to switch 
 
 [6]: images/creating-network-graphs-with-cytoscape/switch-up-your-style.png
 
-## Change your layout
+## 7. Change your layout
 
 Sometimes networks are more legible if you change the arrangement of the nodes. You can do this by switching the layout. Click on **Layout** from Cytoscape's menu bar and select one of the layout options. Experiment with various layouts and notice how drastically your network diagram changes.
 
@@ -107,7 +107,23 @@ Confoundingly, each of these wildly different network layouts displays the same 
 
 [7]: images/creating-network-graphs-with-cytoscape/change-your-layout.png
 
-## Customize your style
+## 8 Analyze centrality and betweenness with the Holocaust Data
+
+Once you have picked a style, you can analyze the relationships between your nodes.
+
+On the top menu, click Tools > Analyze
+ - you will need to decide whether you want a DIRECTED or UNDIRECTED network
+ - only choose DIRECTED if you know for sure your network is directed
+ - choosing undirected will tell you the connections between nodes regardless of direction
+
+On the lower pane you should see a list of names and data.
+  - click on the label of any column to sort the data according to that label
+  - for example, clicking on "Betweenness Centrality" will list the names according to who is most or less "between". Then you can see who has the most "betweenness"!
+  - clicking on Degree or Number of Edges will tell you how connected a node is to its neighbor nodes -- how many relationships that node has
+
+When you describe _what you learn from your network graph_ you should use those statistics to inform your analysis.
+
+## 8. Customize your style
 
 ### Overview
 
@@ -130,19 +146,31 @@ The problem is, we don't have any information about the nodes currently included
 
 [8]: images/creating-network-graphs-with-cytoscape/customize-your-style.png
 
-## Analyze centrality and betweenness with the Holocaust Data
+### You can customize your EDGE colors
 
-Once you have picked a style, you can analyze the relationships between your nodes.
+#### One simple, non-computational method is search
+Search for a specific node (like Rita Neumann in the Holocaust data) in the upper right search box. Her node should be highlighted, and depending on the style you chose, the edges connected to her should light up.
 
-On the top menu, click Tools > Analyze
- - you will need to decide whether you want a DIRECTED or UNDIRECTED network
- - only choose DIRECTED if you know for sure your network is directed
- - choosing undirected will tell you the connections between nodes regardless of direction
+#### Customize your edge color style
+Be sure you are in the **style** pane on the left. (Not Network.) 
 
-On the lower pane you should see a list of names and data.
-  - click on the label of any column to sort the data according to that label
-  - for example, clicking on "Betweenness Centrality" will list the names according to who is most or less "between". Then you can see who has the most "betweenness"!
-  - clicking on Degree or Number of Edges will tell you how connected a node is to its neighbor nodes -- how many relationships that node has
+On the bottom of the style pane, you should see options for node, edge, and network. Click on **edge**.
 
-When you describe _what you learn from your network graph_ you should use those statistics to inform your analysis.
+Click on **stroke color**.
+- You should see options for **column** and **mapping type**. Click to the right of **column** to select the edge attribute you want to use for coloring. I am using the holocaust data, so I will select "Form of Help." 
+- (Note: the data is in code. To see what the numerical codes stand for, so you can understand the data, see [this webpage](https://programminghistorian.org/en/lessons/creating-network-diagrams-from-historical-sources). Scroll down for the tables.)
+- For **mapping type** select **discrete**. (Discrete means that each type of help will get a different color).
+- A table should appear with all the different entries of forms of help (or entries for whichever edge addribute you chose)
+- Click on the empty cell to the right of the first number. On the right of the cell, you'll see three dots and a trash can. **Click on the three dots**
+- Select a color
+- Do this for every entry in the table
+
+Voila, you have a network graph with different colors for your edges based on an edge attribute!
+
+## 9. Export your graph to publish
+
+Dr. Posner has an entire [tutorial about publishing your graph](https://github.com/ctschroeder/tutorials/blob/master/cytoscape_tutorials/publishing-your-network-diagram.md#1-option-1-export-a-static-image). 
+
+I recommend following the instructions for [exporting a static image](https://github.com/ctschroeder/tutorials/blob/master/cytoscape_tutorials/publishing-your-network-diagram.md#1-option-1-export-a-static-image). The second option (a live, interactive graph) will not work well with our course blog.
+
 
