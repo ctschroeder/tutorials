@@ -129,7 +129,7 @@ Fill out the boxes that appear under this tab
 
    * Identifier: leave blank for now; we have not created identifiers for our project
 
-   * Coverage: if this is a Physical Object or a Still Image of a physical archives, put the geographic location of the archive; otherwise leave blank
+   * Coverage: (Optional) if this is a Physical Object or a Still Image of a physical archives, put the geographic location of the archive; otherwise leave blank
  
 ### Item Type Metadata
 
