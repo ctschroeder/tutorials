@@ -2,7 +2,7 @@
 
 ## About this tutorial
 
-This tutorial was created by Caroline T. Schroeder, licensed [CC-BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Last updated 24 March 2021.
+This tutorial was created by Caroline T. Schroeder, licensed [CC-BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Last updated 4 April 2023.
 
 This tutorial lives live online at https://github.com/ctschroeder/tutorials/blob/master/omeka-exhibits.md
 
@@ -53,13 +53,20 @@ In your Exhibit admin, add a Page for each person in your group
 
 •	You write the text and add the Items
 
-•	In the text: explain the topic/questions that led you to create this page and how the itmes illustrate your theme and the Martyrdom of Perpetua and Felicitas.
+•	In the text: 
+   - explain/analyze the theme in one paragraph or more 
+   - how the item(s) illustrate(s) your theme
+   - **Make a substantive reference to BOTH the original text AND the secondary source by Cohick & Hughes and cite appropriately**
 
-•	You must cite and link to source(s) you use.  No matter what:  if you take material word for word from somewhere else, you must put those words in quotation marks and give the source.  If you take ideas and/or information from somewhere else (but not word-for-word) you need a citation.  Cite the chapter of the original primary source if you reference our common text.
+•	You must cite and link to source(s) you use for information.  No matter what:  if you take material word for word from somewhere else, you must put those words in quotation marks and give the source.  If you take ideas and/or information from somewhere else (but not word-for-word) you need a citation.  Cite the chapter of the original primary source if you reference our common text.
 
-•	Have at least one image on your page
+   **You do not need to use other sources besides 
+   1. Cohick & Hughes
+   2. The Martyrdom of Perpetua & Felicitas
+   3. Information that might be on the museum page/original page where your items are from
+   **Please do not do other research.**
 
-•	Make a substantive reference to BOTH the original text AND the secondary source by Cohick & Hughes and cite appropriately
+•	Have at least one item/image on your page
 
 Be sure to save your changes!
 
