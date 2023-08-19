@@ -18,11 +18,15 @@ I will delete the blog entirely after the semester ends.
 
 ### Joining the Blog ###
 
-1. Check your OU email inbox for an invitation from WORDPRESS to the private course blog.  If you don’t see it, look in your junk/spam folder.
+1. Check your OU email inbox for an invitation from WORDPRESS to the private course blog.  If you don’t see it:
+    - look in your junk/spam folder
+    - look in the "Other" email section of Outlook
+    - If you still don't see the email: check the menu in the Canvas site and click on the link for the private class blog. Then click “forgot your password?”. Then enter your OU email address (the one that appears in your Canvas profile). Check your email (including spam/junk) again.
+    - IF YOU STILL can’t log in come to my Zoom student hours.  (If the scheduled times don’t work: on that same Canvas page with info about Zoom Student Hours, there is a link to my calendar so you can schedule a time that works for you!)
 
-1. Click on the FIRST link to register and change your password. **NOTE: IF YOU DON’T SEE THE EMAIL go to the link for the blog on your course page and click “forgot your password?”. Then enter your OU email address.  Check your email (including spam/junk).**  IF YOU STILL can’t log in come to my Zoom student hours.  (If the scheduled times don’t work: on that same Canvas page with info about Zoom Student Hours, there is a link to my calendar so you can schedule a time that works for you!)
+2. Click on the FIRST link in the email to register and change your password. *Make a note of your username and password.*
 
-### Update your username and avatar ###
+### Update your screen name and avatar ###
 
 3. Once you are LOGGED IN look in the upper left. There is a black menu bar. Hover over “PRIVATE Blog for [class name]… “ next to the big W.  “Dashboard” should appear in a dropdown menu. Click on Dashboard.
 
@@ -37,7 +41,7 @@ I will delete the blog entirely after the semester ends.
 - First name
 - Last name
 - Nickname
-- Display name publicly as ( this is the name that will appear on your posts to the class)
+- Display name publicly as (this is the name that will appear on your posts to the class)
 - Biographical info (may be blank or short and sweet)
 
 ![Image of screen](https://github.com/ctschroeder/tutorials/blob/master/images/wp-profile-edit-1.png)
