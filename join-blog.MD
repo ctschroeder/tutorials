@@ -4,7 +4,7 @@
 
 This is a tutorial created by [Prof. Caroline T. Schroeder](http://www.carrieschroeder.com) of the University of Oklahoma. 
 
-It was last updated 22 August 2021; previous versions are in the commit history here on GitHub.
+It was last updated 19 August 2023; previous versions are in the commit history here on GitHub.
 
 This tutorial is licensed under a [Creative Commons 4.0 Attribution-Noncommercial (CC BY-NC) license](https://creativecommons.org/licenses/by-nc/4.0/).
 
@@ -20,7 +20,7 @@ I will delete the blog entirely after the semester ends.
 
 1. Check your OU email inbox for an invitation from WORDPRESS to the private course blog.  If you don’t see it, look in your junk/spam folder.
 
-1. Click on the FIRST link to register and change your password. **NOTE: IF YOU DON’T SEE THE EMAIL go to the link for the blog on your course page and click “forgot your password?”. Then enter your OU email address.  Check your email (including spam/junk).**  IF YOU STILL can’t log in come to my Zoom office hours.  (If the scheduled times don’t work, please email me with times that work for you, and we will meet another time!)
+1. Click on the FIRST link to register and change your password. **NOTE: IF YOU DON’T SEE THE EMAIL go to the link for the blog on your course page and click “forgot your password?”. Then enter your OU email address.  Check your email (including spam/junk).**  IF YOU STILL can’t log in come to my Zoom student hours.  (If the scheduled times don’t work: on that same Canvas page with info about Zoom Student Hours, there is a link to my calendar so you can schedule a time that works for you!)
 
 ### Update your username and avatar ###
 
