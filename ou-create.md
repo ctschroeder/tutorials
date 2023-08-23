@@ -27,7 +27,9 @@ Last edited for Dr. Schroeder's Spring 2021 courses.
 
 4. Follow the directions to request a domain or subdomain (do not register for a Wordpress site -- request a full site and subdomain)
 
-   - On the form, tell them you are in Dr. Schroeder's DH class 
+   - On the form, tell them you are in Dr. Schroeder's DH class
+  
+![OU Create](https://github.com/ctschroeder/tutorials/blob/master/images/OUCreate-DOOO.png)
 
 REMEMBER to think about your web presence.  
 
