@@ -8,7 +8,7 @@ This tutorial will teach you how to create a domain or subdomain on OU Create AN
 
 This tutorial lives online (with live links) at https://github.com/ctschroeder/tutorials/blob/master/ou-create.md.
 
-Last edited for Dr. Schroeder's Spring 2021 courses.
+Last edited for Dr. Schroeder's Fall 2023 courses.
 
 ### 2. Registering your domain name. ###
 
