@@ -25,13 +25,13 @@ Some of the sites you visited in class for this unit used Omeka!
 The creators of Omeka maintain robust [documentation for Omeka online](https://omeka.org/classic/docs/).  You can also visit an online [showcase of projects using Omeka](https://omeka.org/classic/showcase/).
 
 
-## 1. Find at least TWO archives to add to our archive of archives
+## 1. Find at least THREE archives to add to our archive of archives
 
 In this unit of our course, we are talking a lot about digital archives. For this assignment, we will be collaboratively contributing to a digital archive of archives. So, the digital Shelley-Godwin Archives we studied collected digitized papers by Shelley and Godwin. Our Archive of Archives will collect other digital archives.
 
-Find at least TWO archives you want to include. Maybe it's a physical archive. Maybe it's a fictional archive (like the Star Wars Imperial archive). Maybe it's a digital archive. Whatever you want.
+Find at least THREE archives you want to include. Maybe it's a physical archive. Maybe it's a fictional archive (like the Star Wars Imperial archive). Maybe it's a digital archive. Whatever you want.
 
-At least ONE archive must be something new -- not something on the syllabus for the course.
+At least TWO archives must be something new -- not something on the syllabus for the course.
 
 You can add a web link to digital archive, a photograph of a physical archive, or just enter a physical or fictional archive without a link or photo.
 
@@ -68,7 +68,7 @@ Consider what KIND of Item your archive is:
 - are you adding a photograph of of the archive?
 - is it a website?
 
-Omeka is going to ask you to classify each item as a TYPE. Read the following and WRITE DOWN what item Type(S) you have for your two Itmes:
+Omeka is going to ask you to classify each item as a TYPE. Read the following and WRITE DOWN what item Type(S) you have for your three Itmes:
 - give a physical place the Physical Object type
 - give a photograph a Still Image type
 - give a website a Website Type
@@ -191,7 +191,7 @@ This is where you upload a file if you are providing a file.  (You do not need a
  
    * Yes? AWESOME you're done.
    
-   * No? Click on "Browse Items". Do you see your two items?
+   * No? Click on "Browse Items". Do you see your three items?
    
      * Yes? Edit them to add each of them to the correct Collection. Be sure to Save!!
      
