@@ -2,7 +2,7 @@
 
 ## About this tutorial
 
-Created by Caroline T. Schroeder for Intro to DH at OU, Spring 2020. This tutorial lives online at https://github.com/ctschroeder/tutorials/blob/master/tinkercad.md
+Created by Caroline T. Schroeder for Intro to DH at OU, Spring 2020 and updated Fall 2023 for Cultural Heritagee Data and Social Engagement 2023. This tutorial lives online at https://github.com/ctschroeder/tutorials/blob/master/tinkercad.md
 
 This tutorial is licensed [CC-BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)
 
@@ -18,48 +18,41 @@ Pick an object around the house or find a photo of an ojbect you'd like to model
 
 ## 2. Create an Account and Complete Basic Tutorial on Tinkercad
 
-Go to https://www.tinkercad.com/ and register an account by clicking on "Start Tinkering."  (Register as a student or individual but without a class - we have not created a "class" on the site.)
+Go to https://www.tinkercad.com/ and register an account by clicking on "Start Tinkering."  
+- Register as a student or individual - we have not created a "class" on the site.
+- Feel free to give them a fake birthday! Just be sure the birthday makes you 18+
 
-After filling out your information one one or two screens, you will see Welcome pop-up box asking "Ready to learn the moves?"  Click "Let's go!" to start the intro tutorial.
-
-The basic Tinkercad work plane will appear with objects on it -- experiment with moving them around.  You'll see instructions on the left, and a dropdown "hint" if you get stuck.  A blue "next" button is on the bottom for the next step.
-
-Go through all the steps for any one lesson in one go.  I recommend going through a few lessons up to the "Die on the Workplane" lesson. If you .  The "Die on the Workplane" one is a little trickier.  You can make basic shapes once you've done the Keychain.
-
-It took me 15 minutes to do the tutorial through to the keychain. 25 for that and the die.
+After filling out your information on one or two screens, you will see a dashboard. **I recommend clicking on Resources > Learning Center**
+  - Do a bunch of the 3D tutorials -- each of the first ones takes only a few minutes
+  - Go through all the steps for any one lesson in one go.
+  - I recommend going through a few lessons up to at least "creating holes." This should take you about half an hour or less  
 
 **Notes (Read these first):**
   - You can "undo" anything you mess up by clicking the left arrow in the top menu bar. You also can "undo" using the normal "undo" key combos on your computer (on a Mac it's usually command+z).
   
   ![](images/tinkercad-upper-left.png)
 
-  
-  - On the "Place Your Letters" section of the Key Ring tutorial, I couldn't change the snap grid setting--don't worry about it.
- 
+
   - The top right menu bar has the group, ungroup, align, and mirror buttons. "Group" is the seamless square + circle; "ungroup" is to the right of "group" and looks like a circle on top of the square
   
     ![](images/tinkercad-upper-right.png)
   
-When you finish the "Die on the Workplane" tutorial, the website takes you to a project page with lots of tutorials. You can do more or start in on your own project.
 
 ## 3. Your Tinkercad homepage
 
 Click on the rainbow-block Tinkercad logo in the upper left to go to your account homepage.
 
-To start a new model, click on "Create new Design."
+To start a new model, click on "+Create"
 
-To see your previous lessons, click on "Lessons" on the left hand menu.
+To see your previous tutorials, click on "Tutorials" on the left hand menu.
 
-To take more tutorials, click on "Learn" in the upper right. Then you'll see a page with three options: Starters, Lessons, Projects. 
-  - "Starters" are basic skills tutorials.
-  - "Lessons" are the tutorials like the ones we did; click on here to get a big page of models that will teach you skills while making something fun
-  - "Projects" are more complex challenges
+To take more tutorials, click on "Learning Center" in the upper right. 
   
 ## 4. Start your model
 
 GO to your TInkercad homepage by clicking on the rainbow-block logo in the upper left.
 
-Click on Create New Design.  You'll see an empty workplane.
+Click on "+Create".  You'll see an empty workplane.
 
 Use the skills you've learned to make a model of your chosen object!
 
@@ -81,7 +74,7 @@ If you need to move your shape  UP or DOWN click on the little black arrow on to
 
 Below I'll show some steps for moving around and placing a shape on a shape.
 
-Here I've got part of my bunny created.  I want to add a mustache, so I toggled the menu from Basic Shapes to Character, and I dropped the mustache on my plane. I used the black arrow to move it UP.  Now I need to move it right to get it to my bunny.
+Here I've got part of my bunny created.  I want to add a mustache, so I toggled the menu from Basic Shapes to Creatures & Characters, and I dropped the mustache on my plane. **Note: you can search for shapes using that search icon** I used the black arrow to move it UP.  Now I need to move it right to get it to my bunny.
 
 ![](images/8-addedmustache-rightarrow.png)
 
