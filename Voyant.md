@@ -186,6 +186,7 @@ Sometimes you might want a LIVE version of your visualization, so people can cli
     2. For blog only (not Google Doc): Select "custom HTML" block in Wordpress. Copy the following code into the block:  <div style="text-align:center"><iframe src="INSERT YOUR URL HERE" height='800px' width='750px'></iframe></div> . Then go to Voyant. Pick the visualization you want to embed and hover over its question mark above the tool/viz. You should see a few icons appear; click on the box with the arrow . Click "Export", and that tool/viz should appear in a new tab or window all on its own.  Copy the URL or web address of the new tab and paste it in the code where INSERT YOUR URL HERE appears. The live clickable Voyant embed should appear.
 
 ### Step 11: Document your visualization and corpus
+For your Lab Report you will need to provide documentation for your tool(s) used, dataset, and any other resource you used in writing your report:
 * In your Lab Notebook, Google Doc, blog post, or separate text/wordprocessor file where you are keeping your notes: document what your corpus is and where you got it from
 * You should also document the tool if you are including visualizations/information based on the tool and the tutorial you used 
 * First we will document Voyant Tools. Click on the Export button for the tool. (**again, this works best in CHROME**)
