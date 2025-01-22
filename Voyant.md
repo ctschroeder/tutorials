@@ -1,11 +1,9 @@
 # Voyant Tools for Text Analysis: Tutorial
 
-Last modified February 2023 for Intro to DH, Spring 2023, the University of Oklahoma.
+Last modified January 2025 for Intro to DH, Spring 2025, the University of Oklahoma.
 Originally Created for Intro to DH, Fall 2017, RELI/ENGL 39 at the University of the Pacific.
 
 A live version (with images, live links) lives at https://github.com/ctschroeder/tutorials/blob/master/Voyant.md
-
-## NOTE: I had problems uploading files to Voyant using the Chrome browser. On my Mac, Safari worked. If you can't upload, click the OPEN button in Step 2 and use one of the pre-loaded corpora
 
 ## Description of the tool
 Voyant is ["a web-based reading and analysis environment for digital texts."](http://voyant-tools.org/)
@@ -35,6 +33,7 @@ This tutorial uses process #1 & #3.  (So we will use TWO different corpora.)  Tr
 * Download a test corpus on to your computer (see official course page for links or visit [Alan Liu's list of plain-text collections](http://dhresourcesforprojectbuilding.pbworks.com/w/page/69244469/Data%20Collections%20and%20Datasets#demo-corpora)
 * Remember where you put it or the file name so you can find it again.
 * **I strongly recommend you create a folder on your computer for all your work in this class and download relevant data files there**
+* Be sure to **write in your Lab Notebook what corpus you are using so you don't forget**
 
 ### Step 2: Upload your corpus to Voyant via one of the following methods
 * Navigate to http://voyant-tools.org/
@@ -42,8 +41,10 @@ This tutorial uses process #1 & #3.  (So we will use TWO different corpora.)  Tr
   1. EITHER Click on "Upload"
       - Navigate to the place in your computer with the test corpus download.
       - Double-click on the file (it should end in a .zip) to upload it to Voyant 
-  2. OR copy and paste the following URL into the window: http://disc.library.emory.edu/lincoln/download/lincoln_sermons.zip
+  2. OR copy and paste the the URL for your corpus document(s) only. For this class you probably want to upload documents from your computer. 
 * Click Reveal
+
+#### Note: When I tested this on 22 January 2025, the main Voyant site was having difficulty uploading documents. They have a _mirror_ site that worked at https://voyant.lincsproject.ca/
 
 ## Understanding the page
 
@@ -70,6 +71,7 @@ Central location and large size indicate greater frequency.
 * Hover over the words; the number = the number of times the word appears in the corpus
 * What happens when you slide the slider next to "Terms"?
 * When you click on Scale, you can choose to create a word cloud of your whole corpus or individual documents
+* **Make notes on what you learn**
 
 ### Step 4: Adjust the options on the Cirrus/Word Cloud tool
 * Click on Options
@@ -78,6 +80,7 @@ Central location and large size indicate greater frequency.
 _**Stop words are some of the most common function words and pronouns (the, a, an, she...)**_
 * Turn the stop words back on.
 * Try adjusting some of the other options listed below. (In class if you have time or at home.)
+* * **Take notes on what you learn**
 
 Here are the other options:
 
@@ -98,6 +101,7 @@ The count tells you the number of times each term appears in the corpus.
 * Select "Relative" and unselect "Count"
 * Now your chart of Terms shows the relative frequency of each term.  The number isn't the raw count; it's now the number of times per million words each term appears.  It is more accurate to compare relative frequency than raw frequency.
 * Click on Links. Now you'll see a network of terms that appear near each other.  [More information here](http://voyant-tools.org/docs/#!/guide/collocatesgraph)
+* **Take notes on what you learn**
 
 ### Step 6: Check the time.
 * If we are almost out of time, skip down to Step 8 to bookmark your corpus and do Steps 8-11.  You can finish Steps 7 through 12 at home on your own.
@@ -133,6 +137,8 @@ A line graph that depicts the distribution of a word or words (occurrence across
 
 **_Additional tools can be added using the Choose Another Tool button described above._**
 
+**Take notes on what you learn**
+
 ### Step 8: Bookmark a corpus or a view within a tool to return to it later
 ![export function](https://github.com/ctschroeder/tutorials/blob/master/images/voyant-export-tool.png)
 
@@ -148,12 +154,14 @@ A line graph that depicts the distribution of a word or words (occurrence across
 * Select a PNG file. (SVG is higher quality but sometimes our blog software won't allow you to use SVG files.)
 * Follow instructions on screen to save (right-click or ctrl-click, save image as..., navigate to place on your computer where you want to save)
 * Be sure to give your file a **meaningful filename** before you save.
-* Be sure to make note of what this visualization visualizes (what is the corpus, using stop words or not
+* Be sure to **take notes** on what this visualization visualizes (what is the corpus, using stop words or not
 , etc.)
 
 ### Step 10: Embed a corpus or tool visualization in a blog post or website
 
 This section will tell you how to embed a static image (png file) or live interactive visualization (an html snippet) in your website.
+
+#### Note: Spring 2025 semester this lab is being posted to a Google doc. You can embed an image in a Google doc -- not sure about a live interactive viz
 
 #### Note: In Feb 2022 and 2023 I had trouble exporting images using the html snippet or png file in SAFARI. If you're using Safari: 
 If you're using Safari or another browser where you don't see options to export visualizations listed above then COPY the url for your Voyant corpus [see Step 8 above](https://github.com/ctschroeder/tutorials/blob/master/Voyant.md#step-8-bookmark-a-corpus-or-a-view-within-a-tool-to-return-to-it-later) and PASTE it into the CHROME BROWSER.
@@ -175,16 +183,16 @@ Sometimes you might want a LIVE version of your visualization, so people can cli
 #### If you don't have Chrome here are two other options:
     1. Take a screenshot of your visualization and copy the LINK to your corpus or visualization in Voyant and put both the static image/screenshot and the link in your blog post
     OR
-    2. Select "custom HTML" block in Wordpress. Copy the following code into the block:  <div style="text-align:center"><iframe src="INSERT YOUR URL HERE" height='800px' width='750px'></iframe></div> . Then go to Voyant. Pick the visualization you want to embed and hover over its question mark above the tool/viz. You should see a few icons appear; click on the box with the arrow . Click "Export", and that tool/viz should appear in a new tab or window all on its own.  Copy the URL or web address of the new tab and paste it in the code where INSERT YOUR URL HERE appears. The live clickable Voyant embed should appear.
+    2. For blog only (not Google Doc): Select "custom HTML" block in Wordpress. Copy the following code into the block:  <div style="text-align:center"><iframe src="INSERT YOUR URL HERE" height='800px' width='750px'></iframe></div> . Then go to Voyant. Pick the visualization you want to embed and hover over its question mark above the tool/viz. You should see a few icons appear; click on the box with the arrow . Click "Export", and that tool/viz should appear in a new tab or window all on its own.  Copy the URL or web address of the new tab and paste it in the code where INSERT YOUR URL HERE appears. The live clickable Voyant embed should appear.
 
 ### Step 11: Document your visualization and corpus
-* In your blog post, website, or separate text/wordprocessor file where you are keeping your notes: document what your corpus is and where you got it from
+* In your Lab Notebook, Google Doc, blog post, or separate text/wordprocessor file where you are keeping your notes: document what your corpus is and where you got it from
 * You should also document the tool if you are including visualizations/information based on the tool and the tutorial you used 
 * First we will document Voyant Tools. Click on the Export button for the tool. (**again, this works best in CHROME**)
   * Click on Export View
   * Select Bibliographic reference and click Export
   * Copy the reference in whichever format you prefer.
-  * Paste it into your blog post/webpage/notes page.  For blog posts/webpages, check the formatting
+  * Paste it into your blog post/webpage/Google Doc page.  For blog posts/webpages, check the formatting
 * Best practices are also to link to your corpus/tool online if it is online.  (You can't do this if you downloaded the Voyant app and are using it offline.)
   * Click on the Export button at the very top right of your screen (in the blue bar)
   * Click Export
@@ -193,7 +201,7 @@ Sometimes you might want a LIVE version of your visualization, so people can cli
     * You can also copy the whole URL. It's not a big deal either way; copy the whole thing if you are confused.
   * Put this link in your webpage/blog post/notes as documentation
   
-### Step 12: Try it with another corpus
+### Step 12: Try it with another corpus (If you have time -- if not it's ok!)
 * Go back up to Step 2 and do the tutorial again using another corpus. If you used a downloaded one, download a different one or one of Voyant's embedded corpora
 
 ### Step 13: Further considerations
