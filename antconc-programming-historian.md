@@ -1,11 +1,12 @@
 # Corpus Analysis with AntConc
 
-Last modified 7 February 2023
+Last modified 22 January 2025
 
 This tutorial lives online at https://github.com/ctschroeder/tutorials/edit/master/antconc-programming-historian.md.
 
 This is a modification of the original [Programming Historian Corpus Analysis with AntConc Tutorial](https://programminghistorian.org/lessons/corpus-analysis-with-antconc).  The images from the original PH tutorial have been deleted or replaced by screenshots of a more recent AntConc version; it provides a more detailed explainer of Target and Reference Corpora, with tips for using them in the Keyword Tool.
 
+## Note for Spring 2025 Intro DH Class: We may not get through this whole Lab for Lab Report #1. We'll pick it up again for Lab #2. See the instructions on Canvas about writing up your Lab Reports ##
 ---
 title: Corpus Analysis with Antconc
 layout: lesson
@@ -70,6 +71,10 @@ Unzip the download if necessary, and launch the application. Screen shots below 
 7. Discussion: Making meaningful comparisons
 8. Further resources
 
+### DOCUMENT your work in your Lab Notebook
+**As you work through the Lab, you will see there are a lot of options in AntConc.**
+* **Be sure to write down which options you are using in your Lab Notebook.**
+* **When you download/export results: be sure to write down the filename and what corpus, options, and tool you used**
 
 ## 1. Working with Plain Text Files
 * Antconc works only with plain-text files with the file appendix .txt (eg Hamlet.txt).  
@@ -119,7 +124,9 @@ There are 9 tabs across the top:
 
 **Keyword:** This will show comparisons between two corpora.
 
-**Wordcloud:** This is a new feature only in the recent versions.
+**Wordcloud:** This is a more recent feature.
+
+**ChatAI** This feature allows you to chat with and upload AntConc data to a few different generative AI (LLM) engines. *Note that some AI chatbots require you to pay for each query.* Be sure to read the Help documentation (i.e., [here for AntConc v. 4.3.1](https://www.laurenceanthony.net/software/antconc/releases/AntConc431/help.pdf) before using. **For Intro DH Lab Reports on Text Analysis, do not use this feature unless the instructions in Canvas direct you to do so.**
 
 As an introduction, this tutortial barely scratches the surface of what you can do with AntConc. We will focus on the KWIC, Collocate, Keywords, and Word List functions. 
 
