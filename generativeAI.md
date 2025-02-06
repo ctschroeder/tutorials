@@ -63,12 +63,13 @@ We are going to try this on DeepSeek since that textfile works with DeepSeek's l
 5. When you give DeepSeek the prompt, also click on the paperclip icon to upload your text to analyze and enter the prompt and text.
 6. Copy your prompt to another document
 7. Copy the results to another document
-8. Now lood at the results and evaluate them:
+8. If you don't get any results or your results look really wrong, you may need to give it another prompt to give it more detail on what to do or tell it what it's doing wrong.
+9. Now look at the results and evaluate them:
    - do they look plausible?
    - is there anything strange? (For example: when I asked for top 25 tri-grams, numbers 8 through 25 were _the same trigram!_ I had to ask it to fix it.)
-9. Ask Deepseek to explain its method or process in doing this text analysis. Copy the results to another document
-10. Now select this entire transcript and copy that to another document. Be sure to save all the documents!
-11. Do not close the chat
+10. Ask Deepseek to explain its method or process in doing this text analysis. Copy the results to another document
+11. Now select this entire transcript and copy that to another document. Be sure to save all the documents!
+12. Do not close the chat
 
 #### Compare DeepSeek's results to Voyant ####
 1. Navigate to https://voyant-tools.org
@@ -94,8 +95,25 @@ Consider: does the generative AI app provide good results? Is there anything thi
 
 I don't expect more than a paragraph or two for this section.
 
-### 3. Document Transcription with ChatGPT ###
+### 3. Document Transcription with ChatGPT or Gemini ###
 Again: keep in mind that the _free_ versions of these apps limit the number of documents you can upload and the size of documents. 
-- If you already have a subscription to a paid version of ChatGPT, Gemini, Copilot, Claude, etc., please use that.
-- If you are using a free version, be certain you are uploading the document(s) you want.
+- If you already have a subscription to a paid version of ChatGPT, Gemini, Copilot, Claude, etc., you may want to use that.
+- If you are using a free version, be certain you are uploading the document you want. Depending on the app, you might only be able to upload one document per day.
+
+1. Select and download an image from the ones I provide on Canvas. All of them are from the OU Western History collections. *When you write your Lab Report, be sure to cite item at the Western History website.*
+2. Navigate either to [ChatGPT](https://chatgpt.com) or to [Google Gemini](https://gemini.google.com). (In my experience DeepSeek was not as accurate, and Copilot could not process the pdf of a letter I gave it but refused to process the jpg without upgrading to the paid version. So use ChatGPT or Gemini.)
+3. Compose a prompt asking the app to transcribe a handwritten document in the file you will give it. Be sure to tell it if the image is of two pages facing each other (like an open book) or one page. You might want to give it a role (archivist? historian? family member reading a letter?)
+4. Type in the prompt and upload the image. (Be sure you upload the one you want-ChatGPT will only let you do one a day).
+5. Copy your prompt and results into a separate document.
+6. If you don't get any output, you may have to revise the prompt and prompt it again.
+7. Evaluate the results. How many letters does it get wrong?
+
+#### For your Lab Report ####
+Write up your evaluation of generative AI for handwritten text recognition. Document your tool, source, etc., as usual. 
+Tell me how well the app performed in the task. Consider: does the generative AI app provide good results? Would you use it if you were conducting historical research?
+
+I don't expect more than a paragraph or two for this section.
+
+## Attach prompts and output ##
+At the end of your lab report, copy over the relevant transcripts of your conversations for the above. 
 
