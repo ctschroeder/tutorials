@@ -1,7 +1,7 @@
 ## Humanities Research with Generative AI ##
 
 ### 1. About this Tutorial ###
-This tutorial will walk you through two exercises using generative AI for humanities research.
+This tutorial will walk you through three exercises using generative AI for humanities research and creative activities.
 Please keep in mind there are ethical issues with using generative AI:
 - the models and apps generate profit for their companies while the training data includes art, writing, code without compensating the original creators
 - there is a debate about energy and water usage (here is a [January 2025 MIT article](https://news.mit.edu/2025/explained-generative-ai-environmental-impact-0117) on the issue
@@ -114,6 +114,21 @@ Tell me how well the app performed in the task. Consider: does the generative AI
 
 I don't expect more than a paragraph or two for this section.
 
-## Attach prompts and output ##
-At the end of your lab report, copy over the relevant transcripts of your conversations for the above. 
+### 4. Play the text game "The Long Context ###
+
+This is a game designed by fine tuning a generative AI model.
+
+1. Navigate to https://thelongcontext.com
+2. Play the game
+3. Copy the transcript into another document
+4. Was it fun? frustrating? Did you win?
+5. Did the app follow your instructions?
+6. If you didn't win the game, play again -- did you learn anything to make it go better this time? Was the game similar or different than the first time? 
+
+#### For your lab report ####
+
+Describe your experience with the game. Evaluate generative AI's potential for entertainment and creativity. Be sure to cite/document the website.
+
+### 5. Attach prompts and output ###
+At the end of your lab report, copy over the relevant transcripts of your conversations for the above. Please title each of them (for example: "Transcript of chat with ChatGPT for text analysis").
 
