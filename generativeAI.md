@@ -34,3 +34,68 @@ If you choose this option:
 
 ### 2. Text Analysis with Generative AI ###
 
+#### A note about corpora ####
+Keep in mind that the _free_ versions of these apps limit the number of documents you can upload and the size of documents. 
+- If you already have a subscription to a paid version of ChatGPT, Gemini, Copilot, Claude, etc., please use that.
+- If you are using a free version, be certain you are uploading the document(s) you want.
+
+Here is a plain text file of Frankenstein you can download.
+Here is a plain text file of the first half of Frankenstein you can download and use with DeepSeek. (When I uploaded full book to DeepSeek, it told me it could only process the first 56%.)
+I got the text from [Project Gutenberg](https://www.gutenberg.org/files/84/84-h/84-h.htm). Please link to the version you use and cite Project Gutenberg as the source.
+
+#### Take notes ####
+As you are going through this process, be sure to take notes in your Notebook about what app you are using, what files you are uploading, what prompts you are giving the app. 
+
+You may want to take regular screenshots.
+
+I will ask you at the end to use your cursor to select the whole chat + responses and copy it to another document to turn in. 
+
+#### Text analysis on DeepSeek ####
+We are going to try this on DeepSeek since that textfile works with DeepSeek's limits. If you have a paid subscription to another app or just want to try a different one, please feel free!
+
+1. Go to [DeepSeek's chat interface](https://chat.deepseek.com/).
+2. Consider what kind of text analysis you want to do (word frequencies, bi-grams and tri-grams frequencies, collocates, etc.) Ask DeepSeek if it can do the kind of text analysis you want to do if you upload a document.
+3. Read the answer.
+4. Using the information in its answer, devise a prompt asking DeepSeek to perform some kind of text analysis on the document you will upload. Some things to consider:
+   - You may want to start by telling the app to assume a role (researcher, student, digital humanities scholar, professor, whatever you think is a good role for the task). Write a command asking it to assume that role. That's the first sentence of your prompt.
+   - Continue your prompt by instructing DeepSeek to perform some form of text analysis that we already have done with Voyant or AntConc: bi-grams or tri-grams frequencies, word frequencies, collocates.
+   - Consider whether you want DeepSeek to do text analysis including stop words or ignoring stop words. Include that information in your prompt.
+5. When you give DeepSeek the prompt, also click on the paperclip icon to upload your text to analyze and enter the prompt and text.
+6. Copy your prompt to another document
+7. Copy the results to another document
+8. Now lood at the results and evaluate them:
+   - do they look plausible?
+   - is there anything strange? (For example: when I asked for top 25 tri-grams, numbers 8 through 25 were _the same trigram!_ I had to ask it to fix it.)
+9. Ask Deepseek to explain its method or process in doing this text analysis. Copy the results to another document
+10. Now select this entire transcript and copy that to another document. Be sure to save all the documents!
+11. Do not close the chat
+
+#### Compare DeepSeek's results to Voyant ####
+1. Navigate to https://voyant-tools.org
+2. upload the same document to Voyant that you used in DeepSeek
+3. In the Cirrus/Word Cloud Tool, you can click the option to see the list of word frequencies. Do that. (Or look at the other tools like collocates, and for n-grams open the Voyant tool called "phrases")
+4. Set the settings in Voyant (the little icon that looks like a toggle button) so that you have the same settings regarding stop words
+5. Look at the word frequencies in Voyant.
+   - Are they the same as the results in DeepSeek?
+   - If they're not the same, are they similar?
+   - One thing I noticed in my test: Voyant counts a possessive word ("father's") as a separte word from the plain word ("father"). Some gen AI transformers tokenize the 's as its own word.
+   - If the frequencies are very similar but a bit different for some words, you might try searching both forms of the relevant word in Voyant (type underneath the word list "father" and "father's" and it will tell you the frequencies of those two words.)
+   - download the result
+   - *you can also do the above in AntConc if you'd like!*
+6. If the results are different, go back to DeepSeek and tell it there is a difference in Voyant. Tell it what the difference is and ask it why.
+7. Copy your question and results to a new document
+8. Consider what you think is going on: is the gen AI accurate but using different methods (like different tokenizing) or is it inaccurate?
+
+#### For your Lab Report ####
+Write up your evaluation of generative AI for text analysis. Document your tool, source, etc., as usual. 
+Tell me how well the app performed in the task. You can compare it to Voyant or AntConc's results.
+
+Consider: does the generative AI app provide good results? Is there anything this generative AI app can't do that Voyant and AntConc can do? (If so, there may be a paid app out there that does, just fyi. You can search for it.)
+
+I don't expect more than a paragraph or two for this section.
+
+### 3. Document Transcription with ChatGPT ###
+Again: keep in mind that the _free_ versions of these apps limit the number of documents you can upload and the size of documents. 
+- If you already have a subscription to a paid version of ChatGPT, Gemini, Copilot, Claude, etc., please use that.
+- If you are using a free version, be certain you are uploading the document(s) you want.
+
