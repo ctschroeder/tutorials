@@ -39,8 +39,8 @@ Keep in mind that the _free_ versions of these apps limit the number of document
 - If you already have a subscription to a paid version of ChatGPT, Gemini, Copilot, Claude, etc., please use that.
 - If you are using a free version, be certain you are uploading the document(s) you want.
 
-Here is a plain text file of Frankenstein you can download.
-Here is a plain text file of the first half of Frankenstein you can download and use with DeepSeek. (When I uploaded full book to DeepSeek, it told me it could only process the first 56%.)
+Here is a [plain text file of Frankenstein](https://github.com/ctschroeder/tutorials/blob/master/Frankenstein-half-projectgutenberg.txt) you can download. (Click on the icon with the down arrow above the text on the right.)
+Here is a [plain text file of the first half of Frankenstein](https://github.com/ctschroeder/tutorials/blob/master/Frankenstein-half-projectgutenberg.txt) you can download and use with DeepSeek. (Click on the icon with the down arrow above the text on the right.) (When I uploaded full book to DeepSeek, it told me it could only process the first 56%.)
 I got the text from [Project Gutenberg](https://www.gutenberg.org/files/84/84-h/84-h.htm). Please link to the version you use and cite Project Gutenberg as the source.
 
 #### Take notes ####
