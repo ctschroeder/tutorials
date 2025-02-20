@@ -12,9 +12,7 @@ We are going to create a separate space on your OU Create Account for these file
 
 First login at [OU Create](https://create.ou.edu/) as you always do. You will then see the control panel (CPanel) for your OU Create account
 
-Look in the Domains section and click on Subdomains:
-
-![](subdomain-upload_images/cpanel-subdomain.png)
+Look in the Domains section and click on **DOMAINS**
 
 Pick a name for your subdomain. I'm making mine "test-pages".  
 
