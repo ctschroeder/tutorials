@@ -2,6 +2,8 @@
 
 This tutorial was created on 30-March-2020 for Caroline T. Schroeder's Intro to DH course at OU.  It lives on the web at  https://github.com/ctschroeder/tutorials/blob/master/html_css_workshop/upload-file-OUCreate.md.  It's licensed [CC-BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/).
 
+## The interface at OU Create changes from time to time. Do not panic if it doesn't look exactly like what's described here. You can do it!! ##
+
 ## About files and servers
 
 For people to be able to see your files, such as your HTML files you created in [the HTML tutorial](https://github.com/ctschroeder/tutorials/blob/master/html_css_workshop/HTML_Tutorial.md), you need to put them on a server on the web. Fortunately, you have access to server space through the OU Create program. This tutorial will show you how to create a subdomain and put your files in a public folder for the world to see.
@@ -12,7 +14,7 @@ We are going to create a separate space on your OU Create Account for these file
 
 First login at [OU Create](https://create.ou.edu/) as you always do. You will then see the control panel (CPanel) for your OU Create account
 
-Look in the Domains section and click on **DOMAINS**
+Look in the Domains section and click on **DOMAINS**. Then click on the button to create a new domain.
 
 Pick a name for your subdomain. I'm making mine "test-pages".  
 
@@ -31,7 +33,7 @@ Click the button for Create. You should see a message that your subdomain has be
 
 ## 2. Navigate to the directory where you will upload your files
 
-In the upper left, there should be a "Brady bunch" type symbol of nine boxes in a 3x3 square.  Click on that to get back to the main CPanel.
+In the upper left, there should be an icon for **"Tools"**.  Click on that to get back to the main CPanel.
 
 Scroll down under Files and click on File Manager.
 
