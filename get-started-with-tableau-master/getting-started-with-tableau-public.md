@@ -2,7 +2,7 @@
 
 ## About this Tutorial: Dr. S
 
-This tutorial is a modification of Dr. Miriam Posner's "Getting Started with Tableau" tutorial. Last modified 3/7/2021. It lives live at https://github.com/ctschroeder/tutorials/blob/master/get-started-with-tableau-master/getting-started-with-tableau-public.md.
+This tutorial is a modification of Dr. Miriam Posner's "Getting Started with Tableau" tutorial. Last modified 2/26/2025. It lives live at https://github.com/ctschroeder/tutorials/blob/master/get-started-with-tableau-master/getting-started-with-tableau-public.md.
 
 ## About this Tutorial: Dr. Posner
 
@@ -17,6 +17,8 @@ However, you do not need to create an account in order to use Tableau Public. We
 You can use Tableau Public by downloading to your computer from https://public.tableau.com. Select Create and then Download. Then you can work offline without worrying about your internet connection.
 
 You also can go to https://public.tableau.com and select Create > Web Authoring to upload your data directly to Tableau online and work in their online environment. This is good for people who a) have a secure internet connection and b) don't have a laptop/desktop or don't have permission to install software on their laptop/desktop.
+
+**Please note the interface may be slightly different online vs the installed app. _I am confident you can navigate those differences without too much anxiety._ If the screenshots below aren't identical to what's on your screen, think about what you should do logically given what is on your screen.**
 
 ## 1. Choose your data source
 
