@@ -192,10 +192,21 @@ As I've mentioned, in order to make your visualization web-accessible, you will 
 ### 16a. Publishing and embedding
 
 Once you've published your charts to the web, you can go to your account on Tableau and get the code to embed. Usually when you **Save to Tableau Public As...** Tableau will trigger your browser to open a window with your account and your chart online. 
+
+Easy way but it makes the image small
  -  On the upper right you will see a very small star icon and a small icon with three circles connected by lines. Click on the three circles
  -  Copy the embed code (not the link)
  -  In Wordpress create your blog post and open an **HTML block** in your post (not code -- HTML)
  -  Paste the code into the window for your HTML
+ -  save your blog post
+
+Normal sized image:
+ - On the upper right you will see a very small star icon and a small icon with three circles connected by lines. Click on the three circles
+ -  Copy the embed code (not the link)
+ -  In Wordpress create your blog post and open an **HTML block** in your post (not code -- HTML)
+ -  Paste the code into the window for your HTML
+ -  scroll through the code and look for the </div> tag (it's before a <script> tag)
+ -  delete everything after the </div> tag
  -  save your blog post
 
 There's a *ton* more you can do with Tableau. You can begin learning about its other features [here](https://public.tableau.com/en-us/s/resources).
