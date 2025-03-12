@@ -1,16 +1,24 @@
 # Publishing your Cytoscape network diagram
 
+## About this tutorial
+
+This tutorial was created by Miriam Posner and modified by Caroline T. Schroeder. Last modified March 2025.
+
 So far we've [created a basic Cytoscape network](readme.md), [learned to work with node attributes](working-with-attributes.md), [learned to select parts of a network](working-with-selections.md), and [learned how to convert a bimodal edge list into a unimodal edge list](get-a-unimodal-network.md). Now we'll learn about the ways we can export a network diagram in order to share it with the world.
 
 There are a few different ways to do this, depending on how fancy you want to get. The easiest way is to create a static image of the network. We'll start with that, in Step 1. Creating an [interactive, web-based version](http://goo.gl/j9pgdq) is more fiddly, but not super-complicated. We'll do that second, beginning in Step 2.
 
 ## 1. Option 1: Export a static image
 
-You'll be relieved to hear that this is pretty easy. Just click the **Export Network Image to File** button (labeled **1** in the image below). Then -- this is the only confusing part -- press the **Browse** button (labeled **2**) to choose where to save your image. Give your image a name (**3**), then click **OK** (**4**). You can then set the size of the image and a few other parameters, and you'll be able to save the static image to wherever you'd like.
-
-![][1]
-
-[1]: images/publishing-your-network-diagram/option-1--export-a-static-image.png
+You'll be relieved to hear that this is pretty easy. Just click the **Export** button. 
+- it's under the pane with the image of your network graph
+- it looks like a page with a right arrow
+- Click it and select **Export as Image**
+- Select the type of image file (png or jpg, etc)
+- Press the **Browse** button to choose where to save your image -- save it in your special folder just for this assignment.
+- Give your image a meaningful name
+- Set the size of your image
+- click **OK**
 
 ## 2. Option 2: Exporting an interactive version for the web
 
