@@ -14,6 +14,8 @@ Cytoscape is a tool for viewing and analyzing **networks** (meaning, in this cas
 
 The most important thing to understand about Cytoscape (or, really, most network analysis tools) is the format in which you need to structure your data. At its most basic, Cytoscape wants a spreadsheet containing two columns. The objects in the first column should be connected in some way to the objects in the second column. This is called an **edge list**. In the example below, my edge list contains two kinds of things: **films** and **actors**. The columns could be reordered so that the Films column precedes the Actors column; it doesn't matter. All that matters here is that each row in my spreadsheet describes a connection between two entities.
 
+![][1]
+
 Other kinds of relationships you could describe in an edge list:
 
 * **Actor A** appears in a film with **Actor B**.
@@ -26,9 +28,20 @@ Other kinds of relationships you could describe in an edge list:
 
 You can save your spreadsheet as an Excel document (with the file extension .xls) or its generic equivalent, a CSV (with the file extension .csv). Cytoscape can interpret both of these formats.
 
-**Note from Dr. S:** You also can have an edge list with edge attributes. Such a list would have two columns for the entities (as described above) and then additional columns for the type of relationship or edge. So you could have a two columns of people who are familial relations. Person A is related to Person B. Column C might have the type of relationship (parent, child, sibing, etc.). Be sure your edge attributes are _edge_ attributes not _person_ attributes. So Column C would be describing Person A as the parent of Person B, not saying that Person A has an identity as a parent. (Person A is of course a parent, but Column C is describing the _relationship_ -- the edge -- between A & B, not a characteristic of A. A could also be a sibling or an aunt/uncle as part of their identity, but what matters to you is their relationship to B (parent).
+**Note from Dr. S:** You also can have an edge list with edge attributes. Such a list would have two columns for the entities (as described above) and then additional columns for the type of relationship or edge. 
+- So you could have a two columns of people who are familial relations.
+  - Person A is related to Person B.
+  - Column C might have the type of relationship (parent, child, sibing, etc.).
+- Be sure your edge attributes are _edge_ attributes not _person_ attributes.
+  - So Column C would be describing the relationship (Person A as the parent of Person B) not saying that Person A has an identity as a parent. (Person A is of course a parent, but Column C is describing the _relationship_ -- the edge -- between A & B, not a characteristic of A. A could also be a sibling or an aunt/uncle as part of their identity, but what matters to you is their relationship to B (parent).
 
-![][1]
+- For Spring 2025, the **Relations** csv file is our edge list.
+  - Note that the relations are between two people
+  - The edge is "giving help": the "Giver" gives help to the "Recipient"
+  - This csv file has _edge attributes_ that describe the relationship between the two people: the form of help, the nature of their relationship, the timing of the help, etc.
+- For Spring 2025, there is also an **Attributes** csv file that provides attributes of _nodes_
+  - the nodes are people
+  - the attributes are _race_ and _gender_; these describe the _people_ not the _relationships_ (edges) between people
 
 [1]: images/creating-network-graphs-with-cytoscape/setting-up-your-data.png
 
@@ -36,7 +49,7 @@ You can save your spreadsheet as an Excel document (with the file extension .xls
 
 Open up Cytoscape. You should be greeted with a welcome pane that looks something like the one below. (If not, read on for instructions on how to accomplish the same thing without the welcome screen.)
 
-Drag the edge list you've prepared into the pane labeled **Drag network files here**.
+Drag the **edge list** you've prepared into the pane labeled **Drag network files here**.
 
 ![][2]
 
