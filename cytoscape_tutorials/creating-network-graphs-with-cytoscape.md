@@ -45,6 +45,13 @@ You can save your spreadsheet as an Excel document (with the file extension .xls
 
 [1]: images/creating-network-graphs-with-cytoscape/setting-up-your-data.png
 
+## Important tip: Saving and Cloning
+
+**Save often** by clicking on the floppy disk icon at the top of the panel. 
+
+To save different a different version of your network, in the top menu panel select "File > Save session as"
+
+If you want to make more than one _visualization_ from the _same data_
 ## 3. Get your edge list into Cytoscape
 
 Open up Cytoscape. You should be greeted with a welcome pane that looks something like the one below. (If not, read on for instructions on how to accomplish the same thing without the welcome screen.)
@@ -104,7 +111,10 @@ For now, note that you can zoom in on parts of your network using the magnifying
 
 ## 6. Switch up your style
 
-One of the easiest ways to change the look of your network diagram is to switch the style using one of Cytoscape's built-in options. To do that, click the **Style** tab on the control panel and then choose one of the options with which you're presented. I don't know if I *love* any of them, but some are more legible than others.
+One of the easiest ways to change the look of your network diagram is to switch the style using one of Cytoscape's built-in options. To do that:
+- click the **Style** tab on the control panel _on the left side_
+- then look above the left panel and you'll see "default" and a down arrow. Click on that to view the built-in options
+- then choose one of the options with which you're presented
 
 ![][6]
 
@@ -112,7 +122,7 @@ One of the easiest ways to change the look of your network diagram is to switch 
 
 ## 7. Change your layout
 
-Sometimes networks are more legible if you change the arrangement of the nodes. You can do this by switching the layout. Click on **Layout** from Cytoscape's menu bar and select one of the layout options. Experiment with various layouts and notice how drastically your network diagram changes.
+Sometimes networks are more legible if you change the arrangement of the nodes. You can do this by switching the layout. Click on **Layout** from Cytoscape's **top menu bar** and select one of the layout options. Experiment with various layouts and notice how drastically your network diagram changes.
 
 Confoundingly, each of these wildly different network layouts displays the same basic information. How can this be? Simple: In most network graphs, the proximity of two nodes doesn't indicate anything except legibility. This can be really confusing, because cognitively, we expect proximity to convey meaningful information. It just doesn't, though, in most network diagrams. The presence or absence of an edge means something, and color and size often do, too. But proximity generally doesn't.
 
@@ -131,8 +141,8 @@ On the top menu, click Tools > Analyze
 
 On the lower pane you should see a list of names and data.
   - click on the label of any column to sort the data according to that label
-  - for example, clicking on "Betweenness Centrality" will list the names according to who is most or less "between". Then you can see who has the most "betweenness"!
-  - clicking on Degree or Number of Edges will tell you how connected a node is to its neighbor nodes -- how many relationships that node has
+  - for example, clicking on _Betweenness Centrality_ will list the names according to who is most or less "between". Then you can see who has the most "betweenness"!
+  - clicking on _EdgeCount_ will tell you how connected a node is to its neighbor nodes -- its "centrality" or how many relationships that node has 
 
 When you describe _what you learn from your network graph_ you should use those statistics to inform your analysis.
 
@@ -149,17 +159,14 @@ Looking at the **Node** style pane, you'll see that we can alter many aspects of
 - **Byp.** stands for **bypass**, and it allows you to apply a style to a group of nodes that you select.
 
 - The **Map.** (mapping) column allows you to control the visual features of your nodes *according to their properties*. 
-  - For example, if you're using Dr. Posner's data, let's say you'd like all of the films from a particular studio to appear in pink. You can do that by mapping that attribute to a particular color. Or, let's say you'd like those nodes with more connections to appear larger. You can do that with the mapping control.
-  - If you're using the Programming Historian data, you can color the nodes by race or by gender of the person. 
-
-The problem is, we don't have any information about the nodes currently included in our network. So in the next tutorial, we'll look at how to load up **attributes** for our nodes.
-
+    - For example, if you're using the Programming Historian data from Dr. S, you can color the nodes by race or by gender of the person. 
+    - For example, if you're using Dr. Posner's data, let's say you'd like all of the films from a particular studio to appear in pink. You can do that by mapping that attribute to a particular color. Or, let's say you'd like those nodes with more connections to appear larger. You can do that with the mapping control.
 
 ![][8]
 
 [8]: images/creating-network-graphs-with-cytoscape/customize-your-style.png
 
-### You can customize your EDGE colors
+### 8a. You can customize your EDGE colors
 
 #### One simple, non-computational method is search
 Search for a specific node (like Rita Neumann in the Holocaust data) in the upper right search box. Her node should be highlighted, and depending on the style you chose, the edges connected to her should light up.
@@ -169,20 +176,56 @@ Be sure you are in the **style** pane on the left. (Not Network.)
 
 On the bottom of the style pane, you should see options for node, edge, and network. Click on **edge**.
 
+**Note: Not all network styles let you adjust all the features, etc.**
+
 Click on **stroke color**.
 - You should see options for **column** and **mapping type**. Click to the right of **column** to select the edge attribute you want to use for coloring. I am using the holocaust data, so I will select "Form of Help." 
 - (Note: the data is in code. To see what the numerical codes stand for, so you can understand the data, see [this webpage](https://programminghistorian.org/en/lessons/creating-network-diagrams-from-historical-sources). Scroll down for the tables.)
 - For **mapping type** select **discrete**. (Discrete means that each type of help will get a different color).
-- A table should appear with all the different entries of forms of help (or entries for whichever edge addribute you chose)
+- Note: It's faster to select **continuous** mapping, but then you won't know which color goes with which type of help (try **continuous** and see)
+- For **discrete** mapping: A table should appear with all the different entries of forms of help (or entries for whichever edge addribute you chose)
 - Click on the empty cell to the right of the first number. On the right of the cell, you'll see three dots and a trash can. **Click on the three dots**
 - Select a color
 - Do this for every entry in the table
 
 Voila, you have a network graph with different colors for your edges based on an edge attribute!
 
+### 8b. You can customize your nodes by adding an attribute table
+
+We are going to add the **Attributes** file to our network so that we can customize our nodes by _race_ or _gender_.
+
+- Click on the Import Table button on the top (looks like a down arrow over a spreadsheet or table)
+- In the window that pops up, select your **Attributes** file and click Open.
+
+##### Check to make sure Cytoscape interpreted your data properly
+
+Hopefully, the window that pops up looks something like the one below (but with Dr. S's holocaust data). The column labeled with a key is the column Cytoscape will use to try and match your node attributes with the nodes that already exist in your Cytoscape graph.
+
+Cytoscape has labled your **gender** and **race** columns with an icon that looks like a document. (For Dr. Posner's data it's the **type** column.) That means that Cytoscape has interpreted those columns, correctly, as attribute information for your nodes. This all looks good, so we can click **OK**.
+
+Now look at the pane at the bottom of Cytoscape's window and click on the **Node Table** tab. Your node table now has two extra columns labled **gender** and **race** (if you're using the Holocaust data) or one extra column (if you're using Dr. Posner's film data). 
+
+##### Use node attributes to color nodes
+
+Now that Cytoscape knows which nodes are which, we can color the nodes based on whether they're an actor or a film. 
+- Click on the **Style** tab in the left control panel
+- Make sure the **Node** tab is selected at the bottom of that pane.
+- Your control panel should look something like mine in the image below.
+
+![][5]
+
+[5]: images/working-with-attributes/use-node-attributes-to-color-nodes--1-.png
+
+The **Mapping** column is the one we'll use to color nodes based on their attributes. 
+- Click on the **Mapping** button in the **Fill Color** row
+- You should now see some additional options.
+- For **Column**, choose **gender** or **race** (using Dr. S's data).
+- For **Mapping Type**, choose **Discrete Mapping**. That means that each node type will receive a different color of your choosing. (Passthrough mapping is for when you've supplied visual attributes, like colors, directly in your node list.)
+- Give each type of node a color by clicking on the tiny button that contains three dots. (It appears just the left of the garbage can.) Your graph should change color to reflect your choices.
+
 ## 9. Export your graph to publish
 
-Dr. Posner has an entire [tutorial about publishing your graph](https://github.com/ctschroeder/tutorials/blob/master/cytoscape_tutorials/publishing-your-network-diagram.md#1-option-1-export-a-static-image). 
+There is an entire [tutorial about publishing your graph](https://github.com/ctschroeder/tutorials/blob/master/cytoscape_tutorials/publishing-your-network-diagram.md#1-option-1-export-a-static-image). 
 
 I recommend following the instructions for [exporting a static image](https://github.com/ctschroeder/tutorials/blob/master/cytoscape_tutorials/publishing-your-network-diagram.md#1-option-1-export-a-static-image). The second option (a live, interactive graph) will not work well with our course blog.
 
