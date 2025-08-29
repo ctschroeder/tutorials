@@ -8,7 +8,7 @@ This tutorial will teach you how to create a domain or subdomain on OU Create AN
 
 This tutorial lives online (with live links) at https://github.com/ctschroeder/tutorials/blob/master/ou-create.md.
 
-Last edited for Dr. Schroeder's Fall 2023 courses.
+Last edited for Dr. Schroeder's Fall 2025 course.
 
 ### 2. Registering your domain name. ###
 
@@ -19,15 +19,16 @@ Last edited for Dr. Schroeder's Fall 2023 courses.
    - [selecting a domain name](https://create.ou.edu/docs/getting-started/choosing-a-domain-name/)
 
       - A "subdomain" is free (carrieschroeder.oucreate.com)
-      - A "top level domain" costs $12/year (carrieschroeder.net or carrieschroeder.com)
+      - A "top level domain" costs $$ (carrieschroeder.net or carrieschroeder.com)
+      - *You probably want the free one*
 
 2. Go to https://create.ou.edu
 
 3. Click “Get Started” or “Login” 
 
-4. Follow the directions to request a domain or subdomain (do not register for a Wordpress site -- request a full site and subdomain)
-
-   - On the form, tell them you are in Dr. Schroeder's DH class
+4. Follow the directions to request a domain or subdomain (do not register for a Wordpress site -- request a full site and subdomain).
+  
+ - On the form, tell them you are in Dr. Schroeder's class
   
 ![OU Create](https://github.com/ctschroeder/tutorials/blob/master/images/OUCreate-DOOO.png)
 
@@ -61,13 +62,14 @@ On the same page, scroll down to SETTINGS.
 
 4. In SETTINGS tell Wordpress:
   - The login username you want for your website.  
-      - (This is different from your OU Create login which uses your 4x4).  OU Create is your webhosting service provider.  create.ou.edu is where you manage your account.  When you install software on your website, you will login to that software to update your website, just like you do to post to the class blog. (See https://create.ou.edu/docs/web-security/accounts-passwords/ for more details):
+      - (This is different from your OU Create login which uses your 4x4).  OU Create is your webhosting service provider.  create.ou.edu is where you manage your account.  When you install software on your website, you will login to that software to update your website, just like you do to post to the class blog. (See https://create.ou.edu/docs/web-security/accounts-passwords/ for more details)
+      - I used to use "admin" as my login username. Hackers who may try to break into your website, though, know that "admin" is a common username, so I've started using something else. 
   - The login password
   - Check the email address is correct
   - Your website’s title (you can change this later)
   - Your website’s slogan or tagline  (not required/you can change this later)
   - YES limit login attempts (this ensures bots can’t attack your site)
-  - NO do not enable multisite (unless you already have plans to set up multiple websites using WordPress!)
+  - NO do not enable multisite (unless you already have plans to set up multiple websites using WordPress)
 
 5. Make sure everything on this page is as you like it and click INSTALL.
 
