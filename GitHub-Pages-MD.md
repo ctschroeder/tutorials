@@ -1,4 +1,4 @@
-# Setting Up a 1-Page Website with GitHub Pages and Markdown (no HTML)#
+# Setting Up a 1-Page Website with GitHub Pages and Markdown (no HTML)
 
 ## About this tutorial 
 
@@ -17,11 +17,11 @@ Go to https://github.com and login to your new or existing account.
 
 There are a lot of videos and explainers you can watch/read on the internet. The TL/DR is that GitHub is a *commercial* site built to host code and other resources related to programming.
 
-Sidebar: If you don't know programming languages or how to write code, _do not panic_. You will not have to use programming languages for this tutorial.
+Sidebar: If you don't know programming languages or how to write code, **do not panic**. You will not have to use programming languages for this tutorial.
 
-Your GitHub account is organized by *repositories*. A repository is basically a container (like a folder on your computer) for resources related to a project. Resources could be webpages, software code, documenation about your project, etc. 
+Your GitHub account is organized by **repositories**. A repository is basically a container (like a folder on your computer) for resources related to a project. Resources could be webpages, software code, documenation about your project, etc. 
 
-Files in your repositories are all saved using *version control*. This means you "commit" (rather than "save") a file and provide a description of the work you did on your file. Every time you commit your file to your repository (or "repo"), GitHub records your description and saves your file as a new _version_. GitHub does not delete your old versions. The newest version is what you see first in your repository under that file name. But you can also look at the *version history* of your file to see every version you committed to GitHub and all the descriptions. Even if you're new to GitHub, you can probably see the advantages to having all the versions of a file -- you made a mistake and need to go back to an earlier version; you cut a section out of a file and changed your mind and want it back; etc.
+Files in your repositories are all saved using **version control**. This means you "commit" (rather than "save") a file and provide a description of the work you did on your file. Every time you commit your file to your repository (or "repo"), GitHub records your description and saves your file as a new **version**. GitHub does not delete your old versions. The newest version is what you see first in your repository under that file name. But you can also look at the *version history* of your file to see every version you committed to GitHub and all the descriptions. Even if you're new to GitHub, you can probably see the advantages to having all the versions of a file -- you made a mistake and need to go back to an earlier version; you cut a section out of a file and changed your mind and want it back; etc.
 
 There is a lot more to GitHub and version control, but if you are new to GitHub, this is enough background to do the assignment. 
 
@@ -106,6 +106,3 @@ Visit your website again -- how does it look? Feel free to edit.
 In Canvas, under the Lab A assignment, copy and past the URL (link) for your webpage! If you are new to GitHub pages, that link should look like `https://username.github.io` (where "username" is *your* GitHub username!
 
 Ta da!! you're done!
-
-
-This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a><img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/nc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/sa.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;">
