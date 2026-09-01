@@ -49,7 +49,7 @@ The feature in GitHub to host a _free_ website is called GitHub Pages. In this s
 - **For step 9 select "master" branch!**
 
 ### Sidebar: What is a branch?
-If you don't know what a **branch** is in GitHub don't worry. If you want to know: Branches are basically different lifelines of your repository. The "master" branch is the one with all the working, deployed, live versions of the your files. Other branches might be working/draft branches. For example: If you want to work on a file without making it *the file that will be used/viewed/etc. live*, you might create a "development" branch in your repo. In the "development" branch you will see copies of your files. You can work away on the files in your "development" branch and commit those changes, but those changes won't show up in the main "master" branch until you say so. (How do you say so? It's a process called a "pull request" that pulls the changes from one branch into another. But you don't need to know how to do that yet!) You can imagine that having different branches of your code might be helpful if you're building a website but you don't want your changes to go live until you're done. You can commit as many changes as you want in another branch, but those changes won't be live on your website until you _pull_ the changes into the "master" branch. Here is a 15-minute [YouTube video explainer]([url](https://www.youtube.com/watch?v=0vzYWyHmcY8)).
+If you don't know what a **branch** is in GitHub don't worry. If you want to know: Branches are basically different lifelines of your repository. The "master" branch is the one with all the working, deployed, live versions of the your files. Other branches might be working/draft branches. For example: If you want to work on a file without making it *the file that will be used/viewed/etc. live*, you might create a "development" branch in your repo. In the "development" branch you will see copies of your files. You can work away on the files in your "development" branch and commit those changes, but those changes won't show up in the main "master" branch until you say so. (How do you say so? It's a process called a "pull request" that pulls the changes from one branch into another. But you don't need to know how to do that yet!) You can imagine that having different branches of your code might be helpful if you're building a website but you don't want your changes to go live until you're done. You can commit as many changes as you want in another branch, but those changes won't be live on your website until you _pull_ the changes into the "master" branch. Here is a 15-minute [YouTube video explainer](https://www.youtube.com/watch?v=0vzYWyHmcY8).
 
 ## 5. Create Your Webpage
 
@@ -71,7 +71,8 @@ If you do not know HTML and have never used github, skip to **5c. Scenario 3.**
   - Note: my guess is that if you know HTML, you know how to add an image -- be sure to put the image file in your rep and then use html to add it to your index webpage
 - You do not have to use your name, though if your name is in your GitHub account name the world will already know it
 - choose a license for your page from [Creative Commons](https://creativecommons.org/chooser/). A license will tell people who come to your webpage whether they can reuse any material there, and under what conditions.
-  - Use the Chooser tool, and when you get to the "Mark Your Work" section, choose Webpage and HTMLL
+  - Use the Chooser tool on the Creative Commons website
+  - When you get to the "Mark Your Work" section, choose Webpage and HTMLL
   - Copy the HTML code and add it to the end of your WebPage
  
 When you are done, be sure to **click on "commit changes"** to save your work!
@@ -93,7 +94,9 @@ Follow steps 10-11 on the [GitHub Quick Start](https://docs.github.com/en/pages/
 - Use headings 
 - Link to an image/video elsewhere online, or other resource that pertains to what you are writing about
 - choose a license for your page from [Creative Commons](https://creativecommons.org/chooser/). A license will tell people who come to your webpage whether they can reuse any material there, and under what conditions.
-  - Use the Chooser tool, and when you get to the "Mark Your Work" section, choose Webpage and Rich Text
+  - Use the Chooser tool on the Creative Commons website
+  - When you get to the "Mark Your Work" section, choose Webpage and Rich Text
+  - Copy the rich text and  add it to the end of your web page file
 
 When you are done, be sure to **click on "commit changes"** to save your work!
 
