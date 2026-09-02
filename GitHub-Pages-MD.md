@@ -2,7 +2,7 @@
 
 ## About this tutorial 
 
-This tutorial was created by Caroline T. Schroeder, licensed [CC-BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Last updated 29 August 2026.
+This tutorial was created by Caroline T. Schroeder, licensed [CC-BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Last updated 2 September 2026.
 
 This tutorial lives live online at https://github.com/ctschroeder/tutorials/blob/master/GitHub-Pages-MD.md
 
