@@ -104,7 +104,7 @@ As it says in step 11, visit your website online by going to `https://username.g
 
 ## 6. Edit the title and description of your website
 
-If you have just set up a new GitHub Pages: follow steps 1-6 in the Changing the title and description" section on the [GitHub Quick Start](https://docs.github.com/en/pages/quickstart#changing-the-title-and-description).
+If you have just set up a new GitHub Pages: follow steps 1-6 in the Changing the title and description" section on the [GitHub Quick Start](https://docs.github.com/en/pages/quickstart#changing-the-title-and-description). **If your page is MarkDown do not include the line about the Jekyll theme -- only use the title and description lines.** (Jekyll is for html.) 
 
 Don't forget to **commit changes** to save your work!
 
