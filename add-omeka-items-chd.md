@@ -149,7 +149,7 @@ This is where you upload a file if you are providing a file.  (You do not need a
 
 ### Right-hand box that says Add Item, Public or Featured, & Collection
 
-  * Click on Public so the world can see your item
+  * Click on Public so the world can see your item [NOTE: it's possible this option is not available to you -- don't worry; I will make it public as the site admin)
 
   * Don’t click featured; this is where you would tell Omeka "show this image on the front page where everyone can see it". I'll pick a featured item later.
 
@@ -166,37 +166,15 @@ This is where you upload a file if you are providing a file.  (You do not need a
 ### Click the big ADD ITEM button
 
 ## 5. Review your item
-
- * Click on Items in the left menu bar.
- 
- * Click on your item.
- 
- * Click View Public Page.
    
    * Review the metadata, the file information, tags, collection, etc.  
 
    * Check for accuracy and spelling and whether something is missing
    
-   * Do the links work?
-   
- * Go back to the item page and click Edit if you need to fix anything
- 
+   * Will the links work?
+    
  ## 6. Go back and [redo Steps 4-5](https://github.com/ctschroeder/tutorials/blob/master/add-omeka-items.md#4-add-your-items-to-our-omeka-site) for each additional Item.
  
- ## 7. Go to the public site and look for your Items
- 
- Go to the public site for this assignment. 
- 
- * Click on "Browse Collections": check the Collections to be sure your items are there.
- 
-   * Yes? AWESOME you're done.
-   
-   * No? Click on "Browse Items". Do you see your three items?
-   
-     * Yes? Edit them to add each of them to the correct Collection. Be sure to Save!!
-     
-     * No? Edit them and be sure you 1) clicked the Public button so everyone can see your Items, and 2) selected a Collection. Be sure to Save!!
-     
-   * Go back to "Browse Collections" on the public page. You should see your items in their Collections now!
+ ## 7. Follow the instructions in Canvas for how to "turn in" your assignment. When you do, I'll make it public (viewable by anyone on the internet) and will evaluate it.
      
 
